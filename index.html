@@ -23,6 +23,17 @@
 
     .content { max-width: var(--max-width); margin: 0 auto; padding: var(--space-xl); }
 
+    /* Exercises */
+    .exercise-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: var(--space-lg); margin: var(--space-xl) 0; }
+    .exercise-card { display: block; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: var(--radius-md); padding: var(--space-xl); text-decoration: none; color: var(--text); transition: border-color 0.2s, transform 0.2s; }
+    .exercise-card:hover { border-color: var(--accent); transform: translateY(-3px); color: var(--text); }
+    .exercise-icon { display: flex; align-items: center; justify-content: center; width: 64px; height: 64px; border-radius: var(--radius-md); background: var(--bg-soft); border: 1px solid var(--border); margin-bottom: var(--space-md); }
+    .exercise-icon svg { width: 36px; height: 36px; color: var(--accent); }
+    .exercise-card h3 { font-family: var(--font-headline); font-size: 1.3rem; color: var(--accent); margin: 0 0 var(--space-xs); }
+    .exercise-card .exercise-module { font-family: var(--font-headline); font-size: 0.65rem; text-transform: uppercase; letter-spacing: 1.5px; color: var(--accent-red); margin-bottom: var(--space-sm); display: block; }
+    .exercise-card p { color: var(--muted); font-size: 0.9rem; margin: 0; }
+
+    /* Modules */
     .module-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: var(--space-lg); margin: var(--space-xl) 0; }
     .module-card { background: var(--bg-secondary); border: 1px solid var(--border); border-top: 3px solid var(--accent-red); border-radius: 0 0 var(--radius-md) var(--radius-md); padding: var(--space-lg); }
     .module-card h3 { color: var(--accent); margin: 0 0 var(--space-xs); font-size: 1.1rem; }
@@ -30,15 +41,13 @@
     .module-chapters { font-size: 0.85rem; color: var(--muted); margin: var(--space-sm) 0 0; }
     .module-topics { font-size: 0.9rem; margin: var(--space-sm) 0 0; }
 
+    /* Resources */
     .resource-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: var(--space-lg); margin: var(--space-xl) 0; }
     .resource-card { background: var(--bg-secondary); border: 1px solid var(--border); border-radius: var(--radius-md); padding: var(--space-lg); text-align: center; }
     .resource-card h3 { color: var(--accent); font-size: 1rem; margin: 0 0 var(--space-sm); }
     .resource-card p { color: var(--muted); font-size: 0.9rem; margin: 0 0 var(--space-md); }
     .resource-card a { font-family: var(--font-headline); font-size: 0.85rem; }
-    .resource-stat { font-size: 1.8rem; font-weight: 700; color: var(--accent); display: block; margin-bottom: var(--space-xs); }
-
-    .exercise-callout { background: var(--bg-secondary); border-left: 4px solid var(--yellow); border-radius: 0 var(--radius-md) var(--radius-md) 0; padding: var(--space-xl); margin: var(--space-2xl) 0; }
-    .exercise-callout h3 { color: var(--yellow); margin: 0 0 var(--space-sm); }
+    .resource-stat { font-size: 1.8rem; font-weight: 700; color: var(--accent); display: block; margin-bottom: var(--space-xs); font-family: var(--font-headline); }
   </style>
   <script>
     (function(){try{var t=localStorage.getItem('theme');document.documentElement.setAttribute('data-theme',t==='light'||t==='dark'?t:'dark')}catch(e){document.documentElement.setAttribute('data-theme','dark')}})();
@@ -66,6 +75,36 @@
   </header>
 
   <main class="content">
+
+    <h2>Interactive Exercises</h2>
+    <p>Hands-on activities that bring doctrine to life. Each exercise connects directly to the casebook and learning objectives.</p>
+    <div class="exercise-grid">
+      <a href="exercises/bilbo-contract/" class="exercise-card">
+        <div class="exercise-icon">
+          <svg viewBox="0 0 36 36" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="6" y="3" width="24" height="30" rx="2"/>
+            <line x1="11" y1="10" x2="25" y2="10"/>
+            <line x1="11" y1="15" x2="25" y2="15"/>
+            <line x1="11" y1="20" x2="20" y2="20"/>
+            <path d="M14 27c2-2 5-2 7 0"/>
+          </svg>
+        </div>
+        <span class="exercise-module">Modules 1&ndash;7 &bull; Full curriculum</span>
+        <h3>Bilbo's Contract</h3>
+        <p>Read and analyze the Hobbit's burglar-services agreement. Toggle between reading mode, teaching notes, and module color coding. Every article mapped to casebook chapters and learning objectives.</p>
+      </a>
+      <a href="exercises/lonely-mountain-dispute/" class="exercise-card">
+        <div class="exercise-icon">
+          <svg viewBox="0 0 36 36" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round">
+            <path d="M4 28L13 13l5 7 6-10 8 18H4Z"/>
+            <path d="M17 9l2-5 2 5" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <span class="exercise-module">Module 7 &bull; Remedies</span>
+        <h3>The Lonely Mountain Dispute</h3>
+        <p>A live classroom simulation: confidential role rooms for Bilbo and the Company, a negotiation timer, remedies checklist, settlement term sheet, and debrief export. Best used in 60&ndash;90 minutes.</p>
+      </a>
+    </div>
 
     <h2>Course Modules</h2>
     <p>Seven modules covering the lifecycle of a contractual relationship, from formation through remedies.</p>
@@ -112,12 +151,6 @@
         <div class="module-topics">Expectation damages, limitations, alternative remedies, third-party beneficiaries</div>
         <div class="module-chapters">Chapters 24&ndash;28 &middot; Podcast Ep. 23&ndash;25</div>
       </div>
-    </div>
-
-    <div class="exercise-callout">
-      <h3>Featured Exercise: Bilbo's Contract</h3>
-      <p>Analyze the Hobbit's burglar contract for formation issues, defenses, interpretation problems, and remedies. Five exercises covering the full curriculum &mdash; from whether a valid contract was formed to how you'd redraft it to protect your client.</p>
-      <p><em>"This contract is largely unenforceable. Bilbo signed it anyway. That may be the most realistic thing about it."</em></p>
     </div>
 
     <h2>Resources</h2>

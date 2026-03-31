@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lonely Mountain Dispute — Contracts Remedies Simulation</title>
+  <meta name="description" content="A classroom tool for the Bilbo-versus-the-Company remedies exercise: case file, confidential roles, negotiation timer, settlement term sheet, and debrief.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../assets/css/oranburg-style.css">
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    (function(){try{var t=localStorage.getItem('theme');document.documentElement.setAttribute('data-theme',t==='light'||t==='dark'?t:'dark')}catch(e){document.documentElement.setAttribute('data-theme','dark')}})();
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <nav class="site-nav">
+    <ul>
+      <li><a href="../../">Course Home</a></li>
+      <li><a href="../bilbo-contract/">Bilbo's Contract</a></li>
+      <li><a href="https://oranburg.law/courses/contracts/">Contracts</a></li>
+      <li><a href="https://oranburg.law">oranburg.law</a></li>
+      <li><button class="theme-toggle" onclick="toggleTheme()" aria-label="Switch to light mode"><svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg><svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg></button></li>
+    </ul>
+  </nav>
+
+  <div class="shell">
+    <aside class="sidebar" aria-label="Section navigation">
+      <div class="brand">
+        <div class="brand-mark">
+          <svg viewBox="0 0 64 64" fill="none" aria-label="Lonely Mountain logo">
+            <path d="M8 48L24 23l8 11 10-16 14 30H8Z" stroke="currentColor" stroke-width="3.2" stroke-linejoin="round"/>
+            <path d="M31 15l3-7 3 7" stroke="currentColor" stroke-width="3.2" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <div>
+          <h1>Lonely Mountain</h1>
+          <p>Remedies simulation</p>
+        </div>
+      </div>
+      <nav class="nav-group">
+        <button class="nav-link active" data-scroll="#overview"><span>Overview</span><small>Start here</small></button>
+        <button class="nav-link" data-scroll="#packet"><span>Class packet</span><small>Teacher + student</small></button>
+        <button class="nav-link" data-scroll="#roles"><span>Role rooms</span><small>Confidential screens</small></button>
+        <button class="nav-link" data-scroll="#negotiation"><span>Negotiation tools</span><small>Timer + term sheet</small></button>
+        <button class="nav-link" data-scroll="#debrief"><span>Debrief</span><small>Questions + export</small></button>
+      </nav>
+    </aside>
+
+    <main class="main" id="main">
+
+      <!-- ===== OVERVIEW ===== -->
+      <section class="hero" id="overview">
+        <div>
+          <div class="eyebrow">The Hobbit &bull; Contracts &bull; Remedies</div>
+          <h2>The Lonely Mountain Dispute</h2>
+          <p>A single-page classroom experience for the Bilbo-versus-the-Company remedies exercise: overview, case file, confidential role instructions, a live negotiation timer, a settlement term sheet, and a debrief export in one place.</p>
+          <div class="cta-row">
+            <button class="btn-primary" data-scroll="#packet">Open class packet</button>
+            <button class="btn-secondary" data-scroll="#negotiation">Jump to live negotiation</button>
+          </div>
+        </div>
+        <div class="stat-grid" aria-label="Quick facts">
+          <div class="stat-card"><span>Best use</span><strong>60&ndash;90 min</strong></div>
+          <div class="stat-card"><span>Modes</span><strong>Packet + app</strong></div>
+          <div class="stat-card"><span>Outputs</span><strong>Settlement + memo</strong></div>
+        </div>
+      </section>
+
+      <!-- ===== CLASS PACKET ===== -->
+      <section class="grid" id="packet">
+        <article class="card col-7">
+          <div class="kicker">Teacher overview</div>
+          <h3>What this page is built to do</h3>
+          <p>This page works best as a hybrid classroom tool: students can read the packet like a handout, then switch directly into negotiation mode without leaving the page.</p>
+          <div class="step-list">
+            <div class="step-item"><div class="step-num">1</div><div><strong>Frame the dispute.</strong><br>Students identify breach theories, remedial options, and the role of unique goods.</div></div>
+            <div class="step-item"><div class="step-num">2</div><div><strong>Separate the sides.</strong><br>Each team opens its confidential role room for the strongest arguments, weaknesses, and settlement floor.</div></div>
+            <div class="step-item"><div class="step-num">3</div><div><strong>Negotiate live.</strong><br>Use the timer, remedy checklist, and settlement term sheet to structure bargaining.</div></div>
+            <div class="step-item"><div class="step-num">4</div><div><strong>Debrief clearly.</strong><br>Export the negotiated result or failed bargain into a teacher-friendly summary.</div></div>
+          </div>
+        </article>
+
+        <aside class="card col-5">
+          <div class="kicker">Learning goals</div>
+          <h3>Core doctrine</h3>
+          <div class="chips">
+            <div class="chip">Expectation</div>
+            <div class="chip">Reliance</div>
+            <div class="chip">Restitution</div>
+            <div class="chip">Specific performance</div>
+            <div class="chip">Mitigation</div>
+            <div class="chip">Good faith</div>
+          </div>
+          <div class="callout" style="margin-top:1rem;">
+            Works especially well after students have already seen the <a href="../bilbo-contract/">Bilbo burglar-services agreement</a> and are ready to move from drafting to remedial choice.
+          </div>
+        </aside>
+
+        <article class="card col-12">
+          <div class="kicker">Student case file</div>
+          <h3>Facts</h3>
+          <details open>
+            <summary>Case narrative</summary>
+            <p>The Company reaches the Lonely Mountain. Smaug dies, and the treasure becomes recoverable. Bilbo secretly takes the Arkenstone and transfers it to Bard and the Elvenking in an attempt to force a peaceful settlement and avert bloodshed. Thorin responds by accusing Bilbo of betrayal and refusing to honor Bilbo's claim on Bilbo's preferred terms. The dispute hardens, the Battle of the Five Armies intervenes, and the parties later reconcile only imperfectly.</p>
+          </details>
+          <details>
+            <summary>Assumptions for the exercise</summary>
+            <ul>
+              <li>Assume the <a href="../bilbo-contract/">Burglar Services Contract</a> is valid unless one side proves otherwise.</li>
+              <li>Assume the Arkenstone is unique and difficult to value.</li>
+              <li>Assume the treasure is vast but not perfectly liquid.</li>
+              <li>Assume both sides are now negotiating after the battle with adjudication as the backup.</li>
+            </ul>
+          </details>
+          <details>
+            <summary>Questions students must answer</summary>
+            <ul>
+              <li>Did Bilbo materially breach by taking and transferring the Arkenstone?</li>
+              <li>Did the Company materially breach by withholding Bilbo's share?</li>
+              <li>Which remedy or combination of remedies best serves each client?</li>
+              <li>How does the uniqueness of the Arkenstone affect the analysis?</li>
+              <li>What should good faith, mitigation, and unjust enrichment do here?</li>
+            </ul>
+          </details>
+        </article>
+      </section>
+
+      <!-- ===== ROLE ROOMS ===== -->
+      <section class="grid" id="roles">
+        <article class="card col-12">
+          <div class="kicker">Confidential role rooms</div>
+          <h3>Choose a side</h3>
+          <div class="tabs" role="tablist" aria-label="Role selection tabs">
+            <button class="tab active" data-role="bilbo" role="tab" aria-selected="true">Bilbo's counsel</button>
+            <button class="tab" data-role="company" role="tab" aria-selected="false">Company's counsel</button>
+          </div>
+
+          <section class="role-panel active" id="role-bilbo">
+            <div class="tool-grid">
+              <div class="card" style="padding:1rem;">
+                <div class="kicker">Theme</div>
+                <h3>Value conferred, then denied</h3>
+                <p>Your client rendered dangerous and indispensable services. Even if Bilbo acted irregularly, the Company cannot erase the benefit it received.</p>
+              </div>
+              <div class="card" style="padding:1rem;">
+                <div class="kicker">Weakness to manage</div>
+                <h3>Secret transfer</h3>
+                <p>Bilbo took and transferred a unique asset without Thorin's permission, which the other side will frame as material breach and unauthorized self-help.</p>
+              </div>
+            </div>
+            <div class="check-list">
+              <div class="check-item"><div class="dot">A</div><div><strong>Wrongful withholding.</strong><br>The strongest contract theory is that the Company cannot deny compensation after performance has substantially succeeded.</div></div>
+              <div class="check-item"><div class="dot">B</div><div><strong>Restitution fallback.</strong><br>Even if Bilbo breached, he conferred measurable value and should not leave empty-handed.</div></div>
+              <div class="check-item"><div class="dot">C</div><div><strong>Good-faith leverage.</strong><br>Bilbo can argue he used the Arkenstone to avert war rather than to loot secretly for selfish profit.</div></div>
+            </div>
+          </section>
+
+          <section class="role-panel" id="role-company">
+            <div class="tool-grid">
+              <div class="card" style="padding:1rem;">
+                <div class="kicker">Theme</div>
+                <h3>Authority and betrayal</h3>
+                <p>Your client argues that Bilbo exceeded his authority and impaired the Company's bargaining position by transferring the Arkenstone to outsiders.</p>
+              </div>
+              <div class="card" style="padding:1rem;">
+                <div class="kicker">Weakness to manage</div>
+                <h3>Bad-faith optics</h3>
+                <p>Thorin's refusal to compromise and his treatment of Bilbo make the Company vulnerable on good faith, opportunism, and unjust enrichment.</p>
+              </div>
+            </div>
+            <div class="check-list">
+              <div class="check-item"><div class="dot">A</div><div><strong>Material breach.</strong><br>The Arkenstone is unique, and Bilbo had no unilateral right to seize and transfer it.</div></div>
+              <div class="check-item"><div class="dot">B</div><div><strong>Limits on self-help.</strong><br>Even if Bilbo was owed money, he could not choose the most symbolically important jewel on his own terms.</div></div>
+              <div class="check-item"><div class="dot">C</div><div><strong>Valuation uncertainty.</strong><br>The one-fourteenth share may be hard to compute, making expectation damages less obvious than Bilbo claims.</div></div>
+            </div>
+          </section>
+        </article>
+      </section>
+
+      <!-- ===== NEGOTIATION TOOLS ===== -->
+      <section class="grid" id="negotiation">
+        <article class="card col-5">
+          <div class="kicker">Live tool</div>
+          <h3>Negotiation timer</h3>
+          <div class="timer-wrap">
+            <div>
+              <div class="notes">Recommended live bargaining window</div>
+              <div class="timer" id="timer">20:00</div>
+            </div>
+            <div>
+              <label for="minutes" class="sr-only">Minutes</label>
+              <input id="minutes" type="number" min="1" max="90" value="20" style="width:90px; text-align:center;">
+            </div>
+          </div>
+          <div class="toolbar">
+            <button class="btn-primary" id="startTimer">Start</button>
+            <button class="btn-secondary" id="pauseTimer">Pause</button>
+            <button class="btn-secondary" id="resetTimer">Reset</button>
+          </div>
+          <p class="notes">Use the timer to create urgency without forcing the whole class into the same pace.</p>
+        </article>
+
+        <article class="card col-7">
+          <div class="kicker">Remedies checklist</div>
+          <h3>Pick the tools you are actually using</h3>
+          <div class="tool-grid">
+            <div>
+              <label><input type="checkbox" class="remedy" value="Expectation damages"> Expectation damages</label>
+              <label><input type="checkbox" class="remedy" value="Reliance damages"> Reliance damages</label>
+              <label><input type="checkbox" class="remedy" value="Restitution"> Restitution</label>
+            </div>
+            <div>
+              <label><input type="checkbox" class="remedy" value="Specific performance"> Specific performance</label>
+              <label><input type="checkbox" class="remedy" value="Liquidated damages"> Liquidated damages</label>
+              <label><input type="checkbox" class="remedy" value="Mitigation / offset"> Mitigation / offset</label>
+            </div>
+          </div>
+          <label for="strategy">Strategy note</label>
+          <textarea id="strategy" placeholder="Why are these the right remedies for your side?"></textarea>
+        </article>
+
+        <article class="card col-12">
+          <div class="kicker">Settlement term sheet</div>
+          <h3>Draft the negotiated result</h3>
+          <form class="term-sheet" id="termSheet">
+            <div><label for="parties">Parties</label><input id="parties" type="text" value="Bilbo Baggins and Thorin's Company"></div>
+            <div><label for="payment">Payment structure</label><input id="payment" type="text" placeholder="e.g., reduced share, fixed treasure allotment"></div>
+            <div><label for="arkenstone">Arkenstone treatment</label>
+              <select id="arkenstone">
+                <option>Returned to Company</option>
+                <option>Credited against Bilbo's share</option>
+                <option>Held pending valuation</option>
+                <option>Transferred under peace arrangement</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div><label for="timing">Timing of payment</label><input id="timing" type="text" placeholder="e.g., after appraisal and safe transport"></div>
+            <div><label for="form">Form of payment</label><input id="form" type="text" placeholder="coin, mixed treasure, specific items"></div>
+            <div><label for="releases">Releases</label><input id="releases" type="text" placeholder="mutual release, limited release, no release"></div>
+            <div><label for="admission">Admission</label><input id="admission" type="text" placeholder="e.g., no admission, good-faith dispute"></div>
+            <div><label for="forum">Future dispute resolution</label><input id="forum" type="text" placeholder="mediation, arbitration, Rivendell panel"></div>
+            <div class="full"><label for="rationale">Rationale</label><textarea id="rationale" placeholder="Explain why this settlement is legally and strategically sensible."></textarea></div>
+          </form>
+          <div class="toolbar">
+            <button class="btn-primary" id="generateSummary">Generate summary</button>
+            <button class="btn-secondary" id="copySummary">Copy summary</button>
+            <button class="btn-secondary" id="clearForm">Clear form</button>
+          </div>
+        </article>
+      </section>
+
+      <!-- ===== DEBRIEF ===== -->
+      <section class="grid" id="debrief">
+        <article class="card col-7">
+          <div class="kicker">Debrief</div>
+          <h3>Questions worth pressing in class</h3>
+          <div class="rubric">
+            <div class="rubric-item"><div class="dot">1</div><div><strong>Why is expectation not obviously right?</strong><br>Push students on valuation difficulty, uniqueness, timing, and uncertainty in division.</div></div>
+            <div class="rubric-item"><div class="dot">2</div><div><strong>When does restitution outperform expectation?</strong><br>Ask whether a breaching or possibly breaching party can still recover for substantial value conferred.</div></div>
+            <div class="rubric-item"><div class="dot">3</div><div><strong>How much should good faith matter?</strong><br>Force students to decide whether Bilbo's secrecy or Thorin's refusal is more remedially significant.</div></div>
+          </div>
+        </article>
+        <article class="card col-5">
+          <div class="kicker">Teacher export</div>
+          <h3>Negotiation output</h3>
+          <div class="output" id="summaryOutput">No settlement summary generated yet.</div>
+        </article>
+      </section>
+
+      <p class="footer-note">Built as a single-page classroom tool. <a href="../bilbo-contract/">View the contract</a> &middot; <a href="../../">Course home</a> &middot; <a href="https://oranburg.law">oranburg.law</a></p>
+    </main>
+  </div>
+
+  <script src="../../assets/js/theme.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
