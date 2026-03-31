@@ -16,9 +16,9 @@ Companion website for *Contract Law: Rules, Cases, and Problems* (2d ed., Caroli
 
 | Exercise | Module | Description |
 |---|---|---|
-| **Bilbo's Contract** | 1–7 (Full) | Interactive contract with teaching notes, module color coding, learning objectives |
-| **Lonely Mountain Dispute** | 7 (Remedies) | Live classroom simulation with role rooms, negotiation timer, settlement term sheet |
-| **Battle of the Forms** | 2 (Acceptance) | UCC 2-207 learning game — 5 scenarios, 15 questions, mastery tracking |
+| **Bilbo's Burglar Agreement** — Anatomy of a Contract | 1–7 (Full) | Interactive contract with teaching notes, module color coding, learning objectives |
+| **Whose Arkenstone?** — Breach & Remedies | 7 (Remedies) | Live classroom simulation with role rooms, negotiation timer, settlement term sheet |
+| **Merchant Road** — Battle of the Forms | 2 (Acceptance) | UCC 2-207 learning game — 5 scenarios, 15 questions, mastery tracking |
 
 ## Oranburg Style
 

@@ -1,5 +1,5 @@
 /**
- * Battle of the Forms — UCC 2-207 Learning Game
+ * Merchant Road — Battle of the Forms (UCC 2-207 Learning Game)
  * Trade Disputes on the Merchant Road
  * Theme handled by shared theme.js
  */
@@ -380,7 +380,8 @@ function renderIntro() {
   var g = el('game');
   g.innerHTML = '<div class="game-intro">'
     + '<div class="intro-kicker">UCC 2-207 &bull; Module 2: Acceptance</div>'
-    + '<h2 class="intro-title">Battle of the Forms</h2>'
+    + '<h2 class="intro-title">Merchant Road</h2>'
+    + '<p class="intro-doctrine">Battle of the Forms</p>'
     + '<p class="intro-subtitle">Trade Disputes on the Merchant Road</p>'
     + '<p class="intro-desc">The common law mirror-image rule says that any change in an acceptance is a rejection and counteroffer. '
     + 'UCC 2-207 replaces that rule for contracts involving the sale of goods. In five scenarios set along the trade routes of Middle-earth, '

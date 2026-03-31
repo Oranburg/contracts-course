@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Battle of the Forms — Activity Styles
+   Merchant Road — Battle of the Forms — Activity Styles
    UCC 2-207 learning game
    Extends oranburg-style.css — uses canonical design tokens only
    ========================================================================== */
@@ -18,6 +18,10 @@
 .intro-title {
   font-family: var(--font-headline); font-size: 2.5rem; color: var(--accent);
   margin: 0 0 var(--space-xs); line-height: 1.1;
+}
+.intro-doctrine {
+  font-family: var(--font-accent); font-size: 1.1rem; color: var(--muted);
+  display: block; margin: 0 0 var(--space-xs);
 }
 .intro-subtitle {
   font-family: var(--font-accent); font-size: 1.2rem; color: var(--muted);

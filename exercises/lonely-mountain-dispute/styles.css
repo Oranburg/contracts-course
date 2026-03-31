@@ -1,5 +1,5 @@
 /* ==========================================================================
-   Lonely Mountain Dispute — Activity Styles
+   Whose Arkenstone? (Breach & Remedies) — Activity Styles
    Contracts remedies simulation classroom tool
    Extends oranburg-style.css — uses canonical design tokens only
    ========================================================================== */
@@ -92,8 +92,12 @@
 .hero h2 {
   font-family: var(--font-headline);
   font-size: clamp(2rem, 1.2rem + 3vw, 3.5rem);
-  line-height: 1; margin: 0.75rem 0 0.75rem; color: var(--accent);
+  line-height: 1; margin: 0.75rem 0 0.25rem; color: var(--accent);
   border-bottom: none; padding-bottom: 0;
+}
+.exercise-doctrine {
+  font-family: var(--font-accent); font-size: 1.1rem; color: var(--muted);
+  display: block; margin-bottom: 0.75rem;
 }
 .hero p { margin: 0 0 1rem; max-width: 60ch; color: var(--muted); }
 .cta-row { display: flex; flex-wrap: wrap; gap: 0.75rem; margin-top: 1rem; }

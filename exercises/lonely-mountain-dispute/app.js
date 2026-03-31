@@ -1,5 +1,5 @@
 /**
- * Lonely Mountain Dispute — App Logic
+ * Whose Arkenstone? (Breach & Remedies) — App Logic
  * Contracts remedies simulation classroom tool
  * Theme handled by shared theme.js
  */
