@@ -1,0 +1,118 @@
+# Contract Law Course — Notes for Site Building
+# Source: Contract Law: Rules, Cases, and Problems (2d ed., Carolina Academic Press 2025)
+# Companion resources: Teacher's Manual, Statutory Supplement, Podcast, Quaere
+
+course:
+  title: "Contract Law: Rules, Cases, and Problems"
+  edition: "2d"
+  author: Seth C. Oranburg
+  publisher: Carolina Academic Press
+  year: 2025
+  isbn: "978-1-5310-3380-4"
+  purchase_url: "https://cap-press.com/books/isbn/9781531033804/Contract-Law-Second-Edition"
+
+companion_resources:
+  podcast:
+    title: "Organized: The Business Law Breakdown — Season 1: Contracts"
+    episodes: 25
+    platform: Podbean
+    embed: "https://www.podbean.com/player-v2/?i=p6w7w-1260bda-pbblog-playlist&share=1&download=1&order=serial&limit=30&filter=season&season=1"
+
+  quaere:
+    title: "Quaere Assessment Platform"
+    course_code: "LAW-503"
+    question_count: 676
+    url: "https://quaere-1cgr.onrender.com"
+    chapters: 28
+
+  youtube_playlists:
+    - id: "PL2OBGU7rnJY7qB7SzYmNmv0-9TD0ilkft"
+      title: "Contracts"
+      video_count: 56
+    - id: "PL2OBGU7rnJY5VXFCMqVohHMUNhSlEvqJY"
+      title: "Contract Law Review"
+      video_count: 8
+    - id: "PL2OBGU7rnJY6y9U4Roos5N1gAawgSy1uD"
+      title: "Contracts II Review"
+      video_count: 15
+    - id: "PL2OBGU7rnJY63-0K-0koGxG09Orp9DH9y"
+      title: "The Parol Evidence Rule"
+      video_count: 9
+    - id: "PL2OBGU7rnJY5L10Gbr20au--Q9UKMJP7B"
+      title: "Contract Remedies"
+      video_count: 14
+    - id: "PL2OBGU7rnJY6ZtKea65SLZ7kbGmj51xB3"
+      title: "Contract Formation"
+      video_count: 17
+
+  statutory_supplement:
+    title: "R2d and UCC Provisions for Contracts"
+    contents:
+      - "Restatement (Second) of Contracts (selected sections)"
+      - "Uniform Commercial Code Article 2 (selected sections)"
+
+modules:
+  - code: FOUND
+    name: "Foundations"
+    chapters: "1-2"
+    topics: ["What is contract law", "What is a contract"]
+    podcast_episodes: [1, 2]
+
+  - code: ASSENT
+    name: "Mutual Assent"
+    chapters: "3-6"
+    topics: ["Bargains", "Offers", "Termination", "Acceptance"]
+    podcast_episodes: [3, 4, 5, 6, 7]
+
+  - code: CONSID
+    name: "Consideration & Alternatives"
+    chapters: "7-9"
+    topics: ["Consideration", "Promissory estoppel", "Promissory restitution"]
+    podcast_episodes: [8, 9, 10]
+
+  - code: DEFNS
+    name: "Defenses to Formation"
+    chapters: "10-13"
+    topics: ["Statute of Frauds", "Mistake", "Improper bargaining", "Capacity"]
+    podcast_episodes: [11, 12, 13]
+
+  - code: INTERP
+    name: "Interpretation & Terms"
+    chapters: "14-18"
+    topics: ["Ambiguity", "Intrinsic evidence", "Extrinsic evidence", "Parol evidence", "Warranties"]
+    podcast_episodes: [14, 15, 16, 17]
+
+  - code: PERF
+    name: "Performance & Breach"
+    chapters: "19-23"
+    topics: ["Conditions", "Performance", "Repudiation", "Excuse", "Modification"]
+    podcast_episodes: [18, 19, 20, 21, 22]
+
+  - code: REMED
+    name: "Remedies & Third Parties"
+    chapters: "24-28"
+    topics: ["Expectation damages", "Defective performance damages", "Limitations on damages", "Alternative remedies", "Third-party beneficiaries"]
+    podcast_episodes: [23, 24, 25]
+
+site_building_notes:
+  pages_to_build:
+    - name: "Home"
+      content: "Course overview, casebook link, module navigation"
+    - name: "Modules"
+      content: "One page per module with chapter summaries, podcast embed, video playlist, Quaere link"
+    - name: "Podcast"
+      content: "Full Season 1 embed, episode list with descriptions"
+    - name: "Videos"
+      content: "All 6 YouTube playlists organized by topic"
+    - name: "Assessment"
+      content: "Link to Quaere, sample questions, study tips"
+    - name: "Statutory Supplement"
+      content: "Key R2d and UCC provisions organized by topic"
+
+  interactive_elements:
+    - name: "Contract Formation Flowchart"
+      concept: "Walk through offer → acceptance → consideration → defenses"
+    - name: "Parol Evidence Rule Decision Tree"
+      concept: "Already have a YouTube video on this; make it interactive"
+    - name: "Damages Calculator"
+      concept: "Input facts, calculate expectation vs reliance vs restitution"

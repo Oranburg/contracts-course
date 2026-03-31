@@ -1,0 +1,257 @@
+/* ==========================================================================
+   Oranburg Style — Shared Design Tokens & Base Styles
+   Copied from oranburg.github.io/assets/css/site.css
+   This file provides the canonical style foundation for all Oranburg sites.
+   ========================================================================== */
+
+/* ---------- Design Tokens ---------- */
+
+:root, [data-theme="dark"] {
+  --blue-deep:    #0A3255;
+  --blue-bright:  #2459A9;
+  --blue-light:   #6DACDE;
+  --red-deep:     #B21F2C;
+  --red-bright:   #E82F35;
+  --red-light:    #E96955;
+  --yellow:       #FFD65C;
+  --teal:         #B5E1E1;
+
+  --bg:           #000000;
+  --bg-secondary: #0A3255;
+  --bg-soft:      #0D3D68;
+  --text:         #FFFFFF;
+  --muted:        #9CA3AF;
+  --border:       #1E5080;
+  --accent:       #6DACDE;
+  --accent-2:     #B5E1E1;
+  --accent-red:   #B21F2C;
+
+  --font-headline: 'Oswald', sans-serif;
+  --font-body:     'Roboto', sans-serif;
+  --font-accent:   'Crimson Text', serif;
+  --font-mono:     'Roboto Mono', 'Consolas', 'Courier New', monospace;
+
+  --max-width:     1100px;
+  --radius-sm:     4px;
+  --radius-md:     8px;
+  --radius-pill:   999px;
+
+  --space-xs:  0.25rem;
+  --space-sm:  0.5rem;
+  --space-md:  1rem;
+  --space-lg:  1.5rem;
+  --space-xl:  2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4rem;
+}
+
+[data-theme="light"] {
+  --bg:           #FFFFFF;
+  --bg-secondary: #F8F9FA;
+  --bg-soft:      #E9ECEF;
+  --text:         #000000;
+  --muted:        #555555;
+  --border:       #D0D8E4;
+  --accent:       #2459A9;
+  --accent-2:     #B5E1E1;
+  --accent-red:   #B21F2C;
+}
+
+/* ---------- Reset & Base ---------- */
+
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--text);
+  background: var(--bg);
+}
+
+a { color: var(--accent); text-decoration: none; transition: color 0.2s; }
+a:hover { color: var(--accent-2); }
+img { max-width: 100%; height: auto; display: block; }
+p { margin: 0 0 var(--space-md); }
+
+.authority, .literary { font-family: var(--font-accent); }
+
+/* ---------- Typography ---------- */
+
+h1 {
+  font-family: var(--font-headline);
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--accent);
+}
+
+h2 {
+  font-family: var(--font-headline);
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--accent);
+  margin-bottom: var(--space-lg);
+  border-bottom: 3px solid var(--accent-red);
+  padding-bottom: var(--space-sm);
+}
+
+h3 {
+  font-family: var(--font-headline);
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--accent-2);
+  margin: var(--space-xl) 0 var(--space-md) 0;
+}
+
+h4 {
+  font-family: var(--font-body);
+  font-size: 1.3rem;
+  font-weight: 500;
+  color: var(--accent-red);
+  margin: var(--space-lg) 0 var(--space-sm) 0;
+}
+
+blockquote {
+  font-family: var(--font-accent);
+  font-size: 1.15rem;
+  line-height: 1.8;
+  color: var(--accent-2);
+  border-left: 4px solid var(--accent-red);
+  margin: var(--space-xl) 0;
+  padding: var(--space-md) var(--space-xl);
+  background: var(--bg-secondary);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+}
+
+/* ---------- Header ---------- */
+
+.site-header {
+  background: var(--bg-secondary);
+  color: var(--text);
+  padding: var(--space-3xl) var(--space-xl);
+  text-align: center;
+}
+
+.site-title {
+  font-family: var(--font-headline);
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.1;
+  color: var(--text);
+  text-decoration: none;
+  display: block;
+}
+
+.site-title:hover { color: var(--yellow); }
+
+.site-tagline {
+  font-family: var(--font-accent);
+  font-size: 1.4rem;
+  opacity: 0.95;
+  margin: 0.6rem 0 0;
+}
+
+/* ---------- Navigation ---------- */
+
+.site-nav {
+  background-color: var(--red-deep);
+  padding: 0.6rem var(--space-md);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.site-nav ul {
+  list-style: none;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-xs) var(--space-lg);
+  max-width: var(--max-width);
+  justify-content: center;
+}
+
+.site-nav li:last-child { margin-left: auto; }
+
+.site-nav a {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-family: var(--font-headline);
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  padding: var(--space-xs) 0;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.2s, color 0.2s;
+}
+
+.site-nav a:hover, .site-nav a:focus-visible, .site-nav a[aria-current="page"] {
+  color: var(--yellow);
+  border-bottom-color: var(--yellow);
+}
+
+/* ---------- Theme Toggle ---------- */
+
+.theme-toggle {
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: var(--radius-sm);
+  padding: 0.35rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255, 255, 255, 0.8);
+  transition: border-color 0.2s, color 0.2s;
+}
+
+.theme-toggle:hover, .theme-toggle:focus-visible {
+  border-color: var(--yellow);
+  color: var(--yellow);
+}
+
+[data-theme="dark"] .theme-toggle .icon-moon { display: none; }
+[data-theme="dark"] .theme-toggle .icon-sun  { display: block; }
+[data-theme="light"] .theme-toggle .icon-sun  { display: none; }
+[data-theme="light"] .theme-toggle .icon-moon { display: block; }
+
+/* ---------- Main Content ---------- */
+
+.site-content {
+  max-width: var(--max-width);
+  margin: var(--space-xl) auto;
+  padding: 0 1.25rem;
+}
+
+/* ---------- Footer ---------- */
+
+.site-footer {
+  background: var(--blue-deep);
+  color: rgba(255, 255, 255, 0.75);
+  text-align: center;
+  padding: var(--space-xl) var(--space-md);
+  font-size: 0.85rem;
+  margin-top: var(--space-2xl);
+}
+
+.site-footer a {
+  color: rgba(255, 255, 255, 0.75);
+  transition: color 0.2s;
+}
+
+.site-footer a:hover { color: var(--yellow); }
+
+/* ---------- Responsive ---------- */
+
+@media (max-width: 600px) {
+  .site-header { padding: 2.5rem 1.25rem; }
+  .site-title { font-size: 1.75rem; }
+  h1 { font-size: 2rem; }
+}
