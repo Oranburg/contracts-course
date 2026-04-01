@@ -312,6 +312,7 @@ function currentModule() { return MODULES[state.moduleIndex]; }
 function currentStep() { return currentModule().steps[state.stepIndex]; }
 
 function escapeHtml(str) {
+  if (str === null || str === undefined) return '';
   return String(str)
     .replaceAll('&', '&amp;')
     .replaceAll('<', '&lt;')
@@ -449,7 +450,21 @@ function renderMadlibs(step) {
 }
 
 function renderRedline(step) {
-  var doc = escapeHtml(step.docText).replace(escapeHtml(step.target), '<span class="redline-target ' + (state.redlineHit ? 'hit' : '') + '" onclick="FEL.hitRedline()">' + escapeHtml(step.target) + '</span>');
+  var raw = step.docText || '';
+  var target = step.target || '';
+  var idx = raw.indexOf(target);
+  var doc;
+  if (idx >= 0 && target) {
+    var before = raw.slice(0, idx);
+    var after = raw.slice(idx + target.length);
+    doc = escapeHtml(before)
+      + '<span class="redline-target ' + (state.redlineHit ? 'hit' : '') + '" onclick="FEL.hitRedline()">'
+      + escapeHtml(target)
+      + '</span>'
+      + escapeHtml(after);
+  } else {
+    doc = escapeHtml(raw);
+  }
   var html = '<p class="prompt">' + escapeHtml(step.prompt) + '</p><div class="redline-doc">' + doc + '</div>';
   if (state.stepFeedback) html += '<div class="feedback ok">' + escapeHtml(state.stepFeedback) + '</div><div class="btn-row"><button class="btn-primary" onclick="FEL.next()">Continue</button></div>';
   return html;
