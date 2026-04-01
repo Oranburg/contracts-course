@@ -6,7 +6,7 @@ const EXERCISE = {
   "subtitle": "Isengard Pike Requisition",
   "law": "UCC § 2-201(3)(a)",
   "narrative": "Oral deal for 10,000 pikes etched with the White Hand. Saruman breaches and invokes no-signed-writing defense.",
-  "image": "https://github.com/user-attachments/assets/1c64d3d6-7814-41d9-a735-6730289b27ab",
+  "image": "https://github.com/user-attachments/assets/baacbe8b-5ffa-4709-a24d-143e682f1edf",
   "tome": [
     "UCC § 2-201 generally requires signed writing for goods >= $500.",
     "UCC § 2-201(3)(a): exception for specially manufactured goods not suitable for sale to others in ordinary course.",

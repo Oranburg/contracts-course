@@ -6,7 +6,7 @@ const EXERCISE = {
   "subtitle": "Minas Tirith Gate Works",
   "law": "R2d § 241 and Jacob & Youngs",
   "narrative": "Builder used Grey Stone, not White Stone. Structural integrity is identical. Demolition would cost 60,000 silver; diminution in value is zero.",
-  "image": "https://github.com/user-attachments/assets/0d34fcfb-9020-4bd6-92b4-234963450e5e",
+  "image": "https://github.com/user-attachments/assets/fe4c0134-004e-4aad-98b7-eefcd126c6c9",
   "tome": [
     "R2d § 241 lists circumstances for materiality analysis.",
     "Casebook: substantial performance doctrine distinguishes minor defects from material breach.",
