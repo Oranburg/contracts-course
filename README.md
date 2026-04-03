@@ -29,7 +29,7 @@ This site uses the shared Oranburg Style system:
 ## Structure
 
 ```
-contracts-course/
+K/
 ├── assets/
 │   ├── css/
 │   │   └── oranburg-style.css    # Shared foundation
