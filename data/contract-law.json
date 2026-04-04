@@ -2,434 +2,507 @@
   "meta": {
     "title": "Contract Law Knowledge Base",
     "description": "Structured representation of contract law doctrine — portable across projects. Built from Oranburg, Contract Law: Rules, Cases, and Problems (2d ed., CAP 2025), plus primary sources (R2d, UCC, case law).",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "lastUpdated": "2026-04-04",
-    "chaptersIndexed": [1, 2],
+    "chaptersIndexed": [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28],
     "totalChapters": 28
   },
   "chapters": [
     {
-      "number": 1,
-      "title": "What Is Contract Law?",
-      "module": 1,
-      "moduleName": "Foundations",
-      "learningObjectives": [
-        "Explain what contract law is and how it differs from other areas of law",
-        "Describe the historical origins of contract law (Roman law, English common law, American contract law)",
-        "Understand the difference between law and equity and why it matters in contract enforcement",
-        "Recognize the key sources of modern contract law (common law, R2d, UCC)",
-        "Articulate the major theories of contract law (efficiency, reliance, fairness, autonomy)",
-        "Distinguish between objective and subjective approaches to contract interpretation"
+      "number": 1, "title": "What Is Contract Law?", "module": 1, "moduleName": "Foundations",
+      "keyRules": [
+        "Contract law is the law of promises — voluntary, private law",
+        "Law vs. equity: legal remedies (damages) vs. equitable remedies (specific performance, injunctions, rescission)",
+        "R2d is persuasive authority; UCC is binding law for goods",
+        "UCC Article 2 governs sale of goods; predominant purpose test for hybrids",
+        "Four justifications: efficiency, reliance, fairness, autonomy",
+        "Objective standard: external manifestations, not secret intent"
       ],
-      "sections": [
-        {
-          "id": "1A",
-          "title": "Origins of Contract Law",
-          "concepts": [
-            {
-              "name": "Contract law is the law of promises",
-              "rule": "A promise is an expression of commitment to do (or not to do) something. Promises are the foundation of contract liability. Without a promise, there is no contract.",
-              "significance": "Establishes the voluntary nature of contract law — people create their own obligations."
-            },
-            {
-              "name": "Private law vs. public law",
-              "rule": "Contract law is private law (governs relationships between people). Unlike public law (criminal, tax), it is voluntary — you cannot have contract liability without a promise.",
-              "significance": "Foundational distinction. You can opt out of contract liability by not making promises."
-            },
-            {
-              "name": "Historical origins",
-              "rule": "Contract law originated in multiple ancient civilizations. Oldest still-used sources: Jewish law compiled by Rabbi Hillel (~200 BCE). Roman law (Twelve Tables, ~451 BCE) forms basis of Western contract law. English common law unified by Henry II (1154), then shaped by Magna Carta (1215).",
-              "significance": "Shows contract law is ancient, cross-cultural, and constantly evolving."
-            }
-          ]
-        },
-        {
-          "id": "1B",
-          "title": "Law and Equity",
-          "concepts": [
-            {
-              "name": "Courts of law vs. courts of equity",
-              "rule": "Courts of law apply strict rules and offer monetary damages. Courts of equity provide flexible remedies (specific performance, injunctions, rescission) based on fairness. Most American jurisdictions have merged these systems, but the distinction in remedies persists.",
-              "significance": "Equitable remedies remain exceptional — courts prefer legal remedies and resort to equity only when justice requires."
-            },
-            {
-              "name": "Equitable remedies",
-              "rule": "Three key equitable remedies developed by the Court of Chancery: (1) specific performance — compelling a party to fulfill contractual obligations; (2) injunctions — preventing actions causing irreparable harm; (3) rescission — canceling contracts formed under fraud or coercion.",
-              "sources": ["Court of Chancery tradition", "Sir Thomas More's contributions"]
-            }
-          ]
-        },
-        {
-          "id": "1C",
-          "title": "The Restatement of Contracts",
-          "concepts": [
-            {
-              "name": "Restatement (Second) of Contracts (R2d)",
-              "rule": "Published 1979 (copyright 1981) by the American Law Institute. Represents the best authority on American common law of contracts. Persuasive but not binding — a 'model' of what the law should be.",
-              "significance": "R2d is the primary reference throughout the course. Reflects the modern balanced approach (Corbin's realism) rather than Williston's strict formalism."
-            },
-            {
-              "name": "First Restatement vs. Second Restatement",
-              "rule": "First Restatement (1920s, Samuel Williston): legal formalism, strict objective rules. Second Restatement (1979, Arthur Linton Corbin): legal realism, considers context and actual intent alongside objective evidence.",
-              "significance": "The shift from Williston to Corbin mirrors the broader legal evolution from formalism to realism."
-            }
-          ]
-        },
-        {
-          "id": "1D",
-          "title": "The Uniform Commercial Code",
-          "concepts": [
-            {
-              "name": "UCC Article 2 scope",
-              "rule": "UCC Article 2 governs contracts for the sale of goods. Goods are defined as items that are movable and identifiable at the time the contract is formed. Does not apply to services, real estate, or intellectual property.",
-              "sources": ["UCC § 2-102", "UCC § 2-105(1)", "UCC § 2-106(1)"],
-              "significance": "UCC is binding law (unlike R2d). All 50 states have adopted it."
-            },
-            {
-              "name": "Predominant purpose test",
-              "rule": "For hybrid contracts involving both goods and services, courts apply the predominant purpose test: if the predominant purpose is sale of goods, UCC applies; if services, common law applies.",
-              "significance": "Determines which body of law governs the entire transaction."
-            }
-          ]
-        },
-        {
-          "id": "1E",
-          "title": "Why Does Contract Law Exist?",
-          "concepts": [
-            {
-              "name": "Four justifications for contract enforcement",
-              "rule": "Contract law exists for four core reasons: (1) Economic efficiency — enables voluntary trades leaving both sides better off; (2) Reliance — protects those who act based on promises; (3) Fairness — prevents exploitation; (4) Autonomy — respects individual freedom to create obligations.",
-              "significance": "These four theories recur throughout the course. Each doctrine can be analyzed through any of these lenses."
-            }
-          ]
-        },
-        {
-          "id": "1F",
-          "title": "Objectivity and Subjectivity",
-          "concepts": [
-            {
-              "name": "Objective vs. subjective interpretation",
-              "rule": "Objective view (Williston): relies on external evidence — what was said, written, done. Promotes predictability. Subjective view (Corbin): focuses on parties' actual intentions, considers all context. Modern approach: starts objective (plain language) but admits subjective evidence when ambiguity or unjust results would occur.",
-              "significance": "The objective standard is the default in American contract law. This is counterintuitive to students who assume actual intent should matter most."
-            },
-            {
-              "name": "Manifestation",
-              "rule": "A manifestation is an external expression — as distinguished from a secret thought or an undisclosed intention.",
-              "sources": ["R2d § 2 cmt. b"],
-              "significance": "Contract law cares about what you said/did, not what you thought."
-            }
-          ]
-        }
-      ],
+      "keySources": ["R2d § 2 cmt. b", "R2d § 6", "R2d § 17(1)", "UCC § 2-102", "UCC § 2-105(1)"],
       "cases": [],
-      "problems": [],
-      "keyQuotations": [
-        {
-          "text": "Contract law is the law of promises.",
-          "source": "Oranburg, Contract Law 2d, Ch. 1"
-        },
-        {
-          "text": "Courts recognize that contracts depend on mutual understanding, but they generally require that this understanding be evidenced through outward expressions — words, conduct, or context.",
-          "source": "Oranburg, Contract Law 2d, Ch. 1"
-        },
-        {
-          "text": "By blending objective principles with subjective flexibility, the modern approach ensures that contracts are interpreted fairly and predictably.",
-          "source": "Oranburg, Contract Law 2d, Ch. 1"
-        }
-      ],
-      "commonMistakes": [
-        "Students assume contracts must be written documents",
-        "Students prioritize actual intent over objective standard — requires deliberate correction",
-        "Students underestimate scope of contract law — frame it as foundational to entire market economy"
-      ],
-      "crossReferences": [18, 19, 28]
+      "keyQuotation": "Contract law is the law of promises."
     },
     {
-      "number": 2,
-      "title": "What Is a Contract?",
-      "module": 1,
-      "moduleName": "Foundations",
-      "learningObjectives": [
-        "Define a contract according to R2d § 1 and explain how it differs from informal agreements",
-        "Differentiate between promises, agreements, and bargains",
-        "Explain the difference between bilateral and unilateral contracts",
-        "Recognize that not all promises are enforceable and identify criteria for legal enforceability",
-        "Distinguish between common law and UCC contracts using the predominant purpose test",
-        "Analyze whether a manifestation constitutes a promise (Pappas v. Bever)",
-        "Engage with case law analysis through Steinberg v. Chicago Medical School"
+      "number": 2, "title": "What Is a Contract?", "module": 1, "moduleName": "Foundations",
+      "keyRules": [
+        "R2d § 1: Contract = promise(s) for which law gives remedy or recognizes as duty",
+        "R2d § 2(1): Promise = manifestation of intention to act, justifying promisee in understanding commitment made",
+        "R2d § 3: Agreement = mutual assent; Bargain = agreement to exchange",
+        "Statement of intention ≠ promise (Pappas v. Bever: 'I intend to' is non-binding)",
+        "Bilateral = promise for promise; Unilateral = promise for performance",
+        "Non-bargain contracts enforced through equity (promissory estoppel)",
+        "Objective theory: 'meeting of the minds' is outdated — overt acts control (Steinberg)"
       ],
-      "sections": [
-        {
-          "id": "2A",
-          "title": "Contract",
-          "concepts": [
-            {
-              "name": "Definition of contract",
-              "rule": "A contract is a promise or a set of promises for the breach of which the law gives a remedy, or the performance of which the law in some way recognizes as a duty.",
-              "sources": ["R2d § 1"],
-              "significance": "A contract need not be written. Oral contracts are valid except where statute of frauds applies."
-            }
-          ]
-        },
-        {
-          "id": "2B",
-          "title": "Promise",
-          "concepts": [
-            {
-              "name": "Definition of promise",
-              "rule": "A promise is a manifestation of intention to act or refrain from acting in a specified way, so made as to justify a promisee in understanding that a commitment has been made.",
-              "sources": ["R2d § 2(1)"],
-              "significance": "Not all promises result in contractual obligations. Some are gratuitous or illusory."
-            },
-            {
-              "name": "Promisor, promisee, beneficiary",
-              "rule": "Promisor: person making the promise (R2d § 2(2)). Promisee: person to whom promise is made (R2d § 2(3)). Beneficiary: person who benefits from the promise but is neither promisor nor promisee (R2d § 2(4)).",
-              "sources": ["R2d § 2(2)", "R2d § 2(3)", "R2d § 2(4)"]
-            },
-            {
-              "name": "Statement of intention vs. promise",
-              "rule": "A statement of intention is the mere expression of a state of mind, put in such a form as neither to invite nor to justify action in reliance by another person. A promise is also the expression of a state of mind but put in such a form as to invite reliance.",
-              "sources": ["1 Corbin on Contracts § 15"],
-              "significance": "Critical distinction: 'I intend to...' (non-binding) vs. 'I will...' or 'I promise to...' (binding)."
-            }
-          ]
-        },
-        {
-          "id": "2C",
-          "title": "Agreements and Bargains",
-          "concepts": [
-            {
-              "name": "Definition of agreement",
-              "rule": "An agreement is a manifestation of mutual assent on the part of two or more persons.",
-              "sources": ["R2d § 3"],
-              "significance": "Requires outward expression, not passive harmony."
-            },
-            {
-              "name": "Definition of bargain",
-              "rule": "A bargain is an agreement to exchange promises or to exchange a promise for a performance or to exchange performances.",
-              "sources": ["R2d § 3"],
-              "significance": "Bargain does NOT require negotiation/haggling — only mutual exchange. Take-it-or-leave-it terms still constitute a 'bargain' in the legal sense."
-            },
-            {
-              "name": "Hierarchy: agreement ≠ bargain ≠ contract",
-              "rule": "Agreement is broader than bargain (agreements can be about facts, not exchanges). Bargain is broader than contract (illegal bargains are not enforceable contracts). A contract requires a legally enforceable bargain supported by consideration.",
-              "significance": "Students commonly conflate these terms."
-            }
-          ]
-        },
-        {
-          "id": "2D",
-          "title": "Bargain Contracts and Non-Bargain Contracts",
-          "concepts": [
-            {
-              "name": "Bilateral contract",
-              "rule": "Exchange of promise for promise. Both parties promise; both sides are symmetric.",
-              "example": "Grandpa promises $100; Granddaughter promises to clean the mansion."
-            },
-            {
-              "name": "Unilateral contract",
-              "rule": "Exchange of promise for performance. Offeree can only accept by fully performing, not by making a return promise.",
-              "example": "Uncle promises $10,000 if Nephew quits drinking/smoking/gambling for 5 years. Nephew cannot accept by promising — only by performing."
-            },
-            {
-              "name": "Non-bargain contract",
-              "rule": "A legally enforceable promise not based on a bargain. Court enforces to avoid injustice (e.g., detrimental reliance/promissory estoppel).",
-              "significance": "Still requires promise and mutual assent. The enforcement basis is equity rather than consideration."
-            }
-          ]
-        },
-        {
-          "id": "2E",
-          "title": "Distinguishing Common Law from UCC Contracts",
-          "concepts": [
-            {
-              "name": "Predominant purpose test (applied)",
-              "rule": "For hybrid transactions: if goods predominate, UCC applies to entire transaction. Some jurisdictions use hybrid approach — UCC for goods portion, common law for services portion.",
-              "examples": [
-                "Construction contract where materials supplied — predominant purpose is services, so common law",
-                "TV + installation — predominant purpose is goods, so UCC",
-                "Kitchen cabinets + installation — hybrid approach: UCC for cabinets, common law for installation"
-              ]
-            }
-          ]
-        }
-      ],
+      "keySources": ["R2d § 1", "R2d § 2(1)-(4)", "R2d § 3"],
       "cases": [
-        {
-          "name": "Steinberg v. Chicago Medical School",
-          "citation": "69 Ill. 2d 320, 371 N.E.2d 634 (1977)",
-          "chapter": 2,
-          "facts": "Robert Steinberg applied to Chicago Medical School for 1974-75 year, paying $15 application fee. School's bulletin stated applicants evaluated on scholarship, character, motivation (academic criteria). Steinberg was rejected. He claimed school used non-academic criteria (ability to pledge large donations) instead of stated criteria.",
-          "issue": "Was a contract formed between the applicant and the medical school?",
-          "holding": "Yes. The school's bulletin constituted an invitation for an offer. Filing the application + paying the fee = offer. School's acceptance of application + cashing the check = acceptance. Application fee = sufficient consideration. Contract bound school to evaluate applications under stated criteria.",
-          "reasoning": "Court rejected the 'meeting of the minds' requirement. Objective conduct suffices — secret intent is immaterial. Only overt acts determine mutual assent.",
-          "significance": "Demonstrates contracts can form through sequence of acts. Rejects subjective 'meeting of the minds' — objective manifestation suffices. Written language (bulletin) can create contractual obligations on institutions.",
-          "keyQuotations": [
-            "A contract, by ancient definition, is an agreement between competent parties, upon a consideration sufficient in law, to do or not to do a particular thing.",
-            "In the formation of contracts, it was long ago settled that secret intent was immaterial, only overt acts being considered in the determination of such mutual assent as that branch of the law requires."
-          ],
-          "doctrines": ["contract formation", "objective theory", "offer", "acceptance", "consideration"]
-        },
-        {
-          "name": "Pappas v. Bever",
-          "citation": "219 N.W.2d 720 (Iowa 1974)",
-          "chapter": 2,
-          "facts": "Philip Bissonnette signed a pledge form: 'I intend to subscribe...Five Thousand...Dollars' to a College Founder's Fund. He made two payments ($1,000 each in 1967-68). College closed May 1968. No further payments before his death. Receiver sued estate to enforce pledge.",
-          "issue": "Was the pledge form a legally enforceable promise?",
-          "holding": "No. The pledge form standing alone constitutes a mere statement of intention, not a promise. Words expressing intention to do something in the future are not a promise. Prior partial payments do not convert a statement of intention into a promise.",
-          "reasoning": "The word 'intend' shows no commitment that invites reliance. Under Corbin, a statement of intention neither invites nor justifies action in reliance. A promise must be 'put in such a form as to invite reliance.'",
-          "significance": "Distinguishes 'statement of intention' from 'promise.' Contract language matters: 'I intend to...' (non-binding) vs. 'I promise to...' (binding). Partial performance does not cure language defect.",
-          "keyQuotations": [
-            "A statement of intention is the mere expression of a state of mind, put in such a form as neither to invite nor to justify action in reliance by another person. A promise is also the expression of a state of mind but put in such a form as to invite reliance by another person."
-          ],
-          "doctrines": ["promise vs. intention", "manifestation", "reliance"]
-        }
+        {"name": "Steinberg v. Chicago Medical School", "citation": "69 Ill. 2d 320 (1977)", "rule": "Contract formed through sequence of acts; secret intent immaterial; objective manifestation suffices"},
+        {"name": "Pappas v. Bever", "citation": "219 N.W.2d 720 (Iowa 1974)", "rule": "'I intend to subscribe' is statement of intention, not promise; partial payments don't cure language defect"}
       ],
-      "problems": [
-        {
-          "id": "2.1",
-          "title": "Contract, Agreement, or Bargain?",
-          "description": "Five hypotheticals requiring students to distinguish promise, contract, agreement, bargain, or opinion. Includes: Sarah's land sale offer, Bob's warranty vs. Harry's boast, Ernst's conditional employment, Stephen's constellation identification.",
-          "doctrinesTested": ["promise", "agreement", "bargain", "opinion vs. promise", "illusory promise", "statute of frauds"]
-        },
-        {
-          "id": "2.2",
-          "title": "The Monster and the Beast",
-          "description": "Based on Beastie Boys v. Monster Energy. Z-Trip created free remix; Monster employee asked about usage; Z-Trip replied 'Dope!' Issue: did Z-Trip promise Monster could use Megamix for free in promotional video?",
-          "modelAnswer": "Z-Trip's reply 'Dope' lacks clarity to show a promise. R2d § 2 requires manifestation of intention to act in a way that justifies promisee understanding that a commitment was made. 'Dope' is ambiguous — does not constitute a promise.",
-          "doctrinesTested": ["manifestation", "promise definition", "objective standard"]
-        },
-        {
-          "id": "2.3",
-          "title": "Lifelong Employment",
-          "description": "William Greene worked at Grant Building since 1959 at below-union scale for 'lifetime employment' promise. Oliver Realty took over in 1975, promised to honor existing contracts. Greene fired 1983. Issues: (1) Valid bargain with Grant? (2) Valid bargain with Oliver Realty?",
-          "doctrinesTested": ["consideration", "indefiniteness", "assumption of obligations", "mutuality"]
-        }
+      "keyQuotation": "Contrary to popular belief, contract law does not require a 'meeting of the minds.'"
+    },
+    {
+      "number": 3, "title": "Bargains", "module": 2, "moduleName": "Mutual Assent",
+      "keyRules": [
+        "R2d § 17(1): Contract requires bargain with mutual assent + consideration",
+        "R2d § 18: Mutual assent requires each party make promise or begin/render performance",
+        "R2d § 19(1): Assent may be by words, acts, or failure to act",
+        "Objective theory: reasonable person standard, not secret intent",
+        "R2d § 20: Misunderstanding — no assent if materially different meanings and neither knows other's meaning",
+        "Joking is no defense if other party reasonably believes offer serious (Lucy v. Zehmer)"
       ],
-      "keyQuotations": [
-        {
-          "text": "A contract is simply a legally binding promise or set of promises. Although lay persons may use the term contract to mean a writing that sets forth an agreement, note that a writing is not required by this definition.",
-          "source": "Oranburg, Contract Law 2d, Ch. 2"
-        },
-        {
-          "text": "Contrary to popular belief, contract law does not require a 'meeting of the minds.' Courts assess contracts objectively, based on what the parties say and do rather than their subjective intentions.",
-          "source": "Oranburg, Contract Law 2d, Ch. 2"
-        },
-        {
-          "text": "Contracts are promises that courts enforce.",
-          "source": "Oranburg, Contract Law 2d, Ch. 2"
-        },
-        {
-          "text": "The term 'bargain' sometimes confuses students who associate bargaining with haggling or some other process of negotiation, but this is not what the legal term requires.",
-          "source": "Oranburg, Contract Law 2d, Ch. 2"
-        }
+      "keySources": ["R2d § 17", "R2d § 18", "R2d § 19", "R2d § 20"],
+      "cases": [
+        {"name": "Lucy v. Zehmer", "citation": "196 Va. 493 (1954)", "rule": "Objective manifestation controls; joking no defense when reasonable person would believe agreement was serious; specific performance awarded for farm sale written on guest check"},
+        {"name": "Raffles v. Wichelhaus (Peerless)", "citation": "2 EWHC Exch J19 (1864)", "rule": "No mutual assent when parties attach materially different meanings to same term (two ships named Peerless); neither knew other's meaning"}
       ],
-      "commonMistakes": [
-        "Confusing promise with enforceability — a promise can exist without being enforceable",
-        "Not recognizing gratuity doctrine — promises without consideration aren't binding",
-        "Mistaking opinion for promise — context matters ('bragging' ≠ 'warranting')",
-        "Not recognizing illusory promises — one party retains complete discretion",
-        "Conflating agreement with contract — agreements about facts don't have contractual force",
-        "Struggling with objective interpretation when communications are ambiguous"
+      "keyQuotation": "We must look to the outward expression of a person as manifesting his intention rather than to his secret and unexpressed intention."
+    },
+    {
+      "number": 4, "title": "Offers", "module": 2, "moduleName": "Mutual Assent",
+      "keyRules": [
+        "R2d § 24: Offer = manifestation of willingness to enter bargain, justifying offeree in understanding acceptance will conclude it",
+        "R2d § 26: Preliminary negotiations are not offers — person doesn't intend to be bound without further manifestation",
+        "R2d § 33: Terms must be reasonably certain — basis for determining breach and remedy",
+        "Essential terms (common law): parties, subject matter, quantity, price",
+        "UCC § 2-305: Price term can be left open for goods if market price determinable",
+        "Advertisements generally NOT offers (R2d § 26 cmt. b) — exception: specific item + price + quantity + manner of acceptance (Lefkowitz)"
       ],
-      "crossReferences": [3, 4, 14, 18, 19, 28],
-      "formulaIntroduced": "Mutual Assent + Consideration = Contract → expanded: Offer - Termination + Acceptance + Consideration = Contract"
+      "keySources": ["R2d § 24", "R2d § 26", "R2d § 33", "UCC § 2-305"],
+      "cases": [
+        {"name": "Lefkowitz v. Great Minneapolis Surplus Store", "citation": "251 Minn. 188 (1957)", "rule": "Ad was offer because it specified item, price ($1), quantity (1 stole), and acceptance method ('first come first served'); store's 'house rule' excluding men was improper post-hoc limitation"},
+        {"name": "Leonard v. Pepsico", "citation": "88 F. Supp. 2d 116 (S.D.N.Y. 1999)", "rule": "Harrier jet ad was not offer — no reasonable person would believe a $23M military jet was offered for $700K in Pepsi Points; humor/absurdity negates objective intent"}
+      ],
+      "keyQuotation": "An offer is a proposal to enter a voluntary bargain or exchange."
+    },
+    {
+      "number": 5, "title": "Termination of the Offer", "module": 2, "moduleName": "Mutual Assent",
+      "keyRules": [
+        "R2d § 36(1): Four methods: (a) rejection/counteroffer, (b) lapse, (c) revocation, (d) death/incapacity",
+        "R2d § 38: Rejection terminates unless offeror manifests contrary intention",
+        "R2d § 39: Counteroffer = substitute bargain relating to same matter; terminates original",
+        "R2d § 42: Revocation effective when offeree receives manifestation of unwillingness",
+        "R2d § 43: Constructive revocation — definite inconsistent action + reliable information",
+        "R2d § 41: Lapse after specified time or reasonable time; conversation rule",
+        "R2d § 48: Death/incapacity terminates automatically without notice",
+        "OFUR irrevocability: Option contracts (R2d § 25), Firm offers (UCC § 2-205, merchants, 3 months max), Unilateral part-performance (R2d § 45), Reliance (R2d § 87(2))"
+      ],
+      "keySources": ["R2d §§ 36-48", "R2d § 25", "R2d § 45", "R2d § 87(2)", "UCC § 2-205"],
+      "cases": [
+        {"name": "Smaligo v. Fireman's Fund Insurance Co.", "citation": "432 Pa. 133 (1968)", "rule": "Filing for arbitration after settlement offer = indirect rejection through conduct inconsistent with acceptance"}
+      ],
+      "keyQuotation": "Offers are ephemeral. They quickly mature into contracts or decay into nothing."
+    },
+    {
+      "number": 6, "title": "Acceptance", "module": 2, "moduleName": "Mutual Assent",
+      "keyRules": [
+        "R2d § 50(1): Acceptance = manifestation of assent to offer's terms in manner invited/required",
+        "R2d § 58: Acceptance must comply with offer's requirements (mirror image rule)",
+        "R2d § 59: Conditional acceptance = counteroffer, not acceptance",
+        "R2d § 61: Requesting change ≠ conditioning acceptance (request OK, condition kills it)",
+        "UCC § 2-207(1): Definite seasonable acceptance operates as acceptance even with additional/different terms, UNLESS expressly conditional",
+        "UCC § 2-207(2): Additional terms between merchants become part unless: offer limits, materially alters, or offeror objects",
+        "Knock-out rule (majority): conflicting 'different terms' cancel; replaced by UCC gap fillers",
+        "R2d § 63(a): Mailbox rule — acceptance effective on dispatch, not receipt",
+        "Mailbox rule exceptions: option contracts (receipt), near-instantaneous communication, rejection sent first, estoppel"
+      ],
+      "keySources": ["R2d §§ 50, 58-64", "UCC § 2-207"],
+      "cases": [
+        {"name": "State DOT v. Providence & Worcester Railroad", "citation": "674 A.2d 1239 (R.I. 1996)", "rule": "Immaterial differences don't invalidate acceptance; changing buyer name and relieving track removal obligation were not additional terms"},
+        {"name": "Flender Corp. v. Tippins International", "citation": "830 A.2d 1279 (Pa. Super. 2003)", "rule": "Conflicting forum clauses knocked out under UCC § 2-207; neither Vienna nor Chicago prevails; default jurisdiction applies"}
+      ],
+      "keyQuotation": "The mere addition of a collateral or immaterial matter will not prevent the formation of a contract."
+    },
+    {
+      "number": 7, "title": "Consideration", "module": 3, "moduleName": "Consideration & Alternatives",
+      "keyRules": [
+        "R2d § 71(1): Consideration requires bargained-for performance or return promise",
+        "R2d § 71(2): Bargained for = sought by promisor in exchange, given by promisee in exchange",
+        "R2d § 71(3): Performance may be act, forbearance, or creation/modification/destruction of legal relation",
+        "R2d § 79: No requirement of equivalence — adequacy not examined (peppercorn doctrine)",
+        "Benefit/detriment test (historical): benefit to promisor OR detriment to promisee",
+        "Modern bargained-for exchange test: promise must induce detriment AND detriment must induce promise (Holmes formula)",
+        "Gratuitous promises not enforceable; conditional gifts not consideration unless condition benefits promisor"
+      ],
+      "keySources": ["R2d § 71", "R2d § 79"],
+      "cases": [
+        {"name": "Hamer v. Sidway", "citation": "124 N.Y. 538 (1891)", "rule": "Forbearance from legal right (drinking, smoking, gambling) = valid consideration regardless of whether promisor benefited; nephew's restriction of lawful freedom suffices"},
+        {"name": "Pennsy Supply v. American Ash Recycling", "citation": "895 A.2d 595 (Pa. Super. 2006)", "rule": "Free hazardous waste removal = consideration because promisor avoided disposal costs; applies to 'bads' not just goods; conditional gift vs. bargain distinguished"}
+      ],
+      "keyQuotation": "Consideration is the glue that makes enforceable promises meaningful and ensures mutual benefit."
+    },
+    {
+      "number": 8, "title": "Promissory Estoppel", "module": 3, "moduleName": "Consideration & Alternatives",
+      "keyRules": [
+        "R2d § 90(1): Promise binding without consideration if: (1) promisor should reasonably expect to induce action/forbearance, (2) promise does induce such action/forbearance, (3) injustice avoidable only by enforcement",
+        "Four elements: clear promise, reasonable reliance, detriment, injustice",
+        "Remedy may be limited as justice requires (not always full expectation damages)",
+        "Promise must be clear and definite from reasonable person's perspective",
+        "Reliance must be actual, reasonable, and foreseeable to promisor",
+        "Detriment: promisee worse off than if promise never made (out-of-pocket or opportunity cost)"
+      ],
+      "keySources": ["R2d § 90"],
+      "cases": [
+        {"name": "Ricketts v. Scothorn", "citation": "57 Neb. 51 (1898)", "rule": "Grandfather's promissory note induced granddaughter to quit job; estoppel bars raising lack of consideration; voluntary conduct inducing change of position for the worse"},
+        {"name": "Conrad v. Fields", "citation": "2007 WL 2106302 (Minn. App. 2007)", "rule": "Wealthy friend promised to pay law school tuition; plaintiff quit $45K job in reliance; full tuition damages ($87,314) awarded; clear promise + foreseeable reliance + substantial detriment + injustice"}
+      ],
+      "keyQuotation": "Promissory estoppel serves as a safety net within contract law, filling the gaps left by doctrines like consideration."
+    },
+    {
+      "number": 9, "title": "Promissory Restitution", "module": 3, "moduleName": "Consideration & Alternatives",
+      "keyRules": [
+        "R2d § 86(1): Promise in recognition of benefit previously received is binding to extent necessary to prevent injustice",
+        "General rule (Mills v. Wyman): moral obligation alone insufficient — past consideration is no consideration",
+        "Exception: material benefit + subsequent promise = enforceable (Webb v. McGowin)",
+        "Five exception categories: benefit received, mistake corrected, emergency services, past business gift, unpaid contract revived",
+        "Distinguishes from estoppel: benefit precedes promise (backward-looking) vs. reliance follows promise (forward-looking)"
+      ],
+      "keySources": ["R2d § 86"],
+      "cases": [
+        {"name": "Mills v. Wyman", "citation": "20 Mass. 207 (1825)", "rule": "Father's promise to reimburse stranger who cared for adult son unenforceable — no material benefit to promisor, pure moral obligation insufficient"},
+        {"name": "Webb v. McGowin", "citation": "27 Ala. App. 82 (1936)", "rule": "Employee saved employer's life at great personal injury; employer's subsequent promise to pay $15 biweekly enforceable — life has material pecuniary value; moral obligation + material benefit = sufficient"},
+        {"name": "Drake v. Bell", "citation": "55 N.Y.S. 945 (App. Div. 1899)", "rule": "Contractor mistakenly repaired wrong house; homeowner's promise to pay enforceable — material benefit conferred under expectation of payment"}
+      ],
+      "keyQuotation": "A moral obligation is sufficient consideration to support a subsequent promise where the promisor has received a material benefit."
+    },
+    {
+      "number": 10, "title": "The Statute of Frauds", "module": 4, "moduleName": "Defenses to Formation",
+      "keyRules": [
+        "R2d § 110: MYLEGS categories requiring signed writing — Marriage, Year-long, Land, Executorship, Goods $500+, Suretyship",
+        "R2d § 131: Memorandum must identify subject matter, indicate contract exists, state essential terms, signed by party to be charged",
+        "R2d § 132: Multiple writings may be combined",
+        "R2d § 134: Signature = any symbol made with intent to authenticate",
+        "R2d § 139: Promissory estoppel exception — reliance substantial, foreseeable, other remedies unavailable",
+        "R2d § 129: Part performance exception for land",
+        "UCC § 2-201: Merchant confirmatory memo, special manufacture, admission, goods/payment accepted exceptions"
+      ],
+      "keySources": ["R2d §§ 110, 129-139", "UCC § 2-201"],
+      "cases": [
+        {"name": "McIntosh v. Murphy", "citation": "52 Haw. 29 (1970)", "rule": "Oral one-year employment contract enforceable under promissory estoppel where employee relocated 2,200 miles in reliance"},
+        {"name": "Sterling v. Taylor", "citation": "40 Cal. 4th 757 (2007)", "rule": "Extrinsic evidence may clarify ambiguous memorandum terms but cannot prove terms at odds with writing"}
+      ],
+      "keyQuotation": "The statute of frauds is not just a technical hurdle but a reminder of contract law's dual role: clarity while accommodating human realities."
+    },
+    {
+      "number": 11, "title": "Mistake", "module": 4, "moduleName": "Defenses to Formation",
+      "keyRules": [
+        "R2d § 152: Mutual mistake — voidable when both parties mistaken as to basic assumption, material effect, neither bore risk",
+        "R2d § 153: Unilateral mistake — requires unconscionability OR other party had reason to know/caused mistake",
+        "R2d § 154: Risk allocation — three Cs: Contract (allocated by terms), Conscious ignorance (aware of limited knowledge), Court (reasonable allocation)",
+        "Mistake of identity/nature (voidable) vs. mistake of value/quality (generally not voidable)"
+      ],
+      "keySources": ["R2d §§ 152-154"],
+      "cases": [
+        {"name": "Wood v. Boynton", "citation": "64 Wis. 265 (1885)", "rule": "Selling uncut diamond for $1 believing it topaz — no mutual mistake; parties transacted over 'stone of uncertain value'; seller assumed risk"},
+        {"name": "Sherwood v. Walker", "citation": "66 Mich. 568 (1887)", "rule": "Mutual mistake that cow was barren (actually fertile) goes to substance/nature, not mere quality; contract voidable"},
+        {"name": "DePrince v. Starboard Cruise", "citation": "271 So. 3d 11 (Fla. App. 2018)", "rule": "Jewelry manager quoted per-carat price as total — unilateral mistake defense succeeds where buyer's knowledge/silence induced mistake"}
+      ],
+      "keyQuotation": "The doctrine of mistake involves a careful balance between fairness and efficiency."
+    },
+    {
+      "number": 12, "title": "Improper Bargaining", "module": 4, "moduleName": "Defenses to Formation",
+      "keyRules": [
+        "R2d § 159: Misrepresentation = assertion not in accord with facts",
+        "R2d § 162: Fraudulent misrepresentation = false assertion + scienter + intent to induce + inducement + justifiable reliance",
+        "R2d § 160-161: Concealment and duty to disclose (fiduciary, correct prior statements, basic assumption mistakes)",
+        "R2d § 175: Duress = improper threat precluding reasonable alternative",
+        "R2d § 177: Undue influence = unfair persuasion in relation of trust/confidence",
+        "R2d § 208: Unconscionability = procedural (bargaining process) + substantive (terms)"
+      ],
+      "keySources": ["R2d §§ 159-177, 208"],
+      "cases": [
+        {"name": "Quebodeaux v. Quebodeaux", "citation": "102 Ohio App. 3d 502 (1995)", "rule": "Wife signed separation agreement under duress — husband threatened to take children and declare her unfit; three elements: involuntary, no reasonable alternative, other party caused circumstances"}
+      ],
+      "keyQuotation": "Contract law doesn't punish mere advantage, but it does intervene when the structure of a deal becomes distorted by withheld truths that matter."
+    },
+    {
+      "number": 13, "title": "Incapacity", "module": 4, "moduleName": "Defenses to Formation",
+      "keyRules": [
+        "R2d § 12: No capacity = no binding contract; full capacity unless: guardianship, infant, mental illness, intoxication",
+        "R2d § 14: Infant (under 18) contracts are voidable; can disaffirm within reasonable time after majority; exception for necessaries",
+        "R2d § 15(1)(a): Mental illness — unable to understand nature and consequences",
+        "R2d § 15(1)(b): Mental illness — unable to act reasonably where other party should know of condition",
+        "R2d § 16: Intoxication — other party must have reason to know of inability to understand"
+      ],
+      "keySources": ["R2d §§ 12-16"],
+      "cases": [
+        {"name": "Webster St. Partnership v. Sheridan", "citation": "220 Neb. 9 (1985)", "rule": "Teenager's lease voidable despite continued residence after turning 19; timely disaffirmance; apartment not a 'necessary' when could live at home"}
+      ],
+      "keyQuotation": "The incapacity doctrines share a common purpose of ensuring that contracts are founded on voluntary, informed consent."
+    },
+    {
+      "number": 14, "title": "Ambiguity", "module": 5, "moduleName": "Interpretation & Terms",
+      "keyRules": [
+        "Patent ambiguity: evident on face of contract; Latent ambiguity: apparent only when applied to circumstances",
+        "Hierarchy of evidence: plain meaning → specific terms → structure → course of performance → course of dealing → trade usage → parol evidence",
+        "Common law: restrictive — requires intrinsic ambiguity before admitting extrinsic evidence",
+        "UCC: broader — permits extrinsic evidence even if writing appears complete"
+      ],
+      "keySources": ["R2d §§ 200-204", "UCC § 1-303"],
+      "cases": [
+        {"name": "Frigaliment Importing Co. v. B.N.S. International", "citation": "190 F. Supp. 116 (S.D.N.Y. 1960)", "rule": "What is 'chicken'? Multi-source interpretation approach — dictionaries, trade usage, negotiations, price, industry practice; buyer failed burden to prove 'chicken' meant only young frying chickens"}
+      ],
+      "keyQuotation": "The making of a contract depends not on the agreement of two minds in one intention, but on the agreement of two sets of external signs."
+    },
+    {
+      "number": 15, "title": "Intrinsic Evidence", "module": 5, "moduleName": "Interpretation & Terms",
+      "keyRules": [
+        "Semantic canons: plain meaning, technical meaning, noscitur a sociis, ejusdem generis, last antecedent, whole agreement, avoid surplusage, consistent usage, specific over general, negotiated over preprinted",
+        "Policy canons: good faith (R2d § 205; UCC § 1-304), contra proferentem (R2d § 206), public policy (R2d § 207), unconscionability (R2d § 208)"
+      ],
+      "keySources": ["R2d §§ 202-208", "UCC § 1-304"],
+      "cases": [
+        {"name": "In re Motors Liquidation Co.", "citation": "447 B.R. 142 (Bankr. S.D.N.Y. 2011)", "rule": "Death was consequence of prior accident, not separate 'incident'; noscitur a sociis trumps surplusage canon; 'accidents' and 'incidents' given related meaning"}
+      ],
+      "keyQuotation": "Noscitur a sociis — a word is known by the company it keeps."
+    },
+    {
+      "number": 16, "title": "Extrinsic Evidence", "module": 5, "moduleName": "Interpretation & Terms",
+      "keyRules": [
+        "Course of performance (UCC § 1-303(a)): repeated conduct between parties to THIS transaction",
+        "Course of dealing (R2d § 223; UCC § 1-303(b)): conduct from PRIOR transactions between same parties",
+        "Usage of trade (UCC § 1-303(c); R2d § 222): industry practice with regularity of observance",
+        "Implied-in-fact terms: arise from circumstances, require proving intent",
+        "Implied-in-law terms: imposed by courts for fairness, no intent required"
+      ],
+      "keySources": ["R2d §§ 220-223", "UCC § 1-303"],
+      "cases": [
+        {"name": "Wood v. Lucy, Lady Duff-Gordon", "citation": "222 N.Y. 88 (1917)", "rule": "Exclusive agency agreement implied promise to use reasonable efforts; Cardozo: 'the whole writing may be instinct with an obligation, imperfectly expressed'"},
+        {"name": "Nanakuli Paving v. Shell Oil", "citation": "664 F.2d 772 (9th Cir. 1981)", "rule": "Trade usage of price protection in asphalt industry supplemented written contract; course of dealing showed Shell had protected Nanakuli twice before"}
+      ],
+      "keyQuotation": "A promise may be lacking, and yet the whole writing may be 'instinct with an obligation, imperfectly expressed.'"
+    },
+    {
+      "number": 17, "title": "The Parol Evidence Rule", "module": 5, "moduleName": "Interpretation & Terms",
+      "keyRules": [
+        "R2d § 213: Integrated agreement discharges prior agreements to extent inconsistent",
+        "R2d § 209: Integration = writing constituting final expression of one or more terms",
+        "R2d § 210: Complete integration = final AND exclusive; Partial = final but not exclusive",
+        "R2d § 216: Not completely integrated if omits consistent term (a) agreed for separate consideration or (b) naturally omitted",
+        "UCC § 2-202: Written terms not contradicted by prior agreement; supplementable by course of dealing/usage/performance",
+        "Exceptions: fraud/duress/mistake, ambiguity, collateral agreements (independent + consistent + naturally omitted), conditions precedent (R2d § 217)",
+        "Merger clauses: usually dispositive but debated (Williston: conclusive; Corbin: rebuttable)"
+      ],
+      "keySources": ["R2d §§ 209-218", "UCC § 2-202"],
+      "cases": [
+        {"name": "Gianni v. R. Russell & Co.", "citation": "281 Pa. 320 (1924)", "rule": "Written lease was complete integration; oral promise of soda exclusivity barred — within scope of written agreement covering permitted/prohibited uses"},
+        {"name": "UAW-GM v. KSL Recreation", "citation": "228 Mich. App. 498 (1998)", "rule": "Merger clause conclusive on integration question; parol evidence of union-staff promise barred despite collateral agreement argument"}
+      ],
+      "keyQuotation": "The writing cannot prove its own completeness and accuracy. (Corbin, dissent position)"
+    },
+    {
+      "number": 18, "title": "Warranties", "module": 5, "moduleName": "Interpretation & Terms",
+      "keyRules": [
+        "UCC § 2-313(1): Express warranty — affirmation of fact/promise, description, or sample that is part of basis of bargain; no magic words required",
+        "UCC § 2-314: Implied merchantability — merchant seller; goods fit for ordinary purposes, fair average quality, adequately packaged",
+        "UCC § 2-315: Implied fitness for particular purpose — seller knows buyer's purpose + knows buyer relies on seller's judgment + buyer actually relies",
+        "UCC § 2-316: Disclaimers — merchantability must mention word and be conspicuous; fitness must be written and conspicuous; 'as is' can exclude all implied",
+        "UCC § 2-714: Damages = difference between value as promised and value as delivered",
+        "Puffery/opinion ≠ warranty; must be definite factual assertion"
+      ],
+      "keySources": ["UCC §§ 2-313 to 2-316, 2-714"],
+      "cases": [
+        {"name": "Daughtrey v. Ashe", "citation": "243 Va. 73 (1992)", "rule": "Appraisal form stating 'H color and v.v.s. quality' was express warranty — description became part of basis of bargain; no buyer reliance required under UCC"},
+        {"name": "Carlson v. General Motors", "citation": "883 F.2d 287 (4th Cir. 1989)", "rule": "Unconscionability of implied warranty limitation requires factual hearing; seller's knowledge of inherent defects relevant beyond mere reasonableness"}
+      ],
+      "keyQuotation": "The 'part of the basis of the bargain' language does not establish a buyer's reliance requirement."
+    },
+    {
+      "number": 19, "title": "Conditions", "module": 6, "moduleName": "Performance & Breach",
+      "keyRules": [
+        "R2d § 224: Condition = event, not certain to occur, that must occur before performance becomes due",
+        "R2d § 225(3): Non-occurrence of condition is NOT breach unless party promised condition would occur",
+        "R2d § 227: Doubts resolved to reduce risk of forfeiture",
+        "R2d § 229: Court may excuse non-occurrence if disproportionate forfeiture",
+        "Condition precedent: must occur BEFORE duty arises; Condition subsequent: discharges duty that already arose",
+        "R2d § 234: Concurrent conditions — simultaneous performance required",
+        "Express conditions: strictly construed; Implied conditions: satisfied by substantial performance",
+        "R2d § 228: Satisfaction conditions — objective standard preferred; subjective only for personal aesthetics"
+      ],
+      "keySources": ["R2d §§ 224-234"],
+      "cases": [
+        {"name": "Kingston v. Preston", "citation": "99 Eng. Rep. 437 (K.B. 1773)", "rule": "Lord Mansfield: three types of covenants (mutual independent, dependent conditions, concurrent); security requirement was condition precedent to seller's duty"},
+        {"name": "Morrison v. Bare", "citation": "2007-Ohio-6788 (Ohio App. 2007)", "rule": "Condition ≠ promise; failure of condition discharges duty but is NOT breach; buyer had no right to demand lower price when furnace repair condition failed"}
+      ],
+      "keyQuotation": "A condition is a fact or an event and is not an expression of intention or an assurance. A promise creates a legal duty; a condition creates no right or duty."
+    },
+    {
+      "number": 20, "title": "Substantial Performance and Material Breach", "module": 6, "moduleName": "Performance & Breach",
+      "keyRules": [
+        "R2d § 241: Five factors for materiality — (a) extent of deprivation, (b) adequacy of compensation, (c) extent of part performance, (d) likelihood of cure, (e) good faith",
+        "Substantial performance: implied conditions satisfied by less-than-perfect performance if deviation is trivial and innocent",
+        "Willful transgressor must accept penalty; innocent transgressor may hope for mercy",
+        "UCC § 2-601: Perfect tender rule for goods — buyer may reject if goods fail in ANY respect",
+        "UCC § 2-508: Seller's right to cure within contract time or reasonable time",
+        "Damages for non-material breach: difference in value, not cost of replacement"
+      ],
+      "keySources": ["R2d § 237, § 241", "UCC §§ 2-601, 2-508"],
+      "cases": [
+        {"name": "Jacob & Youngs v. Kent", "citation": "230 N.Y. 239 (1921)", "rule": "Wrong pipe brand in mansion = trivial innocent omission; substantial performance doctrine applies; damages = difference in value (nominal), not cost of replacement (demolition); Cardozo: 'the willful transgressor must accept the penalty of his transgression'"}
+      ],
+      "keyQuotation": "The courts never say that one who makes a contract fills the measure of his duty by less than full performance. They do say, however, that an omission, both trivial and innocent, will sometimes be atoned for by allowance of the resulting damage."
+    },
+    {
+      "number": 21, "title": "Repudiation", "module": 6, "moduleName": "Performance & Breach",
+      "keyRules": [
+        "R2d § 250(a): Repudiation = unequivocal statement indicating total breach",
+        "R2d § 250(b): Voluntary act rendering obligor unable/apparently unable to perform",
+        "R2d § 251: Demand for adequate assurance when reasonable grounds for insecurity",
+        "UCC § 2-609: Written demand for adequate assurance; failure to respond within 30 days = repudiation",
+        "UCC § 2-610: Aggrieved party may suspend performance, seek cover, or sue immediately",
+        "Anticipatory repudiation: breach BEFORE time for performance arrives"
+      ],
+      "keySources": ["R2d §§ 250-253", "UCC §§ 2-609, 2-610"],
+      "cases": [
+        {"name": "Hochster v. De La Tour", "citation": "118 Eng. Rep. 922 (Q.B. 1853)", "rule": "Courier could sue immediately when employer repudiated before start date; established anticipatory repudiation doctrine"}
+      ],
+      "keyQuotation": "A statement is a repudiation if a party unequivocally refuses to perform."
+    },
+    {
+      "number": 22, "title": "Excuse", "module": 6, "moduleName": "Performance & Breach",
+      "keyRules": [
+        "R2d § 261: Impossibility — supervening event makes performance impossible; duty discharged unless party bore risk",
+        "R2d § 266: Impracticability — extreme difficulty/cost may discharge (high bar — not mere economic hardship)",
+        "R2d § 265: Frustration of purpose — performance possible but underlying purpose destroyed; discharged if: (1) principal purpose substantially frustrated, (2) non-occurrence was basic assumption, (3) not party's fault",
+        "UCC § 2-615: Commercial impracticability for goods — performance impracticable by contingency non-occurrence of which was basic assumption"
+      ],
+      "keySources": ["R2d §§ 261-266", "UCC § 2-615"],
+      "cases": [
+        {"name": "Taylor v. Caldwell", "citation": "122 E.R. 309 (1863)", "rule": "Music hall destroyed by fire; both parties excused; continued existence of essential thing is implied condition"},
+        {"name": "Krell v. Henry", "citation": "2 K.B. 740 (1903)", "rule": "Coronation postponed; room rental purpose frustrated; three-part test: foundation of contract, performance prevented, event unforeseeable"},
+        {"name": "Transatlantic Financing v. United States", "citation": "363 F.2d 312 (D.C. Cir. 1966)", "rule": "Suez Canal closure increased shipping cost ~14%; not impracticable — must be unconscionable burden, not mere economic hardship"}
+      ],
+      "keyQuotation": "The parties contracted on the basis of the continued existence of the Music Hall...that being essential to their performance."
+    },
+    {
+      "number": 23, "title": "Modification and Discharge", "module": 6, "moduleName": "Performance & Breach",
+      "keyRules": [
+        "R2d § 73: Pre-existing duty rule — performing existing obligation is NOT consideration for modification",
+        "R2d § 89(a): Modification binding if fair and equitable in view of unanticipated circumstances",
+        "UCC § 2-209(1): Modification needs NO consideration — only good faith required",
+        "R2d § 279: Substituted contract replaces original entirely",
+        "R2d § 281: Accord = agreement to accept different performance; satisfaction = execution discharges duty",
+        "R2d § 317-318: Assignment (transfers rights) and delegation (transfers duties) — personal services not delegable"
+      ],
+      "keySources": ["R2d §§ 73, 89, 279-281, 317-318", "UCC § 2-209"],
+      "cases": [
+        {"name": "Alaska Packers v. Domenico", "citation": "117 F. 99 (9th Cir. 1902)", "rule": "Sailors demanding double pay mid-season; performing pre-existing duty = no consideration; modification unenforceable"},
+        {"name": "Angel v. Murray", "citation": "113 R.I. 482 (1974)", "rule": "Garbage collector's mid-contract increase upheld — fair and equitable given unexpected population surge; modern relaxation of pre-existing duty rule per R2d § 89"}
+      ],
+      "keyQuotation": "A promise modifying a duty under a contract not fully performed on either side is binding if the modification is fair and equitable in view of circumstances not anticipated by the parties."
+    },
+    {
+      "number": 24, "title": "Money Damages for Nonperformance", "module": 7, "moduleName": "Remedies & Third Parties",
+      "keyRules": [
+        "R2d § 347: Expectation damages = position party would have been in had contract been performed",
+        "R2d § 351: Foreseeability limitation (Hadley v. Baxendale) — (a) naturally arising OR (b) in contemplation of both parties",
+        "R2d § 352: Certainty — damages not recoverable if speculative",
+        "R2d § 350: Mitigation — injured party must use reasonable efforts to avoid loss",
+        "Direct damages (natural consequence) vs. consequential damages (special circumstances, must be foreseeable)",
+        "Incidental damages: costs of arranging substitute performance"
+      ],
+      "keySources": ["R2d §§ 347-352"],
+      "cases": [
+        {"name": "Hadley v. Baxendale", "citation": "9 Exch. 341 (1854)", "rule": "Lost mill profits not recoverable because carrier didn't know mill would be idle; damages limited to (a) naturally arising or (b) in parties' contemplation at contracting; foundational foreseeability rule"}
+      ],
+      "keyQuotation": "The damages which the other party ought to receive should be such as may fairly and reasonably be considered either arising naturally from such breach, or such as may reasonably be supposed to have been in the contemplation of both parties at the time they made the contract."
+    },
+    {
+      "number": 25, "title": "Money Damages for Defective Performance", "module": 7, "moduleName": "Remedies & Third Parties",
+      "keyRules": [
+        "R2d § 348: Cost of repair when proportionate; diminished value when cost grossly disproportionate to loss",
+        "Economic waste doctrine: no demolition for trivial defect when value difference is minimal",
+        "Owner entitled to completion cost UNLESS grossly and unfairly out of proportion to good attained"
+      ],
+      "keySources": ["R2d § 348"],
+      "cases": [
+        {"name": "Peevyhouse v. Garland Coal & Mining", "citation": "382 P.2d 109 (Okla. 1962)", "rule": "Strip mine restoration cost $29K but property value increase minimal; damages = diminished value, not cost of completion; proportionality principle"}
+      ],
+      "keyQuotation": "The owner is entitled to the money which will permit him to complete, unless the cost of completion is grossly and unfairly out of proportion to the good to be attained."
+    },
+    {
+      "number": 26, "title": "Limitations on Money Damages", "module": 7, "moduleName": "Remedies & Third Parties",
+      "keyRules": [
+        "Three limitations apply to ALL damages (expectation, reliance, restitution):",
+        "1. Foreseeability (R2d § 351): damages beyond reasonable contemplation excluded",
+        "2. Certainty (R2d § 352): speculative/uncertain damages excluded; must prove with reasonable certainty",
+        "3. Mitigation (R2d § 350): injured party must take reasonable steps to minimize loss; failure reduces recovery"
+      ],
+      "keySources": ["R2d §§ 350-352"],
+      "cases": [],
+      "keyQuotation": "All damages — expectation, reliance, restitution — are subject to foreseeability, certainty, and mitigation limitations."
+    },
+    {
+      "number": 27, "title": "Alternative Remedies", "module": 7, "moduleName": "Remedies & Third Parties",
+      "keyRules": [
+        "R2d § 357: Specific performance when money damages inadequate (unique goods, land, irreplaceable)",
+        "R2d § 376: Restitution — return value conferred to prevent unjust enrichment",
+        "R2d § 371: Rescission — cancel contract and restore parties to pre-contract position",
+        "Equitable remedies are exceptional — courts prefer legal remedies and resort to equity only when necessary",
+        "Injunctions: prevent actions causing irreparable harm"
+      ],
+      "keySources": ["R2d §§ 357, 371, 376"],
+      "cases": [],
+      "keyQuotation": "Equitable remedies remain exceptional — courts prefer legal remedies and resort to equity only when justice requires."
+    },
+    {
+      "number": 28, "title": "Third-Party Beneficiaries", "module": 7, "moduleName": "Remedies & Third Parties",
+      "keyRules": [
+        "R2d § 302(1): Intended beneficiary — recognition of enforceable right appropriate to effectuate parties' intent; EITHER (a) performance satisfies promisee's obligation to pay beneficiary OR (b) circumstances show promisee intends benefit",
+        "R2d § 302(2): Incidental beneficiary — not intended; NO enforceable rights",
+        "R2d § 311: Promisor and promisee can modify/rescind before beneficiary's rights vest",
+        "R2d § 309: Vesting occurs when beneficiary materially changes position, brings suit, or manifests assent",
+        "Creditor beneficiary: satisfying pre-existing debt; Donee beneficiary: gift intent"
+      ],
+      "keySources": ["R2d §§ 302-315"],
+      "cases": [
+        {"name": "Sovereign Bank v. BJ's Wholesale", "citation": "533 F.3d 162 (2008)", "rule": "Card issuer was incidental beneficiary of merchant agreement — Visa Operating Regulations protected all members but parties' intent focused on Visa's internal enforcement, not individual issuer suits"}
+      ],
+      "keyQuotation": "Incidental beneficiaries never have enforceable rights even if they receive some benefit, unless contracting parties expressly intended to grant them enforceable rights."
     }
   ],
   "primarySources": {
     "restatement": [
-      {
-        "section": "R2d § 1",
-        "title": "Contract Defined",
-        "text": "A contract is a promise or a set of promises for the breach of which the law gives a remedy, or the performance of which the law in some way recognizes as a duty.",
-        "chapters": [2]
-      },
-      {
-        "section": "R2d § 2(1)",
-        "title": "Promise; Promisor; Promisee; Beneficiary",
-        "text": "A promise is a manifestation of intention to act or refrain from acting in a specified way, so made as to justify a promisee in understanding that a commitment has been made.",
-        "chapters": [2]
-      },
-      {
-        "section": "R2d § 2(2)",
-        "title": "Promisor",
-        "text": "The person manifesting the intention is the promisor.",
-        "chapters": [2]
-      },
-      {
-        "section": "R2d § 2(3)",
-        "title": "Promisee",
-        "text": "The person to whom the manifestation is addressed is the promisee.",
-        "chapters": [2]
-      },
-      {
-        "section": "R2d § 2(4)",
-        "title": "Beneficiary",
-        "text": "Where performance will benefit a person other than the promisee, that person is a beneficiary.",
-        "chapters": [2, 28]
-      },
-      {
-        "section": "R2d § 2 cmt. b",
-        "title": "Manifestation of Intention",
-        "text": "The phrase 'manifestation of intention' adopts an external or objective standard for interpreting conduct; it means the external expression of intention as distinguished from undisclosed intention.",
-        "chapters": [1, 2]
-      },
-      {
-        "section": "R2d § 3",
-        "title": "Agreement Defined; Bargain Defined",
-        "text": "An agreement is a manifestation of mutual assent on the part of two or more persons. A bargain is an agreement to exchange promises or to exchange a promise for a performance or to exchange performances.",
-        "chapters": [2, 3]
-      },
-      {
-        "section": "R2d § 6",
-        "title": "Formal Contracts",
-        "text": "Types of formal contracts include contracts under seal.",
-        "chapters": [1]
-      },
-      {
-        "section": "R2d § 17(1)",
-        "title": "Requirement of a Bargain",
-        "text": "Except as stated in Subsection (2), the formation of a contract requires a bargain in which there is a manifestation of mutual assent to the exchange and a consideration.",
-        "chapters": [1, 2]
-      }
+      {"section": "R2d § 1", "title": "Contract Defined", "text": "A contract is a promise or a set of promises for the breach of which the law gives a remedy, or the performance of which the law in some way recognizes as a duty.", "chapters": [2]},
+      {"section": "R2d § 2(1)", "title": "Promise Defined", "text": "A promise is a manifestation of intention to act or refrain from acting in a specified way, so made as to justify a promisee in understanding that a commitment has been made.", "chapters": [2,8]},
+      {"section": "R2d § 3", "title": "Agreement; Bargain", "text": "An agreement is a manifestation of mutual assent on the part of two or more persons. A bargain is an agreement to exchange promises or to exchange a promise for a performance or to exchange performances.", "chapters": [2,3]},
+      {"section": "R2d § 17(1)", "title": "Requirement of a Bargain", "text": "The formation of a contract requires a bargain in which there is a manifestation of mutual assent to the exchange and a consideration.", "chapters": [1,3]},
+      {"section": "R2d § 20", "title": "Misunderstanding", "text": "No mutual assent if parties attach materially different meanings and neither knows or has reason to know the other's meaning.", "chapters": [3]},
+      {"section": "R2d § 24", "title": "Offer Defined", "text": "An offer is the manifestation of willingness to enter into a bargain, so made as to justify another person in understanding that his assent to that bargain is invited and will conclude it.", "chapters": [4]},
+      {"section": "R2d § 36(1)", "title": "Termination Methods", "text": "Offeree's power terminated by: (a) rejection/counteroffer, (b) lapse, (c) revocation, (d) death/incapacity.", "chapters": [5]},
+      {"section": "R2d § 45", "title": "Part Performance on Unilateral", "text": "Where offer invites acceptance by performance, option contract created when offeree begins performance.", "chapters": [5]},
+      {"section": "R2d § 50(1)", "title": "Acceptance Defined", "text": "Acceptance of an offer is a manifestation of assent to the terms thereof made by the offeree in a manner invited or required by the offer.", "chapters": [6]},
+      {"section": "R2d § 63(a)", "title": "Mailbox Rule", "text": "Acceptance effective upon dispatch unless offer provides otherwise.", "chapters": [6]},
+      {"section": "R2d § 71", "title": "Consideration", "text": "To constitute consideration, a performance or return promise must be bargained for. Bargained for if sought by promisor in exchange and given by promisee in exchange.", "chapters": [7]},
+      {"section": "R2d § 79", "title": "Adequacy", "text": "If the requirement of consideration is met, there is no additional requirement of equivalence in the values exchanged.", "chapters": [7]},
+      {"section": "R2d § 86", "title": "Promissory Restitution", "text": "A promise made in recognition of a benefit previously received by the promisor from the promisee is binding to the extent necessary to prevent injustice.", "chapters": [9]},
+      {"section": "R2d § 90(1)", "title": "Promissory Estoppel", "text": "A promise which the promisor should reasonably expect to induce action or forbearance and which does induce such action or forbearance is binding if injustice can be avoided only by enforcement.", "chapters": [8]},
+      {"section": "R2d § 110", "title": "Statute of Frauds Classes", "text": "MYLEGS: Marriage, Year-long, Land, Executorship, Goods $500+, Suretyship.", "chapters": [10]},
+      {"section": "R2d § 152", "title": "Mutual Mistake", "text": "Contract voidable when both parties mistaken as to basic assumption with material effect and adversely affected party did not bear risk.", "chapters": [11]},
+      {"section": "R2d § 177", "title": "Undue Influence", "text": "Unfair persuasion of party under domination or justified in assuming other will act in their welfare.", "chapters": [12]},
+      {"section": "R2d § 213", "title": "Parol Evidence Rule", "text": "Binding integrated agreement discharges prior agreements to extent inconsistent.", "chapters": [17]},
+      {"section": "R2d § 224", "title": "Condition Defined", "text": "An event, not certain to occur, which must occur before performance becomes due.", "chapters": [19]},
+      {"section": "R2d § 241", "title": "Material Breach Factors", "text": "Five factors: extent of deprivation, adequacy of compensation, extent of part performance, likelihood of cure, good faith.", "chapters": [20]},
+      {"section": "R2d § 250", "title": "Repudiation", "text": "Statement indicating obligor will commit total breach, or voluntary act rendering unable to perform.", "chapters": [21]},
+      {"section": "R2d § 265", "title": "Frustration of Purpose", "text": "Where principal purpose substantially frustrated by event not party's fault whose non-occurrence was basic assumption, duties discharged.", "chapters": [22]},
+      {"section": "R2d § 302", "title": "Third-Party Beneficiaries", "text": "Intended beneficiary if recognition of enforceable right appropriate to effectuate parties' intent.", "chapters": [28]},
+      {"section": "R2d § 347", "title": "Expectation Damages", "text": "Damages put injured party in position they would have been in had contract been performed.", "chapters": [24]}
     ],
     "ucc": [
-      {
-        "section": "UCC § 2-102",
-        "title": "Scope; Certain Security and Other Transactions Excluded",
-        "text": "Article 2 applies to transactions in goods.",
-        "chapters": [1, 2]
-      },
-      {
-        "section": "UCC § 2-105(1)",
-        "title": "Definitions: 'Goods'",
-        "text": "Goods means all things (including specially manufactured goods) which are movable at the time of identification to the contract for sale.",
-        "chapters": [1, 2]
-      },
-      {
-        "section": "UCC § 2-106(1)",
-        "title": "Definitions: 'Sale'",
-        "text": "A 'sale' consists in the passing of title from the seller to the buyer for a price.",
-        "chapters": [1, 2]
-      }
-    ],
-    "cases": [
-      {
-        "name": "Steinberg v. Chicago Medical School",
-        "citation": "69 Ill. 2d 320, 371 N.E.2d 634 (1977)",
-        "doctrines": ["contract formation", "objective theory", "consideration"],
-        "chapters": [2]
-      },
-      {
-        "name": "Pappas v. Bever",
-        "citation": "219 N.W.2d 720 (Iowa 1974)",
-        "doctrines": ["promise vs. intention", "manifestation"],
-        "chapters": [2]
-      }
+      {"section": "UCC § 2-102", "title": "Scope", "text": "Article 2 applies to transactions in goods.", "chapters": [1,2]},
+      {"section": "UCC § 2-201", "title": "Statute of Frauds for Goods", "text": "Contracts for sale of goods $500+ require writing; exceptions: merchant memo, special manufacture, admission, acceptance.", "chapters": [10]},
+      {"section": "UCC § 2-205", "title": "Firm Offers", "text": "Merchant's signed writing giving assurance of irrevocability; not revocable for stated time or reasonable time, max 3 months.", "chapters": [5]},
+      {"section": "UCC § 2-207", "title": "Battle of the Forms", "text": "Definite seasonable acceptance operates as acceptance even with additional/different terms unless expressly conditional.", "chapters": [6]},
+      {"section": "UCC § 2-209(1)", "title": "Modification", "text": "Agreement modifying contract needs no consideration to be binding.", "chapters": [23]},
+      {"section": "UCC § 2-313", "title": "Express Warranties", "text": "Created by affirmation of fact, description, or sample that becomes part of basis of bargain.", "chapters": [18]},
+      {"section": "UCC § 2-314", "title": "Implied Merchantability", "text": "Merchant sellers warrant goods are fit for ordinary purposes.", "chapters": [18]},
+      {"section": "UCC § 2-315", "title": "Implied Fitness", "text": "When seller knows buyer's particular purpose and buyer relies on seller's judgment.", "chapters": [18]},
+      {"section": "UCC § 2-601", "title": "Perfect Tender", "text": "Buyer may reject if goods fail in any respect to conform to contract.", "chapters": [20]},
+      {"section": "UCC § 2-609", "title": "Adequate Assurance", "text": "Party may demand adequate assurance of performance in writing when reasonable grounds for insecurity.", "chapters": [21]},
+      {"section": "UCC § 2-615", "title": "Commercial Impracticability", "text": "Delay or non-delivery excused if performance impracticable by contingency whose non-occurrence was basic assumption.", "chapters": [22]}
     ]
   },
   "enrichment": {
-    "_note": "This section holds supplementary materials linked by the professor — case copies, articles, news stories. Each item references doctrines and chapters it connects to.",
+    "_note": "Supplementary materials linked by the professor. Each item references doctrines and chapters.",
     "items": []
   }
 }
