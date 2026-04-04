@@ -415,6 +415,41 @@ blockquote {
   font-style: italic;
 }
 
+/* Module activity link */
+.module-activity-link {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  padding: var(--space-sm) var(--space-lg);
+  background: color-mix(in srgb, var(--accent-red) 8%, var(--bg-secondary));
+  border-bottom: 1px solid var(--border);
+}
+
+.module-activity-btn {
+  font-family: var(--font-headline);
+  font-size: 0.9rem;
+  color: #fff;
+  background: var(--red-deep);
+  padding: 0.4rem 1rem;
+  border-radius: var(--radius-sm);
+  text-decoration: none;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.module-activity-btn:hover {
+  background: var(--red-bright);
+  color: #fff;
+  transform: translateY(-1px);
+}
+
+.module-activity-label {
+  font-family: var(--font-headline);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: var(--accent-red);
+}
+
 /* Module all-complete gold accent */
 .module-all-complete .module-header {
   border-left: 3px solid var(--yellow);
