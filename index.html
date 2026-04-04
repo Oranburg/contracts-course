@@ -117,11 +117,19 @@
     }
     .module-card-img {
       width: 100%;
-      height: 200px;
+      height: 220px;
       object-fit: cover;
-      object-position: center 30%;
+      object-position: center center;
       display: block;
     }
+    /* Per-module focal point tuning */
+    #mod1 .module-card-img { object-position: center 40%; }  /* Shire: hobbits trading in center */
+    #mod2 .module-card-img { object-position: center 25%; }  /* Unexpected Party: Thorin+Bilbo at table, need heads visible */
+    #mod3 .module-card-img { object-position: center 65%; }  /* Lonely Mountain: Bilbo+Smaug shape in lower half */
+    #mod4 .module-card-img { object-position: center 35%; }  /* Council: Ring on pedestal, faces around it */
+    #mod5 .module-card-img { object-position: center 45%; }  /* Moria doors: Gandalf + inscription centered */
+    #mod6 .module-card-img { object-position: center 30%; }  /* Helm's Deep: dawn + fortress + riders */
+    #mod7 .module-card-img { object-position: center 55%; }  /* Mount Doom: Frodo + Ring at edge */
     .module-card-overlay {
       position: absolute;
       inset: 0;
@@ -331,7 +339,7 @@
         <p class="module-card-journey">The Lonely Mountain &mdash; what was bargained for, promised, and owed</p>
         <p class="module-card-chapters">Chapters 7&ndash;9 &middot; Consideration, promissory estoppel, restitution</p>
         <div class="module-card-actions">
-          <span class="module-card-coming">Activity coming soon</span>
+          <a href="exercises/mod-3-dragons-price/" class="module-card-activity">The Dragon's Price</a>
           <button class="module-card-toggle" onclick="toggleModuleCard('mod3')">Chapters</button>
         </div>
       </div>
