@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Module 4b: Undue Influence Image</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .loader {
+            border: 4px solid #f3f3f3;
+            border-top: 4px solid #fde047; /* Rohan Gold */
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 1s linear infinite;
+        }
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+        .parchment {
+            background-color: #fdf5e6;
+            box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body class="bg-stone-900 text-slate-200 min-h-screen flex flex-col items-center justify-center p-4 font-serif">
+
+    <div class="max-w-4xl w-full bg-stone-800 rounded-xl shadow-2xl overflow-hidden border border-stone-700">
+        <!-- Header -->
+        <div class="bg-stone-950 p-6 text-center border-b border-stone-700">
+            <h1 class="text-3xl text-yellow-500 font-bold tracking-wider">The Fellowship of the Contract</h1>
+            <p class="text-stone-400 mt-2 italic">Module 4b: Improper Bargaining (Undue Influence)</p>
+        </div>
+
+        <!-- Image Container -->
+        <div class="relative w-full aspect-video bg-stone-900 flex flex-col items-center justify-center overflow-hidden">
+            <!-- Loading State -->
+            <div id="loadingState" class="absolute inset-0 flex flex-col items-center justify-center bg-stone-900/80 z-10">
+                <div class="loader mb-4"></div>
+                <p class="text-yellow-500 animate-pulse text-lg">Visualizing the shadows in the Golden Hall...</p>
+                <p class="text-stone-500 text-sm mt-2 max-w-md text-center">Prompt: Shadowy interior of the Golden Hall of Meduseld... a gaunt, aged Théoden slumps in the throne... Gríma Wormtongue whispers intensely into his ear...</p>
+            </div>
+
+            <!-- Error State -->
+            <div id="errorState" class="hidden absolute inset-0 flex flex-col items-center justify-center bg-red-900/20 z-10 p-6 text-center">
+                <i class="fas fa-exclamation-triangle text-red-500 text-4xl mb-4"></i>
+                <p id="errorMessage" class="text-red-400 text-lg">Failed to generate image.</p>
+                <button onclick="generateImage()" class="mt-4 px-4 py-2 bg-red-800 hover:bg-red-700 rounded text-white transition-colors">Try Again</button>
+            </div>
+
+            <!-- The Generated Image -->
+            <img id="generatedImage" class="hidden w-full h-full object-cover" alt="Module 4b Concept Art" />
+        </div>
+
+        <!-- Context Panel -->
+        <div class="p-6 parchment text-stone-800">
+            <h2 class="text-xl font-bold mb-2 border-b border-stone-300 pb-2">The Investigation Desk: Artifact Context</h2>
+            <p class="mb-4 leading-relaxed">
+                <strong>The Advisor's Pressure:</strong> King Théoden is weakened and isolated. Gríma Wormtongue relentlessly pressures him into signing a contract granting Isengard exclusive rights to all of Rohan's grain, assuring the King it is "necessary for Rohan's survival." After Gandalf cures Théoden, the King seeks to void the contract.
+            </p>
+            <div class="bg-white/50 p-4 rounded border border-stone-300">
+                <h3 class="font-bold text-amber-700 mb-1"><i class="fas fa-book-open mr-2"></i>Tome of Law: R2d § 177 (Undue Influence)</h3>
+                <p class="text-sm italic">"Undue influence is unfair persuasion of a party who is under the domination of the person exercising the persuasion or who... is justified in assuming that that person will not act in a manner inconsistent with his welfare."</p>
+                <p class="text-sm mt-2">Unlike duress, which requires an improper <em>threat</em>, undue influence focuses on the exploitation of a <strong>special relationship of trust or dominance</strong> to overcome a victim's independent judgment.</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        const apiKey = ""; 
+        const promptText = "A cinematic fantasy digital painting of the shadowy, somber interior of the Golden Hall of Meduseld. A gaunt, aged, defeated-looking King Théoden slumps in his tall wooden throne. His advisor, Gríma Wormtongue, hunched over and draped in black robes, whispers intensely and persistently directly into the King's ear. Gríma's posture is one of psychological domination. Heavy shadows, atmospheric dust motes in shafts of dim light. High quality, detailed faces, no AI artifacts.";
+        const endpointUrl = `https://generativelanguage.googleapis.com/v1beta/models/imagen-4.0-generate-001:predict?key=${apiKey}`;
+
+        const loadingState = document.getElementById('loadingState');
+        const errorState = document.getElementById('errorState');
+        const errorMessage = document.getElementById('errorMessage');
+        const generatedImage = document.getElementById('generatedImage');
+
+        async function fetchImageWithRetry(prompt, retries = 5) {
+            const delays = [1000, 2000, 4000, 8000, 16000];
+            for (let i = 0; i < retries; i++) {
+                try {
+                    const response = await fetch(endpointUrl, {
+                        method: 'POST',
+                        headers: { 'Content-Type': 'application/json' },
+                        body: JSON.stringify({
+                            instances: { prompt: promptText },
+                            parameters: { sampleCount: 1 }
+                        })
+                    });
+                    if (!response.ok) throw new Error(`HTTP Error: ${response.status}`);
+                    const result = await response.json();
+                    if (result.predictions?.[0]?.bytesBase64Encoded) {
+                        return `data:image/png;base64,${result.predictions[0].bytesBase64Encoded}`;
+                    } else {
+                        throw new Error("Unexpected API response format.");
+                    }
+                } catch (error) {
+                    if (i === retries - 1) throw error;
+                    await new Promise(resolve => setTimeout(resolve, delays[i]));
+                }
+            }
+        }
+
+        async function generateImage() {
+            loadingState.classList.remove('hidden');
+            errorState.classList.add('hidden');
+            generatedImage.classList.add('hidden');
+            try {
+                const imageUrl = await fetchImageWithRetry(promptText);
+                generatedImage.src = imageUrl;
+                generatedImage.classList.remove('hidden');
+                loadingState.classList.add('hidden');
+            } catch (error) {
+                loadingState.classList.add('hidden');
+                errorState.classList.remove('hidden');
+                errorMessage.textContent = "Failed to generate the image. The API may be unavailable in this environment.";
+            }
+        }
+
+        window.onload = generateImage;
+    </script>
+</body>
+</html>
