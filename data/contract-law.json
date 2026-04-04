@@ -1,0 +1,435 @@
+{
+  "meta": {
+    "title": "Contract Law Knowledge Base",
+    "description": "Structured representation of contract law doctrine — portable across projects. Built from Oranburg, Contract Law: Rules, Cases, and Problems (2d ed., CAP 2025), plus primary sources (R2d, UCC, case law).",
+    "version": "0.1.0",
+    "lastUpdated": "2026-04-04",
+    "chaptersIndexed": [1, 2],
+    "totalChapters": 28
+  },
+  "chapters": [
+    {
+      "number": 1,
+      "title": "What Is Contract Law?",
+      "module": 1,
+      "moduleName": "Foundations",
+      "learningObjectives": [
+        "Explain what contract law is and how it differs from other areas of law",
+        "Describe the historical origins of contract law (Roman law, English common law, American contract law)",
+        "Understand the difference between law and equity and why it matters in contract enforcement",
+        "Recognize the key sources of modern contract law (common law, R2d, UCC)",
+        "Articulate the major theories of contract law (efficiency, reliance, fairness, autonomy)",
+        "Distinguish between objective and subjective approaches to contract interpretation"
+      ],
+      "sections": [
+        {
+          "id": "1A",
+          "title": "Origins of Contract Law",
+          "concepts": [
+            {
+              "name": "Contract law is the law of promises",
+              "rule": "A promise is an expression of commitment to do (or not to do) something. Promises are the foundation of contract liability. Without a promise, there is no contract.",
+              "significance": "Establishes the voluntary nature of contract law — people create their own obligations."
+            },
+            {
+              "name": "Private law vs. public law",
+              "rule": "Contract law is private law (governs relationships between people). Unlike public law (criminal, tax), it is voluntary — you cannot have contract liability without a promise.",
+              "significance": "Foundational distinction. You can opt out of contract liability by not making promises."
+            },
+            {
+              "name": "Historical origins",
+              "rule": "Contract law originated in multiple ancient civilizations. Oldest still-used sources: Jewish law compiled by Rabbi Hillel (~200 BCE). Roman law (Twelve Tables, ~451 BCE) forms basis of Western contract law. English common law unified by Henry II (1154), then shaped by Magna Carta (1215).",
+              "significance": "Shows contract law is ancient, cross-cultural, and constantly evolving."
+            }
+          ]
+        },
+        {
+          "id": "1B",
+          "title": "Law and Equity",
+          "concepts": [
+            {
+              "name": "Courts of law vs. courts of equity",
+              "rule": "Courts of law apply strict rules and offer monetary damages. Courts of equity provide flexible remedies (specific performance, injunctions, rescission) based on fairness. Most American jurisdictions have merged these systems, but the distinction in remedies persists.",
+              "significance": "Equitable remedies remain exceptional — courts prefer legal remedies and resort to equity only when justice requires."
+            },
+            {
+              "name": "Equitable remedies",
+              "rule": "Three key equitable remedies developed by the Court of Chancery: (1) specific performance — compelling a party to fulfill contractual obligations; (2) injunctions — preventing actions causing irreparable harm; (3) rescission — canceling contracts formed under fraud or coercion.",
+              "sources": ["Court of Chancery tradition", "Sir Thomas More's contributions"]
+            }
+          ]
+        },
+        {
+          "id": "1C",
+          "title": "The Restatement of Contracts",
+          "concepts": [
+            {
+              "name": "Restatement (Second) of Contracts (R2d)",
+              "rule": "Published 1979 (copyright 1981) by the American Law Institute. Represents the best authority on American common law of contracts. Persuasive but not binding — a 'model' of what the law should be.",
+              "significance": "R2d is the primary reference throughout the course. Reflects the modern balanced approach (Corbin's realism) rather than Williston's strict formalism."
+            },
+            {
+              "name": "First Restatement vs. Second Restatement",
+              "rule": "First Restatement (1920s, Samuel Williston): legal formalism, strict objective rules. Second Restatement (1979, Arthur Linton Corbin): legal realism, considers context and actual intent alongside objective evidence.",
+              "significance": "The shift from Williston to Corbin mirrors the broader legal evolution from formalism to realism."
+            }
+          ]
+        },
+        {
+          "id": "1D",
+          "title": "The Uniform Commercial Code",
+          "concepts": [
+            {
+              "name": "UCC Article 2 scope",
+              "rule": "UCC Article 2 governs contracts for the sale of goods. Goods are defined as items that are movable and identifiable at the time the contract is formed. Does not apply to services, real estate, or intellectual property.",
+              "sources": ["UCC § 2-102", "UCC § 2-105(1)", "UCC § 2-106(1)"],
+              "significance": "UCC is binding law (unlike R2d). All 50 states have adopted it."
+            },
+            {
+              "name": "Predominant purpose test",
+              "rule": "For hybrid contracts involving both goods and services, courts apply the predominant purpose test: if the predominant purpose is sale of goods, UCC applies; if services, common law applies.",
+              "significance": "Determines which body of law governs the entire transaction."
+            }
+          ]
+        },
+        {
+          "id": "1E",
+          "title": "Why Does Contract Law Exist?",
+          "concepts": [
+            {
+              "name": "Four justifications for contract enforcement",
+              "rule": "Contract law exists for four core reasons: (1) Economic efficiency — enables voluntary trades leaving both sides better off; (2) Reliance — protects those who act based on promises; (3) Fairness — prevents exploitation; (4) Autonomy — respects individual freedom to create obligations.",
+              "significance": "These four theories recur throughout the course. Each doctrine can be analyzed through any of these lenses."
+            }
+          ]
+        },
+        {
+          "id": "1F",
+          "title": "Objectivity and Subjectivity",
+          "concepts": [
+            {
+              "name": "Objective vs. subjective interpretation",
+              "rule": "Objective view (Williston): relies on external evidence — what was said, written, done. Promotes predictability. Subjective view (Corbin): focuses on parties' actual intentions, considers all context. Modern approach: starts objective (plain language) but admits subjective evidence when ambiguity or unjust results would occur.",
+              "significance": "The objective standard is the default in American contract law. This is counterintuitive to students who assume actual intent should matter most."
+            },
+            {
+              "name": "Manifestation",
+              "rule": "A manifestation is an external expression — as distinguished from a secret thought or an undisclosed intention.",
+              "sources": ["R2d § 2 cmt. b"],
+              "significance": "Contract law cares about what you said/did, not what you thought."
+            }
+          ]
+        }
+      ],
+      "cases": [],
+      "problems": [],
+      "keyQuotations": [
+        {
+          "text": "Contract law is the law of promises.",
+          "source": "Oranburg, Contract Law 2d, Ch. 1"
+        },
+        {
+          "text": "Courts recognize that contracts depend on mutual understanding, but they generally require that this understanding be evidenced through outward expressions — words, conduct, or context.",
+          "source": "Oranburg, Contract Law 2d, Ch. 1"
+        },
+        {
+          "text": "By blending objective principles with subjective flexibility, the modern approach ensures that contracts are interpreted fairly and predictably.",
+          "source": "Oranburg, Contract Law 2d, Ch. 1"
+        }
+      ],
+      "commonMistakes": [
+        "Students assume contracts must be written documents",
+        "Students prioritize actual intent over objective standard — requires deliberate correction",
+        "Students underestimate scope of contract law — frame it as foundational to entire market economy"
+      ],
+      "crossReferences": [18, 19, 28]
+    },
+    {
+      "number": 2,
+      "title": "What Is a Contract?",
+      "module": 1,
+      "moduleName": "Foundations",
+      "learningObjectives": [
+        "Define a contract according to R2d § 1 and explain how it differs from informal agreements",
+        "Differentiate between promises, agreements, and bargains",
+        "Explain the difference between bilateral and unilateral contracts",
+        "Recognize that not all promises are enforceable and identify criteria for legal enforceability",
+        "Distinguish between common law and UCC contracts using the predominant purpose test",
+        "Analyze whether a manifestation constitutes a promise (Pappas v. Bever)",
+        "Engage with case law analysis through Steinberg v. Chicago Medical School"
+      ],
+      "sections": [
+        {
+          "id": "2A",
+          "title": "Contract",
+          "concepts": [
+            {
+              "name": "Definition of contract",
+              "rule": "A contract is a promise or a set of promises for the breach of which the law gives a remedy, or the performance of which the law in some way recognizes as a duty.",
+              "sources": ["R2d § 1"],
+              "significance": "A contract need not be written. Oral contracts are valid except where statute of frauds applies."
+            }
+          ]
+        },
+        {
+          "id": "2B",
+          "title": "Promise",
+          "concepts": [
+            {
+              "name": "Definition of promise",
+              "rule": "A promise is a manifestation of intention to act or refrain from acting in a specified way, so made as to justify a promisee in understanding that a commitment has been made.",
+              "sources": ["R2d § 2(1)"],
+              "significance": "Not all promises result in contractual obligations. Some are gratuitous or illusory."
+            },
+            {
+              "name": "Promisor, promisee, beneficiary",
+              "rule": "Promisor: person making the promise (R2d § 2(2)). Promisee: person to whom promise is made (R2d § 2(3)). Beneficiary: person who benefits from the promise but is neither promisor nor promisee (R2d § 2(4)).",
+              "sources": ["R2d § 2(2)", "R2d § 2(3)", "R2d § 2(4)"]
+            },
+            {
+              "name": "Statement of intention vs. promise",
+              "rule": "A statement of intention is the mere expression of a state of mind, put in such a form as neither to invite nor to justify action in reliance by another person. A promise is also the expression of a state of mind but put in such a form as to invite reliance.",
+              "sources": ["1 Corbin on Contracts § 15"],
+              "significance": "Critical distinction: 'I intend to...' (non-binding) vs. 'I will...' or 'I promise to...' (binding)."
+            }
+          ]
+        },
+        {
+          "id": "2C",
+          "title": "Agreements and Bargains",
+          "concepts": [
+            {
+              "name": "Definition of agreement",
+              "rule": "An agreement is a manifestation of mutual assent on the part of two or more persons.",
+              "sources": ["R2d § 3"],
+              "significance": "Requires outward expression, not passive harmony."
+            },
+            {
+              "name": "Definition of bargain",
+              "rule": "A bargain is an agreement to exchange promises or to exchange a promise for a performance or to exchange performances.",
+              "sources": ["R2d § 3"],
+              "significance": "Bargain does NOT require negotiation/haggling — only mutual exchange. Take-it-or-leave-it terms still constitute a 'bargain' in the legal sense."
+            },
+            {
+              "name": "Hierarchy: agreement ≠ bargain ≠ contract",
+              "rule": "Agreement is broader than bargain (agreements can be about facts, not exchanges). Bargain is broader than contract (illegal bargains are not enforceable contracts). A contract requires a legally enforceable bargain supported by consideration.",
+              "significance": "Students commonly conflate these terms."
+            }
+          ]
+        },
+        {
+          "id": "2D",
+          "title": "Bargain Contracts and Non-Bargain Contracts",
+          "concepts": [
+            {
+              "name": "Bilateral contract",
+              "rule": "Exchange of promise for promise. Both parties promise; both sides are symmetric.",
+              "example": "Grandpa promises $100; Granddaughter promises to clean the mansion."
+            },
+            {
+              "name": "Unilateral contract",
+              "rule": "Exchange of promise for performance. Offeree can only accept by fully performing, not by making a return promise.",
+              "example": "Uncle promises $10,000 if Nephew quits drinking/smoking/gambling for 5 years. Nephew cannot accept by promising — only by performing."
+            },
+            {
+              "name": "Non-bargain contract",
+              "rule": "A legally enforceable promise not based on a bargain. Court enforces to avoid injustice (e.g., detrimental reliance/promissory estoppel).",
+              "significance": "Still requires promise and mutual assent. The enforcement basis is equity rather than consideration."
+            }
+          ]
+        },
+        {
+          "id": "2E",
+          "title": "Distinguishing Common Law from UCC Contracts",
+          "concepts": [
+            {
+              "name": "Predominant purpose test (applied)",
+              "rule": "For hybrid transactions: if goods predominate, UCC applies to entire transaction. Some jurisdictions use hybrid approach — UCC for goods portion, common law for services portion.",
+              "examples": [
+                "Construction contract where materials supplied — predominant purpose is services, so common law",
+                "TV + installation — predominant purpose is goods, so UCC",
+                "Kitchen cabinets + installation — hybrid approach: UCC for cabinets, common law for installation"
+              ]
+            }
+          ]
+        }
+      ],
+      "cases": [
+        {
+          "name": "Steinberg v. Chicago Medical School",
+          "citation": "69 Ill. 2d 320, 371 N.E.2d 634 (1977)",
+          "chapter": 2,
+          "facts": "Robert Steinberg applied to Chicago Medical School for 1974-75 year, paying $15 application fee. School's bulletin stated applicants evaluated on scholarship, character, motivation (academic criteria). Steinberg was rejected. He claimed school used non-academic criteria (ability to pledge large donations) instead of stated criteria.",
+          "issue": "Was a contract formed between the applicant and the medical school?",
+          "holding": "Yes. The school's bulletin constituted an invitation for an offer. Filing the application + paying the fee = offer. School's acceptance of application + cashing the check = acceptance. Application fee = sufficient consideration. Contract bound school to evaluate applications under stated criteria.",
+          "reasoning": "Court rejected the 'meeting of the minds' requirement. Objective conduct suffices — secret intent is immaterial. Only overt acts determine mutual assent.",
+          "significance": "Demonstrates contracts can form through sequence of acts. Rejects subjective 'meeting of the minds' — objective manifestation suffices. Written language (bulletin) can create contractual obligations on institutions.",
+          "keyQuotations": [
+            "A contract, by ancient definition, is an agreement between competent parties, upon a consideration sufficient in law, to do or not to do a particular thing.",
+            "In the formation of contracts, it was long ago settled that secret intent was immaterial, only overt acts being considered in the determination of such mutual assent as that branch of the law requires."
+          ],
+          "doctrines": ["contract formation", "objective theory", "offer", "acceptance", "consideration"]
+        },
+        {
+          "name": "Pappas v. Bever",
+          "citation": "219 N.W.2d 720 (Iowa 1974)",
+          "chapter": 2,
+          "facts": "Philip Bissonnette signed a pledge form: 'I intend to subscribe...Five Thousand...Dollars' to a College Founder's Fund. He made two payments ($1,000 each in 1967-68). College closed May 1968. No further payments before his death. Receiver sued estate to enforce pledge.",
+          "issue": "Was the pledge form a legally enforceable promise?",
+          "holding": "No. The pledge form standing alone constitutes a mere statement of intention, not a promise. Words expressing intention to do something in the future are not a promise. Prior partial payments do not convert a statement of intention into a promise.",
+          "reasoning": "The word 'intend' shows no commitment that invites reliance. Under Corbin, a statement of intention neither invites nor justifies action in reliance. A promise must be 'put in such a form as to invite reliance.'",
+          "significance": "Distinguishes 'statement of intention' from 'promise.' Contract language matters: 'I intend to...' (non-binding) vs. 'I promise to...' (binding). Partial performance does not cure language defect.",
+          "keyQuotations": [
+            "A statement of intention is the mere expression of a state of mind, put in such a form as neither to invite nor to justify action in reliance by another person. A promise is also the expression of a state of mind but put in such a form as to invite reliance by another person."
+          ],
+          "doctrines": ["promise vs. intention", "manifestation", "reliance"]
+        }
+      ],
+      "problems": [
+        {
+          "id": "2.1",
+          "title": "Contract, Agreement, or Bargain?",
+          "description": "Five hypotheticals requiring students to distinguish promise, contract, agreement, bargain, or opinion. Includes: Sarah's land sale offer, Bob's warranty vs. Harry's boast, Ernst's conditional employment, Stephen's constellation identification.",
+          "doctrinesTested": ["promise", "agreement", "bargain", "opinion vs. promise", "illusory promise", "statute of frauds"]
+        },
+        {
+          "id": "2.2",
+          "title": "The Monster and the Beast",
+          "description": "Based on Beastie Boys v. Monster Energy. Z-Trip created free remix; Monster employee asked about usage; Z-Trip replied 'Dope!' Issue: did Z-Trip promise Monster could use Megamix for free in promotional video?",
+          "modelAnswer": "Z-Trip's reply 'Dope' lacks clarity to show a promise. R2d § 2 requires manifestation of intention to act in a way that justifies promisee understanding that a commitment was made. 'Dope' is ambiguous — does not constitute a promise.",
+          "doctrinesTested": ["manifestation", "promise definition", "objective standard"]
+        },
+        {
+          "id": "2.3",
+          "title": "Lifelong Employment",
+          "description": "William Greene worked at Grant Building since 1959 at below-union scale for 'lifetime employment' promise. Oliver Realty took over in 1975, promised to honor existing contracts. Greene fired 1983. Issues: (1) Valid bargain with Grant? (2) Valid bargain with Oliver Realty?",
+          "doctrinesTested": ["consideration", "indefiniteness", "assumption of obligations", "mutuality"]
+        }
+      ],
+      "keyQuotations": [
+        {
+          "text": "A contract is simply a legally binding promise or set of promises. Although lay persons may use the term contract to mean a writing that sets forth an agreement, note that a writing is not required by this definition.",
+          "source": "Oranburg, Contract Law 2d, Ch. 2"
+        },
+        {
+          "text": "Contrary to popular belief, contract law does not require a 'meeting of the minds.' Courts assess contracts objectively, based on what the parties say and do rather than their subjective intentions.",
+          "source": "Oranburg, Contract Law 2d, Ch. 2"
+        },
+        {
+          "text": "Contracts are promises that courts enforce.",
+          "source": "Oranburg, Contract Law 2d, Ch. 2"
+        },
+        {
+          "text": "The term 'bargain' sometimes confuses students who associate bargaining with haggling or some other process of negotiation, but this is not what the legal term requires.",
+          "source": "Oranburg, Contract Law 2d, Ch. 2"
+        }
+      ],
+      "commonMistakes": [
+        "Confusing promise with enforceability — a promise can exist without being enforceable",
+        "Not recognizing gratuity doctrine — promises without consideration aren't binding",
+        "Mistaking opinion for promise — context matters ('bragging' ≠ 'warranting')",
+        "Not recognizing illusory promises — one party retains complete discretion",
+        "Conflating agreement with contract — agreements about facts don't have contractual force",
+        "Struggling with objective interpretation when communications are ambiguous"
+      ],
+      "crossReferences": [3, 4, 14, 18, 19, 28],
+      "formulaIntroduced": "Mutual Assent + Consideration = Contract → expanded: Offer - Termination + Acceptance + Consideration = Contract"
+    }
+  ],
+  "primarySources": {
+    "restatement": [
+      {
+        "section": "R2d § 1",
+        "title": "Contract Defined",
+        "text": "A contract is a promise or a set of promises for the breach of which the law gives a remedy, or the performance of which the law in some way recognizes as a duty.",
+        "chapters": [2]
+      },
+      {
+        "section": "R2d § 2(1)",
+        "title": "Promise; Promisor; Promisee; Beneficiary",
+        "text": "A promise is a manifestation of intention to act or refrain from acting in a specified way, so made as to justify a promisee in understanding that a commitment has been made.",
+        "chapters": [2]
+      },
+      {
+        "section": "R2d § 2(2)",
+        "title": "Promisor",
+        "text": "The person manifesting the intention is the promisor.",
+        "chapters": [2]
+      },
+      {
+        "section": "R2d § 2(3)",
+        "title": "Promisee",
+        "text": "The person to whom the manifestation is addressed is the promisee.",
+        "chapters": [2]
+      },
+      {
+        "section": "R2d § 2(4)",
+        "title": "Beneficiary",
+        "text": "Where performance will benefit a person other than the promisee, that person is a beneficiary.",
+        "chapters": [2, 28]
+      },
+      {
+        "section": "R2d § 2 cmt. b",
+        "title": "Manifestation of Intention",
+        "text": "The phrase 'manifestation of intention' adopts an external or objective standard for interpreting conduct; it means the external expression of intention as distinguished from undisclosed intention.",
+        "chapters": [1, 2]
+      },
+      {
+        "section": "R2d § 3",
+        "title": "Agreement Defined; Bargain Defined",
+        "text": "An agreement is a manifestation of mutual assent on the part of two or more persons. A bargain is an agreement to exchange promises or to exchange a promise for a performance or to exchange performances.",
+        "chapters": [2, 3]
+      },
+      {
+        "section": "R2d § 6",
+        "title": "Formal Contracts",
+        "text": "Types of formal contracts include contracts under seal.",
+        "chapters": [1]
+      },
+      {
+        "section": "R2d § 17(1)",
+        "title": "Requirement of a Bargain",
+        "text": "Except as stated in Subsection (2), the formation of a contract requires a bargain in which there is a manifestation of mutual assent to the exchange and a consideration.",
+        "chapters": [1, 2]
+      }
+    ],
+    "ucc": [
+      {
+        "section": "UCC § 2-102",
+        "title": "Scope; Certain Security and Other Transactions Excluded",
+        "text": "Article 2 applies to transactions in goods.",
+        "chapters": [1, 2]
+      },
+      {
+        "section": "UCC § 2-105(1)",
+        "title": "Definitions: 'Goods'",
+        "text": "Goods means all things (including specially manufactured goods) which are movable at the time of identification to the contract for sale.",
+        "chapters": [1, 2]
+      },
+      {
+        "section": "UCC § 2-106(1)",
+        "title": "Definitions: 'Sale'",
+        "text": "A 'sale' consists in the passing of title from the seller to the buyer for a price.",
+        "chapters": [1, 2]
+      }
+    ],
+    "cases": [
+      {
+        "name": "Steinberg v. Chicago Medical School",
+        "citation": "69 Ill. 2d 320, 371 N.E.2d 634 (1977)",
+        "doctrines": ["contract formation", "objective theory", "consideration"],
+        "chapters": [2]
+      },
+      {
+        "name": "Pappas v. Bever",
+        "citation": "219 N.W.2d 720 (Iowa 1974)",
+        "doctrines": ["promise vs. intention", "manifestation"],
+        "chapters": [2]
+      }
+    ]
+  },
+  "enrichment": {
+    "_note": "This section holds supplementary materials linked by the professor — case copies, articles, news stories. Each item references doctrines and chapters it connects to.",
+    "items": []
+  }
+}

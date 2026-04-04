@@ -1,0 +1,334 @@
+{
+  "meta": {
+    "title": "Middle-earth Story Map for K",
+    "description": "Hobbit→LOTR narrative structure mapped to the Hero's Journey and contract law modules. K-project specific.",
+    "version": "0.1.0",
+    "lastUpdated": "2026-04-04"
+  },
+  "heroJourney": {
+    "stages": [
+      {
+        "stage": "Ordinary World",
+        "module": 1,
+        "chapters": [1, 2],
+        "storyArc": "The Shire — Bilbo's peaceful life before adventure. Everyday promises kept without thinking. Then the Burglar Agreement arrives and everything changes.",
+        "narrativeBeats": [
+          {
+            "chapter": 1,
+            "beat": "Bag End on a peaceful morning — ordinary exchanges between hobbits",
+            "scene": "The Shire before Gandalf's mark. Promises are everywhere but nobody calls them contracts.",
+            "characters": ["Bilbo", "Shire hobbits"],
+            "location": "Bag End, The Shire",
+            "image": "K-shire-morning"
+          },
+          {
+            "chapter": 2,
+            "beat": "The Burglar Agreement — Bilbo examines the contract",
+            "scene": "Bilbo reads the formal contract for the first time. Offer, acceptance, consideration — all in one document.",
+            "characters": ["Bilbo", "Thorin (referenced)"],
+            "location": "Bag End, The Shire",
+            "image": "K-burglary-agreement"
+          }
+        ],
+        "moduleActivity": {
+          "slug": "mod-1-there-and-back-again",
+          "title": "There and Back Again",
+          "description": "Bilbo's life before and during the contract — from peaceful Shire to signing the Burglar Agreement. Students discover that promises are everywhere (Ch 1) and learn what makes one legally binding (Ch 2).",
+          "narrativeArc": "Begin in the ordinary world where promises flow freely. Then the dwarves arrive and present a formal contract. The student must analyze whether the Burglar Agreement is actually enforceable — unpacking promise, agreement, bargain, and consideration."
+        }
+      },
+      {
+        "stage": "Call to Adventure",
+        "module": 2,
+        "chapters": [3, 4, 5, 6],
+        "storyArc": "The journey from Bag End through trolls, riddles, and Mirkwood trade. Every step requires agreement — but agreements keep failing, expiring, or conflicting.",
+        "narrativeBeats": [
+          {
+            "chapter": 3,
+            "beat": "The Unexpected Party — Thorin's handshake",
+            "scene": "Thirteen dwarves in Bag End. Thorin offers his hand. Has Bilbo assented? The objective theory is tested.",
+            "characters": ["Bilbo", "Thorin", "dwarves", "Gandalf"],
+            "location": "Bag End dining room",
+            "image": "K-unexpected-party"
+          },
+          {
+            "chapter": 4,
+            "beat": "Trolls — shifting proposals around the campfire",
+            "scene": "Tom, Bert, and William argue over how to cook the dwarves. Offers are made but never definite enough to accept.",
+            "characters": ["Tom", "Bert", "William", "Bilbo"],
+            "location": "Trollshaws forest",
+            "image": "K-troll-campfire"
+          },
+          {
+            "chapter": 5,
+            "beat": "Riddles in the Dark — a wager with built-in termination",
+            "scene": "Gollum proposes a riddle game with mortal stakes. The offer has a time limit and automatic termination conditions.",
+            "characters": ["Bilbo", "Gollum"],
+            "location": "Underground lake, Misty Mountains",
+            "image": "K-riddles-in-the-dark"
+          },
+          {
+            "chapter": 6,
+            "beat": "Mirkwood to Lake-town — competing merchant terms",
+            "scene": "Elven and human merchants trade with conflicting written terms. Each side's forms differ, but commerce flows anyway.",
+            "characters": ["Elven merchants", "Lake-town traders"],
+            "location": "Mirkwood trading post / Lake-town",
+            "image": "K-mirkwood-merchants"
+          }
+        ],
+        "moduleActivity": {
+          "slug": "mod-2-road-goes-ever-on",
+          "title": "The Road Goes Ever On",
+          "description": "The journey from Bag End through trolls, riddles, and Mirkwood trade — every step requires agreement. Students trace how contracts form (and fail to form) across four distinct scenarios.",
+          "narrativeArc": "Follow Bilbo from the handshake at the party through the troll campfire, the riddle game underground, and the merchant disputes at Mirkwood. Each stop teaches a different formation concept: mutual assent, offers, termination, acceptance."
+        }
+      },
+      {
+        "stage": "Tests, Allies, Enemies",
+        "module": 3,
+        "chapters": [7, 8, 9],
+        "storyArc": "The Lonely Mountain — what was bargained for, what was promised, what was owed. The economics of the quest are tested.",
+        "narrativeBeats": [
+          {
+            "chapter": 7,
+            "beat": "The Dragon's Hoard — Bilbo's one-fourteenth share",
+            "scene": "Bilbo stands before Smaug's treasure. His contract promises one-fourteenth. But was his service adequate consideration?",
+            "characters": ["Bilbo", "Thorin"],
+            "location": "Lonely Mountain treasure chamber",
+            "image": "K-lonely-mountain-hoard"
+          },
+          {
+            "chapter": 8,
+            "beat": "The Arkenstone — Thorin's broken promise",
+            "scene": "Thorin promised the finder of the Arkenstone would be rewarded above all. Bilbo relied on that. Thorin revokes.",
+            "characters": ["Bilbo", "Thorin", "Bard", "Thranduil"],
+            "location": "Ramparts of the Lonely Mountain",
+            "image": "K-arkenstone-betrayal"
+          },
+          {
+            "chapter": 9,
+            "beat": "Battle of Five Armies — debts of honor",
+            "scene": "Thorin's deathbed reconciliation. He acknowledges what he owes Bilbo — not because of the contract, but because Bilbo saved him.",
+            "characters": ["Thorin", "Bilbo", "Gandalf"],
+            "location": "Field hospital tent after battle",
+            "image": "K-battle-of-five-armies"
+          }
+        ],
+        "moduleActivity": {
+          "slug": "mod-3-dragons-price",
+          "title": "The Dragon's Price",
+          "description": "The Lonely Mountain quest — what was bargained for, what was promised, what was owed. Students analyze consideration, detrimental reliance, and moral obligation through the climax of the Hobbit.",
+          "narrativeArc": "From the treasure chamber to the ramparts to the deathbed tent. Each scene tests a different basis for enforcement: bargained-for exchange, promissory estoppel, and promissory restitution."
+        }
+      },
+      {
+        "stage": "Crossing the Threshold",
+        "module": 4,
+        "chapters": [10, 11, 12, 13],
+        "storyArc": "LOTR begins — the corruption of agreements. Forged documents, mistaken beliefs, overborne wills, rash oaths.",
+        "narrativeBeats": [
+          {
+            "chapter": 10,
+            "beat": "Isengard — Saruman's forged orders",
+            "scene": "Saruman's desk in Orthanc, covered with fabricated documents and forged seals.",
+            "characters": ["Saruman"],
+            "location": "Orthanc tower, Isengard",
+            "image": "K-isengard-forgery"
+          },
+          {
+            "chapter": 11,
+            "beat": "Council of Elrond — mutual mistake about the Ring",
+            "scene": "The Council sees the same Ring but holds fundamentally different beliefs about what it is.",
+            "characters": ["Elrond", "Boromir", "Gandalf", "Frodo"],
+            "location": "Rivendell pavilion",
+            "image": "K-council-of-elrond"
+          },
+          {
+            "chapter": 12,
+            "beat": "Golden Hall — Wormtongue corrupts Théoden",
+            "scene": "Wormtongue whispers in Théoden's ear, exploiting a confidential relationship to extract agreements.",
+            "characters": ["Théoden", "Wormtongue", "Éowyn"],
+            "location": "Meduseld, Edoras",
+            "image": "K-golden-hall-wormtongue"
+          },
+          {
+            "chapter": 13,
+            "beat": "Pippin's palantír — acting without capacity",
+            "scene": "Pippin reaches for the palantír at night, entering a 'communication' with Sauron he cannot understand.",
+            "characters": ["Pippin", "Gandalf", "Merry"],
+            "location": "Camp at night",
+            "image": "K-pippin-palantir"
+          }
+        ],
+        "moduleActivity": {
+          "slug": "mod-4-shadows-over-middle-earth",
+          "title": "Shadows Over Middle-earth",
+          "description": "The corruption of agreements — forged documents, mistaken beliefs, overborne wills, rash oaths. Students learn why some contracts are voidable.",
+          "narrativeArc": "Four scenes of contracts gone wrong. Saruman's forgeries raise the Statute of Frauds. The Council's disagreement about the Ring is mutual mistake. Wormtongue's corruption is undue influence. Pippin's palantír oath is incapacity. Each defense is a different way a contract can be voided."
+        }
+      },
+      {
+        "stage": "Approach to the Inmost Cave",
+        "module": 5,
+        "chapters": [14, 15, 16, 17, 18],
+        "storyArc": "Moria through Lothlórien to the breaking of the Fellowship. Reading signs, interpreting prophecy, hidden meanings.",
+        "narrativeBeats": [
+          {
+            "chapter": 14,
+            "beat": "Doors of Moria — 'speak friend and enter'",
+            "scene": "The inscription has two valid readings. Gandalf tries one; Frodo sees the other.",
+            "characters": ["Gandalf", "Frodo"],
+            "location": "West-gate of Moria",
+            "image": "K-doors-of-moria"
+          },
+          {
+            "chapter": 15,
+            "beat": "Balin's tomb — reading the record within its four corners",
+            "scene": "Gandalf reads the Book of Records in the Chamber of Mazarbul. The document interprets itself.",
+            "characters": ["Gandalf", "Fellowship"],
+            "location": "Chamber of Mazarbul, Moria",
+            "image": "K-balin-tomb"
+          },
+          {
+            "chapter": 16,
+            "beat": "Galadriel's Mirror — evidence from outside the text",
+            "scene": "The Mirror shows past, present, and future — knowledge that the contract (quest agreement) never contained.",
+            "characters": ["Galadriel", "Frodo"],
+            "location": "Lothlórien glade",
+            "image": "K-galadriel-mirror"
+          },
+          {
+            "chapter": 17,
+            "beat": "Breaking of the Fellowship — Boromir's side deal",
+            "scene": "Boromir tries to renegotiate the terms (take the Ring to Gondor). The integrated agreement (destroy the Ring) bars this prior/contemporaneous modification.",
+            "characters": ["Boromir", "Frodo", "Aragorn"],
+            "location": "Amon Hen",
+            "image": "K-breaking-of-fellowship"
+          },
+          {
+            "chapter": 18,
+            "beat": "Rohan smithy — weapon warranties",
+            "scene": "A smithy in Edoras with weapons bearing different guarantees: express, implied merchantability, fitness for purpose.",
+            "characters": ["Rohan smith", "Rohirrim rider"],
+            "location": "Edoras smithy",
+            "image": "K-rohan-smithy"
+          }
+        ],
+        "moduleActivity": {
+          "slug": "mod-5-words-beneath-words",
+          "title": "The Words Beneath the Words",
+          "description": "From Moria's riddle-door through Galadriel's visions to the Fellowship's breaking. Students learn to interpret contracts — what they say, what they mean, and what evidence courts can consider.",
+          "narrativeArc": "Five interpretation challenges: ambiguous language at Moria's door, reading a document by its own light in Balin's tomb, looking beyond the text via Galadriel's mirror, applying the parol evidence rule to Boromir's attempted modification, and identifying warranties in the Rohan smithy."
+        }
+      },
+      {
+        "stage": "The Ordeal",
+        "module": 6,
+        "chapters": [19, 20, 21, 22, 23],
+        "storyArc": "Helm's Deep through the Black Gate. Performance under impossible conditions, betrayal, excuse, and adaptation.",
+        "narrativeBeats": [
+          {
+            "chapter": 19,
+            "beat": "Helm's Deep — dawn of the fifth day",
+            "scene": "Gandalf's promise was conditioned on time and place. The condition must be strictly satisfied.",
+            "characters": ["Théoden", "Gandalf", "Aragorn"],
+            "location": "Helm's Deep fortress",
+            "image": "K-helms-deep-dawn"
+          },
+          {
+            "chapter": 20,
+            "beat": "Faramir at Osgiliath — deviation from orders",
+            "scene": "Faramir releases Frodo instead of bringing the Ring to Denethor. Substantial performance or material breach?",
+            "characters": ["Faramir", "Frodo", "Sam"],
+            "location": "Osgiliath ruins",
+            "image": "K-faramir-osgiliath"
+          },
+          {
+            "chapter": 21,
+            "beat": "Shelob's Lair — Gollum's treachery",
+            "scene": "Gollum's conduct makes clear he intends not to perform. Anticipatory repudiation.",
+            "characters": ["Gollum", "Frodo", "Sam"],
+            "location": "Cirith Ungol pass",
+            "image": "K-shelob-lair"
+          },
+          {
+            "chapter": 22,
+            "beat": "Denethor's madness — frustration of purpose",
+            "scene": "Denethor's stewardship contract is destroyed by circumstances beyond his control.",
+            "characters": ["Denethor", "Gandalf"],
+            "location": "Minas Tirith throne room",
+            "image": "K-denethor-madness"
+          },
+          {
+            "chapter": 23,
+            "beat": "The Black Gate — modifying the plan",
+            "scene": "The original quest is modified at the last hour. New consideration offered.",
+            "characters": ["Aragorn", "Gandalf", "captains"],
+            "location": "Field before the Black Gate",
+            "image": "K-black-gate-plan"
+          }
+        ],
+        "moduleActivity": {
+          "slug": "mod-6-war-of-the-ring",
+          "title": "The War of the Ring",
+          "description": "From Helm's Deep to the Black Gate — performance under impossible conditions, betrayal, excuse, and adaptation. Students confront the hardest questions: when must you perform, when can you be excused, and when can the deal change?",
+          "narrativeArc": "Five battle-tested scenarios: conditional obligations at Helm's Deep, substantial performance at Osgiliath, anticipatory repudiation at Shelob's Lair, frustration of purpose in Minas Tirith, and modification at the Black Gate."
+        }
+      },
+      {
+        "stage": "Return with the Elixir",
+        "module": 7,
+        "chapters": [24, 25, 26, 27, 28],
+        "storyArc": "Mount Doom through the Grey Havens. Making Middle-earth whole — measuring what was lost, fixing what was broken, and deciding who benefits.",
+        "narrativeBeats": [
+          {
+            "chapter": 24,
+            "beat": "Mount Doom — what was at stake",
+            "scene": "The gap between the world promised and the world that would result from breach.",
+            "characters": ["Frodo", "Sam", "Gollum"],
+            "location": "Crack of Doom, Mount Doom",
+            "image": "K-mount-doom"
+          },
+          {
+            "chapter": 25,
+            "beat": "Coronation — repairing the kingdom",
+            "scene": "Minas Tirith after the war. Cost of repair vs. diminished value.",
+            "characters": ["Aragorn", "master builder"],
+            "location": "Minas Tirith walls",
+            "image": "K-coronation-repairs"
+          },
+          {
+            "chapter": 26,
+            "beat": "Scouring of the Shire — limits on recovery",
+            "scene": "Some damage is fixable, some speculative, some foreseeable. Three limitations on damages.",
+            "characters": ["Sam", "Merry", "Pippin", "Frodo"],
+            "location": "The Shire (damaged)",
+            "image": "K-scouring-of-shire"
+          },
+          {
+            "chapter": 27,
+            "beat": "Grey Havens — when money isn't enough",
+            "scene": "No amount of gold can undo the Ring's damage to Frodo. Equitable remedies.",
+            "characters": ["Frodo", "Sam", "Gandalf", "Bilbo"],
+            "location": "Grey Havens harbor",
+            "image": "K-grey-havens"
+          },
+          {
+            "chapter": 28,
+            "beat": "The Red Book — who benefits from the story",
+            "scene": "Sam writes in the Red Book for those who weren't party to the quest but were intended to benefit.",
+            "characters": ["Sam", "Sam's children"],
+            "location": "Bag End (years later)",
+            "image": "K-red-book"
+          }
+        ],
+        "moduleActivity": {
+          "slug": "mod-7-return-of-the-king",
+          "title": "The Return of the King",
+          "description": "Mount Doom to the Grey Havens — making Middle-earth whole, measuring what was lost, and deciding who benefits. Students calculate damages, apply limits, choose remedies, and identify third-party beneficiaries.",
+          "narrativeArc": "Five scenes of resolution: expectation damages at Mount Doom, defective performance repair at the coronation, the three dams of damages limitations in the Shire, equitable remedies at the Grey Havens, and third-party beneficiary analysis through the Red Book."
+        }
+      }
+    ]
+  }
+}
