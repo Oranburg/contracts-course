@@ -4,33 +4,246 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contract Law — Course Companion</title>
-  <meta name="description" content="Companion site for Contract Law: Rules, Cases, and Problems (2d ed.) by Seth C. Oranburg. 28-chapter roadmap, interactive exercises, and assessment.">
+  <meta name="description" content="Companion site for Contract Law: Rules, Cases, and Problems (2d ed.) by Seth C. Oranburg. Interactive exercises set in Middle-earth, following the Hero's Journey.">
   <meta name="nav-depth" content="0">
+  <link rel="icon" type="image/png" href="assets/images/K-site-image-small.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/oranburg-style.css">
   <style>
-    .hero { text-align: center; padding: var(--space-3xl) var(--space-xl); background: var(--bg-secondary); }
-    .hero h1 { color: var(--text); font-size: 2.8rem; margin: 0 0 var(--space-xs); }
-    .hero-sub { font-family: var(--font-accent); font-size: 1.3rem; color: var(--muted); margin: 0 0 var(--space-sm); }
-    .hero-author { font-size: 0.9rem; color: var(--muted); margin: 0 0 var(--space-xl); }
+    /* ── Hero ── */
+    .hero {
+      position: relative;
+      min-height: 480px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      overflow: hidden;
+    }
+    .hero-bg {
+      position: absolute;
+      inset: 0;
+      background: url('assets/images/K-hero-image-ultrawide.png') center/cover no-repeat;
+      filter: brightness(0.45);
+      z-index: 0;
+    }
+    .hero-content {
+      position: relative;
+      z-index: 1;
+      padding: var(--space-3xl) var(--space-xl);
+      max-width: 800px;
+    }
+    .hero-logo {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      margin: 0 auto var(--space-lg);
+      border: 2px solid rgba(255,255,255,0.3);
+    }
+    .hero h1 {
+      color: #fff;
+      font-size: clamp(2.2rem, 5vw, 3.6rem);
+      margin: 0 0 var(--space-xs);
+      text-shadow: 0 2px 20px rgba(0,0,0,0.6);
+    }
+    .hero-sub {
+      font-family: var(--font-accent);
+      font-size: clamp(1.1rem, 2.5vw, 1.5rem);
+      color: rgba(255,255,255,0.85);
+      margin: 0 0 var(--space-sm);
+      text-shadow: 0 1px 10px rgba(0,0,0,0.5);
+    }
+    .hero-author {
+      font-size: 0.95rem;
+      color: rgba(255,255,255,0.7);
+      margin: 0 0 var(--space-xl);
+    }
     .hero-links { display: flex; gap: var(--space-md); justify-content: center; flex-wrap: wrap; }
-    .hero-btn { display: inline-block; padding: 0.6rem 1.5rem; border-radius: var(--radius-md); font-family: var(--font-headline); font-size: 0.95rem; text-decoration: none; transition: transform 0.2s; }
-    .hero-btn:hover { transform: translateY(-2px); }
+    .hero-btn {
+      display: inline-block;
+      padding: 0.7rem 1.6rem;
+      border-radius: var(--radius-md);
+      font-family: var(--font-headline);
+      font-size: 1rem;
+      text-decoration: none;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .hero-btn:hover { transform: translateY(-2px); box-shadow: 0 4px 20px rgba(0,0,0,0.3); }
     .hero-btn-primary { background: var(--red-deep); color: #fff; }
     .hero-btn-primary:hover { color: #fff; }
-    .hero-btn-secondary { background: var(--bg-soft); color: var(--accent); border: 1px solid var(--border); }
+    .hero-btn-secondary { background: rgba(255,255,255,0.12); color: #fff; border: 1px solid rgba(255,255,255,0.3); backdrop-filter: blur(4px); }
+    .hero-btn-secondary:hover { color: #fff; background: rgba(255,255,255,0.2); }
 
+    /* ── Content ── */
     .content { max-width: var(--max-width); margin: 0 auto; padding: var(--space-xl); }
 
-    /* Resources */
+    /* ── Professor Section ── */
+    .professor-section {
+      display: grid;
+      grid-template-columns: 200px 1fr;
+      gap: var(--space-xl);
+      align-items: center;
+      background: var(--bg-secondary);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: var(--space-xl);
+      margin-bottom: var(--space-2xl);
+    }
+    .professor-img {
+      width: 200px;
+      height: 200px;
+      border-radius: var(--radius-md);
+      object-fit: cover;
+      border: 2px solid var(--border);
+    }
+    .professor-info h3 { margin: 0 0 var(--space-sm); font-size: 1.3rem; }
+    .professor-info p { font-size: 0.95rem; color: var(--muted); margin: 0 0 var(--space-sm); }
+    .professor-info p:last-child { margin-bottom: 0; }
+
+    /* ── Module Cards ── */
+    .module-card-visual {
+      position: relative;
+      border-radius: var(--radius-md);
+      overflow: hidden;
+      margin-bottom: var(--space-lg);
+      border: 1px solid var(--border);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+    .module-card-visual:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 30px rgba(0,0,0,0.3);
+    }
+    .module-card-img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      object-position: center 30%;
+      display: block;
+    }
+    .module-card-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(0,0,0,0.85) 0%, rgba(0,0,0,0.3) 50%, rgba(0,0,0,0.1) 100%);
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: var(--space-lg);
+    }
+    .module-card-number {
+      font-family: var(--font-headline);
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      color: var(--yellow);
+    }
+    .module-card-title {
+      font-family: var(--font-headline);
+      font-size: 1.5rem;
+      color: #fff;
+      margin: var(--space-xs) 0;
+    }
+    .module-card-journey {
+      font-family: var(--font-accent);
+      font-size: 0.95rem;
+      color: rgba(255,255,255,0.75);
+      font-style: italic;
+      margin: 0 0 var(--space-sm);
+    }
+    .module-card-chapters {
+      font-size: 0.85rem;
+      color: rgba(255,255,255,0.6);
+      margin: 0 0 var(--space-md);
+    }
+    .module-card-actions {
+      display: flex;
+      gap: var(--space-sm);
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .module-card-activity {
+      font-family: var(--font-headline);
+      font-size: 0.9rem;
+      color: #fff;
+      background: var(--red-deep);
+      padding: 0.45rem 1.1rem;
+      border-radius: var(--radius-sm);
+      text-decoration: none;
+      transition: background 0.2s;
+    }
+    .module-card-activity:hover { background: var(--red-bright); color: #fff; }
+    .module-card-coming {
+      font-family: var(--font-headline);
+      font-size: 0.8rem;
+      color: rgba(255,255,255,0.45);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .module-card-toggle {
+      background: rgba(255,255,255,0.1);
+      border: 1px solid rgba(255,255,255,0.2);
+      border-radius: var(--radius-sm);
+      color: rgba(255,255,255,0.7);
+      padding: 0.4rem 0.9rem;
+      font-family: var(--font-headline);
+      font-size: 0.8rem;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .module-card-toggle:hover { background: rgba(255,255,255,0.2); }
+
+    /* Chapter list inside module card */
+    .module-card-chapters-list {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      background: var(--bg-secondary);
+      border: 1px solid var(--border);
+      border-top: none;
+      border-radius: 0 0 var(--radius-md) var(--radius-md);
+      margin-top: -1px;
+      display: none;
+    }
+    .module-card-visual.expanded .module-card-chapters-list { display: block; }
+    .module-card-visual.expanded { border-radius: var(--radius-md) var(--radius-md) 0 0; }
+
+    /* ── Journey Divider ── */
+    .journey-divider {
+      text-align: center;
+      margin: var(--space-2xl) 0;
+      position: relative;
+    }
+    .journey-divider img {
+      max-width: 100%;
+      border-radius: var(--radius-md);
+      border: 1px solid var(--border);
+    }
+    .journey-divider-label {
+      font-family: var(--font-headline);
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      color: var(--accent-red);
+      margin-top: var(--space-sm);
+      display: block;
+    }
+
+    /* ── Resources ── */
     .resource-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: var(--space-lg); margin: var(--space-xl) 0; }
     .resource-card { background: var(--bg-secondary); border: 1px solid var(--border); border-radius: var(--radius-md); padding: var(--space-lg); text-align: center; }
     .resource-card h3 { color: var(--accent); font-size: 1rem; margin: 0 0 var(--space-sm); }
     .resource-card p { color: var(--muted); font-size: 0.9rem; margin: 0 0 var(--space-md); }
     .resource-card a { font-family: var(--font-headline); font-size: 0.85rem; }
     .resource-stat { font-size: 1.8rem; font-weight: 700; color: var(--accent); display: block; margin-bottom: var(--space-xs); font-family: var(--font-headline); }
+
+    /* ── Responsive ── */
+    @media (max-width: 768px) {
+      .hero { min-height: 360px; }
+      .professor-section { grid-template-columns: 1fr; text-align: center; }
+      .professor-img { margin: 0 auto; width: 150px; height: 150px; }
+      .module-card-img { height: 160px; }
+    }
   </style>
   <script>
     (function(){try{var t=localStorage.getItem('theme');document.documentElement.setAttribute('data-theme',t==='light'||t==='dark'?t:'dark')}catch(e){document.documentElement.setAttribute('data-theme','dark')}})();
@@ -39,369 +252,190 @@
 <body>
   <nav class="site-nav"><!-- rendered by nav.js --></nav>
 
+  <!-- ═══════ HERO ═══════ -->
   <header class="hero">
-    <h1>Contract Law</h1>
-    <p class="hero-sub">Rules, Cases, and Problems</p>
-    <p class="hero-author">Second Edition &middot; Seth C. Oranburg &middot; Carolina Academic Press (2025)</p>
-    <div class="hero-links">
-      <a href="https://cap-press.com/books/isbn/9781531033804/Contract-Law-Second-Edition" target="_blank" rel="noopener noreferrer" class="hero-btn hero-btn-primary">Get the Casebook</a>
-      <a href="https://quaere-1cgr.onrender.com" target="_blank" rel="noopener noreferrer" class="hero-btn hero-btn-secondary">Self-Assess on Quaere</a>
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <img src="assets/images/K-site-image-small.png" alt="Contract Law" class="hero-logo">
+      <h1>Contract Law</h1>
+      <p class="hero-sub">Rules, Cases, and Problems</p>
+      <p class="hero-author">Second Edition &middot; Seth C. Oranburg &middot; Carolina Academic Press (2025)</p>
+      <div class="hero-links">
+        <a href="https://cap-press.com/books/isbn/9781531033804/Contract-Law-Second-Edition" target="_blank" rel="noopener noreferrer" class="hero-btn hero-btn-primary">Get the Casebook</a>
+        <a href="https://quaere-1cgr.onrender.com" target="_blank" rel="noopener noreferrer" class="hero-btn hero-btn-secondary">Self-Assess on Quaere</a>
+      </div>
     </div>
   </header>
 
   <main class="content">
 
-    <h2>Course Roadmap</h2>
-    <p>28 chapters across seven modules — from the first promise to the final remedy. Complete the interactive exercises to track your progress.</p>
+    <!-- ═══════ Professor ═══════ -->
+    <section class="professor-section">
+      <img src="assets/images/K-SCO-writing-with-frodo-and-sam.png" alt="Professor Oranburg" class="professor-img">
+      <div class="professor-info">
+        <h3>Your Guide Through Middle-earth</h3>
+        <p>Contract law is the law of promises. In this course companion, you will experience doctrine as a narrative — from Bilbo's first bargain in the Shire through the Fellowship's complex agreements to the remedies that make Middle-earth whole again.</p>
+        <p>Seven modules. Twenty-eight chapters. One continuous story.</p>
+      </div>
+    </section>
 
-    <div class="roadmap">
+    <h2>The Journey</h2>
+    <p>Follow the Hero's Journey from the Shire to Mount Doom. Each module is a stage in the adventure — and a pillar of contract law.</p>
 
-      <!-- ═══════ Module 1: Foundations ═══════ -->
-      <div class="roadmap-module">
-        <div class="module-activity-link">
-          <a href="exercises/mod-1-there-and-back-again/" class="module-activity-btn">There and Back Again</a>
-          <span class="module-activity-label">Module Activity</span>
+    <!-- ═══════ Module 1: Foundations ═══════ -->
+    <div class="module-card-visual" id="mod1">
+      <img src="assets/images/k-shire-morning.png" alt="The Shire" class="module-card-img">
+      <div class="module-card-overlay">
+        <span class="module-card-number">Module 1 &middot; Ordinary World</span>
+        <h3 class="module-card-title">Foundations</h3>
+        <p class="module-card-journey">Bag End &mdash; where promises are kept without lawyers</p>
+        <p class="module-card-chapters">Chapters 1&ndash;2 &middot; What is contract law? What is a contract?</p>
+        <div class="module-card-actions">
+          <a href="exercises/mod-1-there-and-back-again/" class="module-card-activity">There and Back Again</a>
+          <button class="module-card-toggle" onclick="toggleModuleCard('mod1')">Chapters</button>
         </div>
-        <button class="module-header" onclick="toggleModule(this)" aria-expanded="true">
-          <div class="module-header-left">
-            <span class="module-number">Module 1</span>
-            <span class="module-name">Foundations</span>
-          </div>
-          <div class="module-header-right" data-module-chapters="1,2">
-            <span class="module-progress-count"></span>
-            <svg class="module-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
-          </div>
-        </button>
-        <ul class="module-chapters-list">
-          <li class="chapter-row" data-chapter="1">
-            <span class="chapter-dot"></span>
-            <span class="chapter-num">1</span>
-            <div class="chapter-info">
-              <span class="chapter-title">What Is Contract Law?</span>
-            </div>
-            <span class="chapter-coming-soon">Coming soon</span>
-          </li>
-          <li class="chapter-row" data-chapter="2">
-            <span class="chapter-dot"></span>
-            <span class="chapter-num">2</span>
-            <div class="chapter-info">
-              <span class="chapter-title">What Is a Contract?</span>
-            </div>
-            <span class="chapter-coming-soon">Coming soon</span>
-          </li>
-        </ul>
       </div>
+      <ul class="module-card-chapters-list">
+        <li class="chapter-row" data-chapter="1"><span class="chapter-dot"></span><span class="chapter-num">1</span><div class="chapter-info"><span class="chapter-title">What Is Contract Law?</span></div><span class="chapter-coming-soon">Coming soon</span></li>
+        <li class="chapter-row" data-chapter="2"><span class="chapter-dot"></span><span class="chapter-num">2</span><div class="chapter-info"><span class="chapter-title">What Is a Contract?</span></div><span class="chapter-coming-soon">Coming soon</span></li>
+      </ul>
+    </div>
 
-      <!-- ═══════ Module 2: Mutual Assent ═══════ -->
-      <div class="roadmap-module">
-        <div class="module-activity-link">
-          <a href="exercises/mod-2-road-goes-ever-on/" class="module-activity-btn">The Road Goes Ever On</a>
-          <span class="module-activity-label">Module Activity</span>
+    <!-- ═══════ Module 2: Mutual Assent ═══════ -->
+    <div class="module-card-visual" id="mod2">
+      <img src="assets/images/K-unexpected-party.png" alt="The Unexpected Party" class="module-card-img">
+      <div class="module-card-overlay">
+        <span class="module-card-number">Module 2 &middot; Call to Adventure</span>
+        <h3 class="module-card-title">Mutual Assent</h3>
+        <p class="module-card-journey">From Bag End through trolls, riddles, and Mirkwood trade</p>
+        <p class="module-card-chapters">Chapters 3&ndash;6 &middot; Bargains, offers, termination, acceptance</p>
+        <div class="module-card-actions">
+          <a href="exercises/mod-2-road-goes-ever-on/" class="module-card-activity">The Road Goes Ever On</a>
+          <button class="module-card-toggle" onclick="toggleModuleCard('mod2')">Chapters</button>
         </div>
-        <button class="module-header" onclick="toggleModule(this)" aria-expanded="true">
-          <div class="module-header-left">
-            <span class="module-number">Module 2</span>
-            <span class="module-name">Mutual Assent</span>
-          </div>
-          <div class="module-header-right" data-module-chapters="3,4,5,6">
-            <span class="module-progress-count"></span>
-            <svg class="module-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
-          </div>
-        </button>
-        <ul class="module-chapters-list">
-          <li class="chapter-row" data-chapter="3">
-            <span class="chapter-dot"></span>
-            <span class="chapter-num">3</span>
-            <div class="chapter-info">
-              <span class="chapter-title">Bargains</span>
-            </div>
-            <span class="chapter-coming-soon">Coming soon</span>
-          </li>
-          <li class="chapter-row" data-chapter="4">
-            <span class="chapter-dot"></span>
-            <span class="chapter-num">4</span>
-            <div class="chapter-info">
-              <span class="chapter-title">Offers</span>
-            </div>
-            <span class="chapter-coming-soon">Coming soon</span>
-          </li>
-          <li class="chapter-row" data-chapter="5">
-            <span class="chapter-dot"></span>
-            <span class="chapter-num">5</span>
-            <div class="chapter-info">
-              <span class="chapter-title">Termination of the Offer</span>
-            </div>
-            <span class="chapter-coming-soon">Coming soon</span>
-          </li>
-          <li class="chapter-row" data-chapter="6">
-            <span class="chapter-dot"></span>
-            <span class="chapter-num">6</span>
-            <div class="chapter-info">
-              <span class="chapter-title">Acceptance</span>
-            </div>
-            <span class="chapter-coming-soon">Coming soon</span>
-          </li>
-        </ul>
       </div>
+      <ul class="module-card-chapters-list">
+        <li class="chapter-row" data-chapter="3"><span class="chapter-dot"></span><span class="chapter-num">3</span><div class="chapter-info"><span class="chapter-title">Bargains</span></div><span class="chapter-coming-soon">Coming soon</span></li>
+        <li class="chapter-row" data-chapter="4"><span class="chapter-dot"></span><span class="chapter-num">4</span><div class="chapter-info"><span class="chapter-title">Offers</span></div><span class="chapter-coming-soon">Coming soon</span></li>
+        <li class="chapter-row" data-chapter="5"><span class="chapter-dot"></span><span class="chapter-num">5</span><div class="chapter-info"><span class="chapter-title">Termination of the Offer</span></div><span class="chapter-coming-soon">Coming soon</span></li>
+        <li class="chapter-row" data-chapter="6"><span class="chapter-dot"></span><span class="chapter-num">6</span><div class="chapter-info"><span class="chapter-title">Acceptance</span></div><span class="chapter-coming-soon">Coming soon</span></li>
+      </ul>
+    </div>
 
-      <!-- ═══════ Module 3: Consideration & Alternatives ═══════ -->
-      <div class="roadmap-module">
-        <button class="module-header" onclick="toggleModule(this)" aria-expanded="true">
-          <div class="module-header-left">
-            <span class="module-number">Module 3</span>
-            <span class="module-name">Consideration &amp; Alternatives</span>
-          </div>
-          <div class="module-header-right" data-module-chapters="7,8,9">
-            <span class="module-progress-count"></span>
-            <svg class="module-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
-          </div>
-        </button>
-        <ul class="module-chapters-list">
-          <li class="chapter-row" data-chapter="7">
-            <span class="chapter-dot"></span>
-            <span class="chapter-num">7</span>
-            <div class="chapter-info">
-              <span class="chapter-title">Consideration</span>
-            </div>
-            <span class="chapter-coming-soon">Coming soon</span>
-          </li>
-          <li class="chapter-row" data-chapter="8">
-            <span class="chapter-dot"></span>
-            <span class="chapter-num">8</span>
-            <div class="chapter-info">
-              <span class="chapter-title">Promissory Estoppel</span>
-            </div>
-            <span class="chapter-coming-soon">Coming soon</span>
-          </li>
-          <li class="chapter-row" data-chapter="9">
-            <span class="chapter-dot"></span>
-            <span class="chapter-num">9</span>
-            <div class="chapter-info">
-              <span class="chapter-title">Promissory Restitution</span>
-            </div>
-            <span class="chapter-coming-soon">Coming soon</span>
-          </li>
-        </ul>
+    <!-- ═══════ Module 3: Consideration ═══════ -->
+    <div class="module-card-visual" id="mod3">
+      <img src="assets/images/K-lonely-mountain-hoard.png" alt="The Lonely Mountain" class="module-card-img">
+      <div class="module-card-overlay">
+        <span class="module-card-number">Module 3 &middot; Tests &amp; Allies</span>
+        <h3 class="module-card-title">Consideration &amp; Alternatives</h3>
+        <p class="module-card-journey">The Lonely Mountain &mdash; what was bargained for, promised, and owed</p>
+        <p class="module-card-chapters">Chapters 7&ndash;9 &middot; Consideration, promissory estoppel, restitution</p>
+        <div class="module-card-actions">
+          <span class="module-card-coming">Activity coming soon</span>
+          <button class="module-card-toggle" onclick="toggleModuleCard('mod3')">Chapters</button>
+        </div>
       </div>
+      <ul class="module-card-chapters-list">
+        <li class="chapter-row" data-chapter="7"><span class="chapter-dot"></span><span class="chapter-num">7</span><div class="chapter-info"><span class="chapter-title">Consideration</span></div><span class="chapter-coming-soon">Coming soon</span></li>
+        <li class="chapter-row" data-chapter="8"><span class="chapter-dot"></span><span class="chapter-num">8</span><div class="chapter-info"><span class="chapter-title">Promissory Estoppel</span></div><span class="chapter-coming-soon">Coming soon</span></li>
+        <li class="chapter-row" data-chapter="9"><span class="chapter-dot"></span><span class="chapter-num">9</span><div class="chapter-info"><span class="chapter-title">Promissory Restitution</span></div><span class="chapter-coming-soon">Coming soon</span></li>
+      </ul>
+    </div>
 
-      <!-- ═══════ Module 4: Defenses to Formation ═══════ -->
-      <div class="roadmap-module">
-        <button class="module-header" onclick="toggleModule(this)" aria-expanded="true">
-          <div class="module-header-left">
-            <span class="module-number">Module 4</span>
-            <span class="module-name">Defenses to Formation</span>
-          </div>
-          <div class="module-header-right" data-module-chapters="10,11,12,13">
-            <span class="module-progress-count"></span>
-            <svg class="module-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
-          </div>
-        </button>
-        <ul class="module-chapters-list">
-          <li class="chapter-row" data-chapter="10">
-            <span class="chapter-dot"></span>
-            <span class="chapter-num">10</span>
-            <div class="chapter-info">
-              <span class="chapter-title">The Statute of Frauds</span>
-            </div>
-            <span class="chapter-coming-soon">Coming soon</span>
-          </li>
-          <li class="chapter-row" data-chapter="11">
-            <span class="chapter-dot"></span>
-            <span class="chapter-num">11</span>
-            <div class="chapter-info">
-              <span class="chapter-title">Mistake</span>
-            </div>
-            <span class="chapter-coming-soon">Coming soon</span>
-          </li>
-          <li class="chapter-row" data-chapter="12">
-            <span class="chapter-dot"></span>
-            <span class="chapter-num">12</span>
-            <div class="chapter-info">
-              <span class="chapter-title">Improper Bargaining</span>
-            </div>
-            <span class="chapter-coming-soon">Coming soon</span>
-          </li>
-          <li class="chapter-row" data-chapter="13">
-            <span class="chapter-dot"></span>
-            <span class="chapter-num">13</span>
-            <div class="chapter-info">
-              <span class="chapter-title">Incapacity</span>
-            </div>
-            <span class="chapter-coming-soon">Coming soon</span>
-          </li>
-        </ul>
+    <!-- ═══════ Journey Divider: Hobbit → LOTR ═══════ -->
+    <div class="journey-divider">
+      <img src="assets/images/K-there-and-back-again.png" alt="There and Back Again — The journey continues">
+      <span class="journey-divider-label">The quest deepens &mdash; from the Hobbit to the Lord of the Rings</span>
+    </div>
+
+    <!-- ═══════ Module 4: Defenses ═══════ -->
+    <div class="module-card-visual" id="mod4">
+      <img src="assets/images/K-council-of-elrond.png" alt="Council of Elrond" class="module-card-img">
+      <div class="module-card-overlay">
+        <span class="module-card-number">Module 4 &middot; Crossing the Threshold</span>
+        <h3 class="module-card-title">Defenses to Formation</h3>
+        <p class="module-card-journey">The corruption of agreements &mdash; forged documents, mistaken beliefs, overborne wills</p>
+        <p class="module-card-chapters">Chapters 10&ndash;13 &middot; Statute of Frauds, mistake, improper bargaining, incapacity</p>
+        <div class="module-card-actions">
+          <span class="module-card-coming">Activity coming soon</span>
+          <button class="module-card-toggle" onclick="toggleModuleCard('mod4')">Chapters</button>
+        </div>
       </div>
+      <ul class="module-card-chapters-list">
+        <li class="chapter-row" data-chapter="10"><span class="chapter-dot"></span><span class="chapter-num">10</span><div class="chapter-info"><span class="chapter-title">The Statute of Frauds</span></div><span class="chapter-coming-soon">Coming soon</span></li>
+        <li class="chapter-row" data-chapter="11"><span class="chapter-dot"></span><span class="chapter-num">11</span><div class="chapter-info"><span class="chapter-title">Mistake</span></div><span class="chapter-coming-soon">Coming soon</span></li>
+        <li class="chapter-row" data-chapter="12"><span class="chapter-dot"></span><span class="chapter-num">12</span><div class="chapter-info"><span class="chapter-title">Improper Bargaining</span></div><span class="chapter-coming-soon">Coming soon</span></li>
+        <li class="chapter-row" data-chapter="13"><span class="chapter-dot"></span><span class="chapter-num">13</span><div class="chapter-info"><span class="chapter-title">Incapacity</span></div><span class="chapter-coming-soon">Coming soon</span></li>
+      </ul>
+    </div>
 
-      <!-- ═══════ Module 5: Interpretation & Terms ═══════ -->
-      <div class="roadmap-module">
-        <button class="module-header" onclick="toggleModule(this)" aria-expanded="true">
-          <div class="module-header-left">
-            <span class="module-number">Module 5</span>
-            <span class="module-name">Interpretation &amp; Terms</span>
-          </div>
-          <div class="module-header-right" data-module-chapters="14,15,16,17,18">
-            <span class="module-progress-count"></span>
-            <svg class="module-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
-          </div>
-        </button>
-        <ul class="module-chapters-list">
-          <li class="chapter-row" data-chapter="14">
-            <span class="chapter-dot"></span>
-            <span class="chapter-num">14</span>
-            <div class="chapter-info">
-              <span class="chapter-title">Ambiguity</span>
-            </div>
-            <span class="chapter-coming-soon">Coming soon</span>
-          </li>
-          <li class="chapter-row" data-chapter="15">
-            <span class="chapter-dot"></span>
-            <span class="chapter-num">15</span>
-            <div class="chapter-info">
-              <span class="chapter-title">Intrinsic Evidence</span>
-            </div>
-            <span class="chapter-coming-soon">Coming soon</span>
-          </li>
-          <li class="chapter-row" data-chapter="16">
-            <span class="chapter-dot"></span>
-            <span class="chapter-num">16</span>
-            <div class="chapter-info">
-              <span class="chapter-title">Extrinsic Evidence</span>
-            </div>
-            <span class="chapter-coming-soon">Coming soon</span>
-          </li>
-          <li class="chapter-row" data-chapter="17">
-            <span class="chapter-dot"></span>
-            <span class="chapter-num">17</span>
-            <div class="chapter-info">
-              <span class="chapter-title">The Parol Evidence Rule</span>
-            </div>
-            <span class="chapter-coming-soon">Coming soon</span>
-          </li>
-          <li class="chapter-row" data-chapter="18">
-            <span class="chapter-dot"></span>
-            <span class="chapter-num">18</span>
-            <div class="chapter-info">
-              <span class="chapter-title">Warranties</span>
-            </div>
-            <span class="chapter-coming-soon">Coming soon</span>
-          </li>
-        </ul>
+    <!-- ═══════ Module 5: Interpretation ═══════ -->
+    <div class="module-card-visual" id="mod5">
+      <img src="assets/images/K-doors-of-moria.png" alt="Doors of Moria" class="module-card-img">
+      <div class="module-card-overlay">
+        <span class="module-card-number">Module 5 &middot; Inmost Cave</span>
+        <h3 class="module-card-title">Interpretation &amp; Terms</h3>
+        <p class="module-card-journey">Speak, friend, and enter &mdash; reading the words beneath the words</p>
+        <p class="module-card-chapters">Chapters 14&ndash;18 &middot; Ambiguity, evidence, parol evidence, warranties</p>
+        <div class="module-card-actions">
+          <span class="module-card-coming">Activity coming soon</span>
+          <button class="module-card-toggle" onclick="toggleModuleCard('mod5')">Chapters</button>
+        </div>
       </div>
+      <ul class="module-card-chapters-list">
+        <li class="chapter-row" data-chapter="14"><span class="chapter-dot"></span><span class="chapter-num">14</span><div class="chapter-info"><span class="chapter-title">Ambiguity</span></div><span class="chapter-coming-soon">Coming soon</span></li>
+        <li class="chapter-row" data-chapter="15"><span class="chapter-dot"></span><span class="chapter-num">15</span><div class="chapter-info"><span class="chapter-title">Intrinsic Evidence</span></div><span class="chapter-coming-soon">Coming soon</span></li>
+        <li class="chapter-row" data-chapter="16"><span class="chapter-dot"></span><span class="chapter-num">16</span><div class="chapter-info"><span class="chapter-title">Extrinsic Evidence</span></div><span class="chapter-coming-soon">Coming soon</span></li>
+        <li class="chapter-row" data-chapter="17"><span class="chapter-dot"></span><span class="chapter-num">17</span><div class="chapter-info"><span class="chapter-title">The Parol Evidence Rule</span></div><span class="chapter-coming-soon">Coming soon</span></li>
+        <li class="chapter-row" data-chapter="18"><span class="chapter-dot"></span><span class="chapter-num">18</span><div class="chapter-info"><span class="chapter-title">Warranties</span></div><span class="chapter-coming-soon">Coming soon</span></li>
+      </ul>
+    </div>
 
-      <!-- ═══════ Module 6: Performance & Breach ═══════ -->
-      <div class="roadmap-module">
-        <button class="module-header" onclick="toggleModule(this)" aria-expanded="true">
-          <div class="module-header-left">
-            <span class="module-number">Module 6</span>
-            <span class="module-name">Performance &amp; Breach</span>
-          </div>
-          <div class="module-header-right" data-module-chapters="19,20,21,22,23">
-            <span class="module-progress-count"></span>
-            <svg class="module-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
-          </div>
-        </button>
-        <ul class="module-chapters-list">
-          <li class="chapter-row" data-chapter="19">
-            <span class="chapter-dot"></span>
-            <span class="chapter-num">19</span>
-            <div class="chapter-info">
-              <span class="chapter-title">Conditions</span>
-            </div>
-            <span class="chapter-coming-soon">Coming soon</span>
-          </li>
-          <li class="chapter-row" data-chapter="20">
-            <span class="chapter-dot"></span>
-            <span class="chapter-num">20</span>
-            <div class="chapter-info">
-              <span class="chapter-title">Substantial Performance and Material Breach</span>
-            </div>
-            <span class="chapter-coming-soon">Coming soon</span>
-          </li>
-          <li class="chapter-row" data-chapter="21">
-            <span class="chapter-dot"></span>
-            <span class="chapter-num">21</span>
-            <div class="chapter-info">
-              <span class="chapter-title">Repudiation</span>
-            </div>
-            <span class="chapter-coming-soon">Coming soon</span>
-          </li>
-          <li class="chapter-row" data-chapter="22">
-            <span class="chapter-dot"></span>
-            <span class="chapter-num">22</span>
-            <div class="chapter-info">
-              <span class="chapter-title">Excuse</span>
-            </div>
-            <span class="chapter-coming-soon">Coming soon</span>
-          </li>
-          <li class="chapter-row" data-chapter="23">
-            <span class="chapter-dot"></span>
-            <span class="chapter-num">23</span>
-            <div class="chapter-info">
-              <span class="chapter-title">Modification and Discharge</span>
-            </div>
-            <span class="chapter-coming-soon">Coming soon</span>
-          </li>
-        </ul>
+    <!-- ═══════ Module 6: Performance ═══════ -->
+    <div class="module-card-visual" id="mod6">
+      <img src="assets/images/K-helms-deep-dawn.png" alt="Helm's Deep" class="module-card-img">
+      <div class="module-card-overlay">
+        <span class="module-card-number">Module 6 &middot; The Ordeal</span>
+        <h3 class="module-card-title">Performance &amp; Breach</h3>
+        <p class="module-card-journey">From Helm's Deep to the Black Gate &mdash; performance under fire</p>
+        <p class="module-card-chapters">Chapters 19&ndash;23 &middot; Conditions, performance, repudiation, excuse, modification</p>
+        <div class="module-card-actions">
+          <span class="module-card-coming">Activity coming soon</span>
+          <button class="module-card-toggle" onclick="toggleModuleCard('mod6')">Chapters</button>
+        </div>
       </div>
+      <ul class="module-card-chapters-list">
+        <li class="chapter-row" data-chapter="19"><span class="chapter-dot"></span><span class="chapter-num">19</span><div class="chapter-info"><span class="chapter-title">Conditions</span></div><span class="chapter-coming-soon">Coming soon</span></li>
+        <li class="chapter-row" data-chapter="20"><span class="chapter-dot"></span><span class="chapter-num">20</span><div class="chapter-info"><span class="chapter-title">Substantial Performance and Material Breach</span></div><span class="chapter-coming-soon">Coming soon</span></li>
+        <li class="chapter-row" data-chapter="21"><span class="chapter-dot"></span><span class="chapter-num">21</span><div class="chapter-info"><span class="chapter-title">Repudiation</span></div><span class="chapter-coming-soon">Coming soon</span></li>
+        <li class="chapter-row" data-chapter="22"><span class="chapter-dot"></span><span class="chapter-num">22</span><div class="chapter-info"><span class="chapter-title">Excuse</span></div><span class="chapter-coming-soon">Coming soon</span></li>
+        <li class="chapter-row" data-chapter="23"><span class="chapter-dot"></span><span class="chapter-num">23</span><div class="chapter-info"><span class="chapter-title">Modification and Discharge</span></div><span class="chapter-coming-soon">Coming soon</span></li>
+      </ul>
+    </div>
 
-      <!-- ═══════ Module 7: Remedies & Third Parties ═══════ -->
-      <div class="roadmap-module">
-        <button class="module-header" onclick="toggleModule(this)" aria-expanded="true">
-          <div class="module-header-left">
-            <span class="module-number">Module 7</span>
-            <span class="module-name">Remedies &amp; Third Parties</span>
-          </div>
-          <div class="module-header-right" data-module-chapters="24,25,26,27,28">
-            <span class="module-progress-count"></span>
-            <svg class="module-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
-          </div>
-        </button>
-        <ul class="module-chapters-list">
-          <li class="chapter-row" data-chapter="24">
-            <span class="chapter-dot"></span>
-            <span class="chapter-num">24</span>
-            <div class="chapter-info">
-              <span class="chapter-title">Money Damages for Nonperformance</span>
-            </div>
-            <span class="chapter-coming-soon">Coming soon</span>
-          </li>
-          <li class="chapter-row" data-chapter="25">
-            <span class="chapter-dot"></span>
-            <span class="chapter-num">25</span>
-            <div class="chapter-info">
-              <span class="chapter-title">Money Damages for Defective Performance</span>
-            </div>
-            <span class="chapter-coming-soon">Coming soon</span>
-          </li>
-          <li class="chapter-row" data-chapter="26">
-            <span class="chapter-dot"></span>
-            <span class="chapter-num">26</span>
-            <div class="chapter-info">
-              <span class="chapter-title">Limitations on Money Damages</span>
-            </div>
-            <span class="chapter-coming-soon">Coming soon</span>
-          </li>
-          <li class="chapter-row" data-chapter="27">
-            <span class="chapter-dot"></span>
-            <span class="chapter-num">27</span>
-            <div class="chapter-info">
-              <span class="chapter-title">Alternative Remedies</span>
-            </div>
-            <span class="chapter-coming-soon">Coming soon</span>
-          </li>
-          <li class="chapter-row" data-chapter="28">
-            <span class="chapter-dot"></span>
-            <span class="chapter-num">28</span>
-            <div class="chapter-info">
-              <span class="chapter-title">Third-Party Beneficiaries</span>
-            </div>
-            <span class="chapter-coming-soon">Coming soon</span>
-          </li>
-        </ul>
+    <!-- ═══════ Module 7: Remedies ═══════ -->
+    <div class="module-card-visual" id="mod7">
+      <img src="assets/images/K-mount-doom.png" alt="Mount Doom" class="module-card-img">
+      <div class="module-card-overlay">
+        <span class="module-card-number">Module 7 &middot; Return with the Elixir</span>
+        <h3 class="module-card-title">Remedies &amp; Third Parties</h3>
+        <p class="module-card-journey">Mount Doom to the Grey Havens &mdash; making Middle-earth whole</p>
+        <p class="module-card-chapters">Chapters 24&ndash;28 &middot; Damages, limits, alternatives, third-party beneficiaries</p>
+        <div class="module-card-actions">
+          <span class="module-card-coming">Activity coming soon</span>
+          <button class="module-card-toggle" onclick="toggleModuleCard('mod7')">Chapters</button>
+        </div>
       </div>
+      <ul class="module-card-chapters-list">
+        <li class="chapter-row" data-chapter="24"><span class="chapter-dot"></span><span class="chapter-num">24</span><div class="chapter-info"><span class="chapter-title">Money Damages for Nonperformance</span></div><span class="chapter-coming-soon">Coming soon</span></li>
+        <li class="chapter-row" data-chapter="25"><span class="chapter-dot"></span><span class="chapter-num">25</span><div class="chapter-info"><span class="chapter-title">Money Damages for Defective Performance</span></div><span class="chapter-coming-soon">Coming soon</span></li>
+        <li class="chapter-row" data-chapter="26"><span class="chapter-dot"></span><span class="chapter-num">26</span><div class="chapter-info"><span class="chapter-title">Limitations on Money Damages</span></div><span class="chapter-coming-soon">Coming soon</span></li>
+        <li class="chapter-row" data-chapter="27"><span class="chapter-dot"></span><span class="chapter-num">27</span><div class="chapter-info"><span class="chapter-title">Alternative Remedies</span></div><span class="chapter-coming-soon">Coming soon</span></li>
+        <li class="chapter-row" data-chapter="28"><span class="chapter-dot"></span><span class="chapter-num">28</span><div class="chapter-info"><span class="chapter-title">Third-Party Beneficiaries</span></div><span class="chapter-coming-soon">Coming soon</span></li>
+      </ul>
+    </div>
 
-    </div><!-- .roadmap -->
-
+    <!-- ═══════ Resources ═══════ -->
     <h2>Resources</h2>
     <p>Everything you need for the course, in one place.</p>
     <div class="resource-grid">
@@ -441,10 +475,9 @@
   <script src="assets/js/nav.js"></script>
   <script src="assets/js/progress.js"></script>
   <script>
-    function toggleModule(btn) {
-      var mod = btn.closest('.roadmap-module');
-      var isCollapsed = mod.classList.toggle('collapsed');
-      btn.setAttribute('aria-expanded', !isCollapsed);
+    function toggleModuleCard(id) {
+      var card = document.getElementById(id);
+      card.classList.toggle('expanded');
     }
   </script>
 </body>
