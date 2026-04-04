@@ -4,7 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contract Law — Course Companion</title>
-  <meta name="description" content="Companion site for Contract Law: Rules, Cases, and Problems (2d ed.) by Seth C. Oranburg. Lectures, podcast, exercises, and assessment.">
+  <meta name="description" content="Companion site for Contract Law: Rules, Cases, and Problems (2d ed.) by Seth C. Oranburg. 28-chapter roadmap, interactive exercises, and assessment.">
+  <meta name="nav-depth" content="0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Oswald:wght@200..700&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -23,25 +24,6 @@
 
     .content { max-width: var(--max-width); margin: 0 auto; padding: var(--space-xl); }
 
-    /* Exercises */
-    .exercise-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: var(--space-lg); margin: var(--space-xl) 0; }
-    .exercise-card { display: block; background: var(--bg-secondary); border: 1px solid var(--border); border-radius: var(--radius-md); padding: var(--space-xl); text-decoration: none; color: var(--text); transition: border-color 0.2s, transform 0.2s; }
-    .exercise-card:hover { border-color: var(--accent); transform: translateY(-3px); color: var(--text); }
-    .exercise-icon { display: flex; align-items: center; justify-content: center; width: 64px; height: 64px; border-radius: var(--radius-md); background: var(--bg-soft); border: 1px solid var(--border); margin-bottom: var(--space-md); }
-    .exercise-icon svg { width: 36px; height: 36px; color: var(--accent); }
-    .exercise-card h3 { font-family: var(--font-headline); font-size: 1.3rem; color: var(--accent); margin: 0 0 var(--space-xs); }
-    .exercise-card .exercise-module { font-family: var(--font-headline); font-size: 0.65rem; text-transform: uppercase; letter-spacing: 1.5px; color: var(--accent-red); margin-bottom: var(--space-sm); display: block; }
-    .exercise-card .exercise-doctrine { font-family: var(--font-accent); font-size: 0.95rem; color: var(--muted); display: block; margin-bottom: var(--space-sm); }
-    .exercise-card p { color: var(--muted); font-size: 0.9rem; margin: 0; }
-
-    /* Modules */
-    .module-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: var(--space-lg); margin: var(--space-xl) 0; }
-    .module-card { background: var(--bg-secondary); border: 1px solid var(--border); border-top: 3px solid var(--accent-red); border-radius: 0 0 var(--radius-md) var(--radius-md); padding: var(--space-lg); }
-    .module-card h3 { color: var(--accent); margin: 0 0 var(--space-xs); font-size: 1.1rem; }
-    .module-label { font-family: var(--font-headline); font-size: 0.65rem; text-transform: uppercase; letter-spacing: 1.5px; color: var(--accent-red); }
-    .module-chapters { font-size: 0.85rem; color: var(--muted); margin: var(--space-sm) 0 0; }
-    .module-topics { font-size: 0.9rem; margin: var(--space-sm) 0 0; }
-
     /* Resources */
     .resource-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: var(--space-lg); margin: var(--space-xl) 0; }
     .resource-card { background: var(--bg-secondary); border: 1px solid var(--border); border-radius: var(--radius-md); padding: var(--space-lg); text-align: center; }
@@ -55,15 +37,7 @@
   </script>
 </head>
 <body>
-  <nav class="site-nav">
-    <ul>
-      <li><a href="/" aria-current="page">Home</a></li>
-      <li><a href="https://oranburg.law/courses/contracts/">Course Page</a></li>
-      <li><a href="https://quaere-1cgr.onrender.com" target="_blank" rel="noopener noreferrer">Quaere</a></li>
-      <li><a href="https://oranburg.law">oranburg.law</a></li>
-      <li><button class="theme-toggle" onclick="toggleTheme()" aria-label="Switch to light mode"><svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg><svg class="icon-moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg></button></li>
-    </ul>
-  </nav>
+  <nav class="site-nav"><!-- rendered by nav.js --></nav>
 
   <header class="hero">
     <h1>Contract Law</h1>
@@ -77,221 +51,348 @@
 
   <main class="content">
 
-    <h2>Interactive Exercises</h2>
-    <p>Hands-on activities that bring doctrine to life. Each exercise connects directly to the casebook and learning objectives.</p>
-    <div class="exercise-grid">
-      <a href="exercises/bilbo-contract/" class="exercise-card">
-        <div class="exercise-icon">
-          <svg viewBox="0 0 36 36" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <rect x="6" y="3" width="24" height="30" rx="2"/>
-            <line x1="11" y1="10" x2="25" y2="10"/>
-            <line x1="11" y1="15" x2="25" y2="15"/>
-            <line x1="11" y1="20" x2="20" y2="20"/>
-            <path d="M14 27c2-2 5-2 7 0"/>
-          </svg>
-        </div>
-        <span class="exercise-module">Modules 1&ndash;7 &bull; Full curriculum</span>
-        <h3>Bilbo's Burglar Agreement</h3>
-        <span class="exercise-doctrine">Anatomy of a Contract</span>
-        <p>Read and analyze the Hobbit's burglar-services agreement. Toggle between reading mode, teaching notes, and module color coding. Every article mapped to casebook chapters and learning objectives.</p>
-      </a>
-      <a href="exercises/lonely-mountain-dispute/" class="exercise-card">
-        <div class="exercise-icon">
-          <svg viewBox="0 0 36 36" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round">
-            <path d="M4 28L13 13l5 7 6-10 8 18H4Z"/>
-            <path d="M17 9l2-5 2 5" stroke-linecap="round"/>
-          </svg>
-        </div>
-        <span class="exercise-module">Module 7 &bull; Remedies</span>
-        <h3>Whose Arkenstone?</h3>
-        <span class="exercise-doctrine">Breach &amp; Remedies</span>
-        <p>A live classroom simulation: confidential role rooms for Bilbo and the Company, a negotiation timer, remedies checklist, settlement term sheet, and debrief export. Best used in 60&ndash;90 minutes.</p>
-      </a>
-      <a href="exercises/fellowship-of-the-contract/" class="exercise-card">
-        <div class="exercise-icon">
-          <svg viewBox="0 0 36 36" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M4 28h28"/>
-            <path d="M8 28V9h8v19"/>
-            <path d="M20 28V5h8v23"/>
-            <path d="M12 13h2"/>
-            <path d="M24 10h2"/>
-          </svg>
-        </div>
-        <span class="exercise-module">Modules 3–6 &bull; Interactive IRAC</span>
-        <h3>The Fellowship of the Contract</h3>
-        <span class="exercise-doctrine">Evidence Discovery Suite</span>
-        <p>Six connected Middle-earth exercises featuring Investigation Desk evidence, Tome of Law sidebar, drag-and-drop exceptions, redline ambiguity spotting, objection interrupts, balancing scales, and Mad-Libs judicial holdings.</p>
-      </a>
-      <a href="exercises/shire-promises/" class="exercise-card">
-        <div class="exercise-icon">
-          <svg viewBox="0 0 36 36" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M6 26h24"/>
-            <path d="M10 26V10h16v16"/>
-            <path d="M14 14h8"/>
-            <path d="M14 18h8"/>
-          </svg>
-        </div>
-        <span class="exercise-module">Module 1 &bull; Objective Theory</span>
-        <h3>Shire Promises</h3>
-        <span class="exercise-doctrine">Nature of Promises</span>
-        <p>Bag End objective-manifestation exercise with evidence desk, redline issue spotting, and Mad-Libs holding under R2d § 2.</p>
-      </a>
-      <a href="exercises/bree-acceptance/" class="exercise-card">
-        <div class="exercise-icon">
-          <svg viewBox="0 0 36 36" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <circle cx="10" cy="10" r="3"/>
-            <circle cx="26" cy="10" r="3"/>
-            <circle cx="18" cy="26" r="3"/>
-            <path d="M12.5 12.5L16 23"/>
-            <path d="M23.5 12.5L20 23"/>
-          </svg>
-        </div>
-        <span class="exercise-module">Module 2 &bull; Manner of Acceptance</span>
-        <h3>Bree Acceptance</h3>
-        <span class="exercise-doctrine">Bilateral vs. Unilateral</span>
-        <p>Reward-offer classification using investigation artifacts and drag-and-drop role mapping under R2d § 50.</p>
-      </a>
-      <a href="exercises/rivendell-consideration-pivot/" class="exercise-card">
-        <div class="exercise-icon">
-          <svg viewBox="0 0 36 36" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M6 18h24"/>
-            <path d="M20 10l8 8-8 8"/>
-            <circle cx="10" cy="18" r="4"/>
-          </svg>
-        </div>
-        <span class="exercise-module">Module 3 &bull; Consideration + § 90</span>
-        <h3>Rivendell Pivot</h3>
-        <span class="exercise-doctrine">Contract to Equity</span>
-        <p>Conditional-gift analysis that pivots from failed bargain consideration to promissory-estoppel reliance relief.</p>
-      </a>
-      <a href="exercises/isengard-sof/" class="exercise-card">
-        <div class="exercise-icon">
-          <svg viewBox="0 0 36 36" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <rect x="6" y="6" width="24" height="24" rx="2"/>
-            <path d="M12 12h12"/>
-            <path d="M12 18h12"/>
-            <path d="M12 24h8"/>
-          </svg>
-        </div>
-        <span class="exercise-module">Module 4a &bull; Statute of Frauds</span>
-        <h3>Isengard SoF</h3>
-        <span class="exercise-doctrine">Specially Manufactured Goods</span>
-        <p>Defeat a writing defense by placing custom-manufacture evidence into the UCC § 2-201(3)(a) exception bucket.</p>
-      </a>
-      <a href="exercises/golden-hall-undue-influence/" class="exercise-card">
-        <div class="exercise-icon">
-          <svg viewBox="0 0 36 36" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M18 5v20"/>
-            <path d="M8 11h20"/>
-            <path d="M10 11l-2 8h6l-2-8z"/>
-            <path d="M26 11l-2 8h6l-2-8z"/>
-          </svg>
-        </div>
-        <span class="exercise-module">Module 4b &bull; Improper Bargaining</span>
-        <h3>Golden Hall</h3>
-        <span class="exercise-doctrine">Undue Influence</span>
-        <p>Objection-driven courtroom analysis of domination and unfair persuasion under R2d § 177.</p>
-      </a>
-      <a href="exercises/moria-interpretation/" class="exercise-card">
-        <div class="exercise-icon">
-          <svg viewBox="0 0 36 36" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M5 28h26"/>
-            <path d="M10 28V10h16v18"/>
-            <path d="M14 16h8"/>
-          </svg>
-        </div>
-        <span class="exercise-module">Module 5 &bull; Interpretation</span>
-        <h3>Moria Interpretation</h3>
-        <span class="exercise-doctrine">Latent Ambiguity</span>
-        <p>Redline and evidence-hierarchy exercise comparing course of dealing against trade usage under UCC § 1-303.</p>
-      </a>
-      <a href="exercises/minas-tirith-performance/" class="exercise-card">
-        <div class="exercise-icon">
-          <svg viewBox="0 0 36 36" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M4 26h28"/>
-            <path d="M10 26V14h6v12"/>
-            <path d="M20 26V8h6v18"/>
-          </svg>
-        </div>
-        <span class="exercise-module">Module 6a &bull; Materiality</span>
-        <h3>Minas Tirith Performance</h3>
-        <span class="exercise-doctrine">Substantial Performance</span>
-        <p>Scales-of-justice balancing for § 241 factors and Jacob &amp; Youngs economic-waste reasoning.</p>
-      </a>
-      <a href="exercises/prancing-pony-excuse/" class="exercise-card">
-        <div class="exercise-icon">
-          <svg viewBox="0 0 36 36" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M6 28V10h24v18"/>
-            <path d="M6 18h24"/>
-            <path d="M12 14h4"/>
-          </svg>
-        </div>
-        <span class="exercise-module">Module 6b &bull; Excuse</span>
-        <h3>Prancing Pony Excuse</h3>
-        <span class="exercise-doctrine">Frustration of Purpose</span>
-        <p>Krell-style cancellation fact pattern applying R2d § 265 with investigation desk and doctrine checkpoints.</p>
-      </a>
-      <a href="exercises/battle-of-forms/" class="exercise-card">
-        <div class="exercise-icon">
-          <svg viewBox="0 0 36 36" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-            <rect x="3" y="6" width="14" height="18" rx="1.5"/>
-            <rect x="19" y="12" width="14" height="18" rx="1.5"/>
-            <path d="M13 18l5-3 5 3" stroke-width="2.5"/>
-          </svg>
-        </div>
-        <span class="exercise-module">Module 2 &bull; Acceptance (UCC 2-207)</span>
-        <h3>Merchant Road</h3>
-        <span class="exercise-doctrine">Battle of the Forms</span>
-        <p>Five escalating trade disputes along Middle-earth's merchant roads. Analyze whether a contract forms under the writings, which terms survive, and when conduct creates a deal despite conflicting forms.</p>
-      </a>
-    </div>
+    <h2>Course Roadmap</h2>
+    <p>28 chapters across seven modules — from the first promise to the final remedy. Complete the interactive exercises to track your progress.</p>
 
-    <h2>Course Modules</h2>
-    <p>Seven modules covering the lifecycle of a contractual relationship, from formation through remedies.</p>
-    <div class="module-grid">
-      <div class="module-card">
-        <span class="module-label">Module 1</span>
-        <h3>Foundations</h3>
-        <div class="module-topics">What is contract law? What is a contract?</div>
-        <div class="module-chapters">Chapters 1&ndash;2 &middot; Podcast Ep. 1&ndash;2</div>
+    <div class="roadmap">
+
+      <!-- ═══════ Module 1: Foundations ═══════ -->
+      <div class="roadmap-module">
+        <button class="module-header" onclick="toggleModule(this)" aria-expanded="true">
+          <div class="module-header-left">
+            <span class="module-number">Module 1</span>
+            <span class="module-name">Foundations</span>
+          </div>
+          <div class="module-header-right" data-module-chapters="1,2">
+            <span class="module-progress-count"></span>
+            <svg class="module-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </div>
+        </button>
+        <ul class="module-chapters-list">
+          <li class="chapter-row" data-chapter="1">
+            <span class="chapter-dot"></span>
+            <span class="chapter-num">1</span>
+            <div class="chapter-info">
+              <a href="exercises/shire-promises/" class="chapter-title">What Is Contract Law?</a>
+            </div>
+            <span class="chapter-exercise-tag">Shire Promises</span>
+          </li>
+          <li class="chapter-row" data-chapter="2">
+            <span class="chapter-dot"></span>
+            <span class="chapter-num">2</span>
+            <div class="chapter-info">
+              <a href="exercises/bilbo-contract/" class="chapter-title">What Is a Contract?</a>
+            </div>
+            <span class="chapter-exercise-tag">Bilbo's Agreement</span>
+          </li>
+        </ul>
       </div>
-      <div class="module-card">
-        <span class="module-label">Module 2</span>
-        <h3>Mutual Assent</h3>
-        <div class="module-topics">Bargains, offers, termination, acceptance</div>
-        <div class="module-chapters">Chapters 3&ndash;6 &middot; Podcast Ep. 3&ndash;7</div>
+
+      <!-- ═══════ Module 2: Mutual Assent ═══════ -->
+      <div class="roadmap-module">
+        <button class="module-header" onclick="toggleModule(this)" aria-expanded="true">
+          <div class="module-header-left">
+            <span class="module-number">Module 2</span>
+            <span class="module-name">Mutual Assent</span>
+          </div>
+          <div class="module-header-right" data-module-chapters="3,4,5,6">
+            <span class="module-progress-count"></span>
+            <svg class="module-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </div>
+        </button>
+        <ul class="module-chapters-list">
+          <li class="chapter-row" data-chapter="3">
+            <span class="chapter-dot"></span>
+            <span class="chapter-num">3</span>
+            <div class="chapter-info">
+              <a href="exercises/fellowship-of-the-contract/" class="chapter-title">Bargains</a>
+            </div>
+            <span class="chapter-exercise-tag">Fellowship</span>
+          </li>
+          <li class="chapter-row" data-chapter="4">
+            <span class="chapter-dot"></span>
+            <span class="chapter-num">4</span>
+            <div class="chapter-info">
+              <span class="chapter-title">Offers</span>
+            </div>
+            <span class="chapter-coming-soon">Coming soon</span>
+          </li>
+          <li class="chapter-row" data-chapter="5">
+            <span class="chapter-dot"></span>
+            <span class="chapter-num">5</span>
+            <div class="chapter-info">
+              <span class="chapter-title">Termination of the Offer</span>
+            </div>
+            <span class="chapter-coming-soon">Coming soon</span>
+          </li>
+          <li class="chapter-row" data-chapter="6">
+            <span class="chapter-dot"></span>
+            <span class="chapter-num">6</span>
+            <div class="chapter-info">
+              <a href="exercises/battle-of-forms/" class="chapter-title">Acceptance</a>
+            </div>
+            <span class="chapter-exercise-tag">Battle of Forms</span>
+          </li>
+        </ul>
       </div>
-      <div class="module-card">
-        <span class="module-label">Module 3</span>
-        <h3>Consideration &amp; Alternatives</h3>
-        <div class="module-topics">Consideration, promissory estoppel, promissory restitution</div>
-        <div class="module-chapters">Chapters 7&ndash;9 &middot; Podcast Ep. 8&ndash;10</div>
+
+      <!-- ═══════ Module 3: Consideration & Alternatives ═══════ -->
+      <div class="roadmap-module">
+        <button class="module-header" onclick="toggleModule(this)" aria-expanded="true">
+          <div class="module-header-left">
+            <span class="module-number">Module 3</span>
+            <span class="module-name">Consideration &amp; Alternatives</span>
+          </div>
+          <div class="module-header-right" data-module-chapters="7,8,9">
+            <span class="module-progress-count"></span>
+            <svg class="module-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </div>
+        </button>
+        <ul class="module-chapters-list">
+          <li class="chapter-row" data-chapter="7">
+            <span class="chapter-dot"></span>
+            <span class="chapter-num">7</span>
+            <div class="chapter-info">
+              <a href="exercises/rivendell-consideration-pivot/" class="chapter-title">Consideration</a>
+            </div>
+            <span class="chapter-exercise-tag">Rivendell Pivot</span>
+          </li>
+          <li class="chapter-row" data-chapter="8">
+            <span class="chapter-dot"></span>
+            <span class="chapter-num">8</span>
+            <div class="chapter-info">
+              <span class="chapter-title">Promissory Estoppel</span>
+            </div>
+            <span class="chapter-coming-soon">Coming soon</span>
+          </li>
+          <li class="chapter-row" data-chapter="9">
+            <span class="chapter-dot"></span>
+            <span class="chapter-num">9</span>
+            <div class="chapter-info">
+              <span class="chapter-title">Promissory Restitution</span>
+            </div>
+            <span class="chapter-coming-soon">Coming soon</span>
+          </li>
+        </ul>
       </div>
-      <div class="module-card">
-        <span class="module-label">Module 4</span>
-        <h3>Defenses to Formation</h3>
-        <div class="module-topics">Statute of Frauds, mistake, improper bargaining, capacity</div>
-        <div class="module-chapters">Chapters 10&ndash;13 &middot; Podcast Ep. 11&ndash;13</div>
+
+      <!-- ═══════ Module 4: Defenses to Formation ═══════ -->
+      <div class="roadmap-module">
+        <button class="module-header" onclick="toggleModule(this)" aria-expanded="true">
+          <div class="module-header-left">
+            <span class="module-number">Module 4</span>
+            <span class="module-name">Defenses to Formation</span>
+          </div>
+          <div class="module-header-right" data-module-chapters="10,11,12,13">
+            <span class="module-progress-count"></span>
+            <svg class="module-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </div>
+        </button>
+        <ul class="module-chapters-list">
+          <li class="chapter-row" data-chapter="10">
+            <span class="chapter-dot"></span>
+            <span class="chapter-num">10</span>
+            <div class="chapter-info">
+              <a href="exercises/isengard-sof/" class="chapter-title">The Statute of Frauds</a>
+            </div>
+            <span class="chapter-exercise-tag">Isengard SoF</span>
+          </li>
+          <li class="chapter-row" data-chapter="11">
+            <span class="chapter-dot"></span>
+            <span class="chapter-num">11</span>
+            <div class="chapter-info">
+              <span class="chapter-title">Mistake</span>
+            </div>
+            <span class="chapter-coming-soon">Coming soon</span>
+          </li>
+          <li class="chapter-row" data-chapter="12">
+            <span class="chapter-dot"></span>
+            <span class="chapter-num">12</span>
+            <div class="chapter-info">
+              <a href="exercises/golden-hall-undue-influence/" class="chapter-title">Improper Bargaining</a>
+            </div>
+            <span class="chapter-exercise-tag">Golden Hall</span>
+          </li>
+          <li class="chapter-row" data-chapter="13">
+            <span class="chapter-dot"></span>
+            <span class="chapter-num">13</span>
+            <div class="chapter-info">
+              <span class="chapter-title">Incapacity</span>
+            </div>
+            <span class="chapter-coming-soon">Coming soon</span>
+          </li>
+        </ul>
       </div>
-      <div class="module-card">
-        <span class="module-label">Module 5</span>
-        <h3>Interpretation &amp; Terms</h3>
-        <div class="module-topics">Ambiguity, intrinsic &amp; extrinsic evidence, parol evidence, warranties</div>
-        <div class="module-chapters">Chapters 14&ndash;18 &middot; Podcast Ep. 14&ndash;17</div>
+
+      <!-- ═══════ Module 5: Interpretation & Terms ═══════ -->
+      <div class="roadmap-module">
+        <button class="module-header" onclick="toggleModule(this)" aria-expanded="true">
+          <div class="module-header-left">
+            <span class="module-number">Module 5</span>
+            <span class="module-name">Interpretation &amp; Terms</span>
+          </div>
+          <div class="module-header-right" data-module-chapters="14,15,16,17,18">
+            <span class="module-progress-count"></span>
+            <svg class="module-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </div>
+        </button>
+        <ul class="module-chapters-list">
+          <li class="chapter-row" data-chapter="14">
+            <span class="chapter-dot"></span>
+            <span class="chapter-num">14</span>
+            <div class="chapter-info">
+              <a href="exercises/moria-interpretation/" class="chapter-title">Ambiguity</a>
+            </div>
+            <span class="chapter-exercise-tag">Moria Interpretation</span>
+          </li>
+          <li class="chapter-row" data-chapter="15">
+            <span class="chapter-dot"></span>
+            <span class="chapter-num">15</span>
+            <div class="chapter-info">
+              <span class="chapter-title">Intrinsic Evidence</span>
+            </div>
+            <span class="chapter-coming-soon">Coming soon</span>
+          </li>
+          <li class="chapter-row" data-chapter="16">
+            <span class="chapter-dot"></span>
+            <span class="chapter-num">16</span>
+            <div class="chapter-info">
+              <span class="chapter-title">Extrinsic Evidence</span>
+            </div>
+            <span class="chapter-coming-soon">Coming soon</span>
+          </li>
+          <li class="chapter-row" data-chapter="17">
+            <span class="chapter-dot"></span>
+            <span class="chapter-num">17</span>
+            <div class="chapter-info">
+              <span class="chapter-title">The Parol Evidence Rule</span>
+            </div>
+            <span class="chapter-coming-soon">Coming soon</span>
+          </li>
+          <li class="chapter-row" data-chapter="18">
+            <span class="chapter-dot"></span>
+            <span class="chapter-num">18</span>
+            <div class="chapter-info">
+              <span class="chapter-title">Warranties</span>
+            </div>
+            <span class="chapter-coming-soon">Coming soon</span>
+          </li>
+        </ul>
       </div>
-      <div class="module-card">
-        <span class="module-label">Module 6</span>
-        <h3>Performance &amp; Breach</h3>
-        <div class="module-topics">Conditions, performance, repudiation, excuse, modification</div>
-        <div class="module-chapters">Chapters 19&ndash;23 &middot; Podcast Ep. 18&ndash;22</div>
+
+      <!-- ═══════ Module 6: Performance & Breach ═══════ -->
+      <div class="roadmap-module">
+        <button class="module-header" onclick="toggleModule(this)" aria-expanded="true">
+          <div class="module-header-left">
+            <span class="module-number">Module 6</span>
+            <span class="module-name">Performance &amp; Breach</span>
+          </div>
+          <div class="module-header-right" data-module-chapters="19,20,21,22,23">
+            <span class="module-progress-count"></span>
+            <svg class="module-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </div>
+        </button>
+        <ul class="module-chapters-list">
+          <li class="chapter-row" data-chapter="19">
+            <span class="chapter-dot"></span>
+            <span class="chapter-num">19</span>
+            <div class="chapter-info">
+              <span class="chapter-title">Conditions</span>
+            </div>
+            <span class="chapter-coming-soon">Coming soon</span>
+          </li>
+          <li class="chapter-row" data-chapter="20">
+            <span class="chapter-dot"></span>
+            <span class="chapter-num">20</span>
+            <div class="chapter-info">
+              <a href="exercises/minas-tirith-performance/" class="chapter-title">Substantial Performance and Material Breach</a>
+            </div>
+            <span class="chapter-exercise-tag">Minas Tirith</span>
+          </li>
+          <li class="chapter-row" data-chapter="21">
+            <span class="chapter-dot"></span>
+            <span class="chapter-num">21</span>
+            <div class="chapter-info">
+              <span class="chapter-title">Repudiation</span>
+            </div>
+            <span class="chapter-coming-soon">Coming soon</span>
+          </li>
+          <li class="chapter-row" data-chapter="22">
+            <span class="chapter-dot"></span>
+            <span class="chapter-num">22</span>
+            <div class="chapter-info">
+              <a href="exercises/prancing-pony-excuse/" class="chapter-title">Excuse</a>
+            </div>
+            <span class="chapter-exercise-tag">Prancing Pony</span>
+          </li>
+          <li class="chapter-row" data-chapter="23">
+            <span class="chapter-dot"></span>
+            <span class="chapter-num">23</span>
+            <div class="chapter-info">
+              <span class="chapter-title">Modification and Discharge</span>
+            </div>
+            <span class="chapter-coming-soon">Coming soon</span>
+          </li>
+        </ul>
       </div>
-      <div class="module-card">
-        <span class="module-label">Module 7</span>
-        <h3>Remedies &amp; Third Parties</h3>
-        <div class="module-topics">Expectation damages, limitations, alternative remedies, third-party beneficiaries</div>
-        <div class="module-chapters">Chapters 24&ndash;28 &middot; Podcast Ep. 23&ndash;25</div>
+
+      <!-- ═══════ Module 7: Remedies & Third Parties ═══════ -->
+      <div class="roadmap-module">
+        <button class="module-header" onclick="toggleModule(this)" aria-expanded="true">
+          <div class="module-header-left">
+            <span class="module-number">Module 7</span>
+            <span class="module-name">Remedies &amp; Third Parties</span>
+          </div>
+          <div class="module-header-right" data-module-chapters="24,25,26,27,28">
+            <span class="module-progress-count"></span>
+            <svg class="module-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+          </div>
+        </button>
+        <ul class="module-chapters-list">
+          <li class="chapter-row" data-chapter="24">
+            <span class="chapter-dot"></span>
+            <span class="chapter-num">24</span>
+            <div class="chapter-info">
+              <a href="exercises/lonely-mountain-dispute/" class="chapter-title">Money Damages for Nonperformance</a>
+            </div>
+            <span class="chapter-exercise-tag">Whose Arkenstone?</span>
+          </li>
+          <li class="chapter-row" data-chapter="25">
+            <span class="chapter-dot"></span>
+            <span class="chapter-num">25</span>
+            <div class="chapter-info">
+              <span class="chapter-title">Money Damages for Defective Performance</span>
+            </div>
+            <span class="chapter-coming-soon">Coming soon</span>
+          </li>
+          <li class="chapter-row" data-chapter="26">
+            <span class="chapter-dot"></span>
+            <span class="chapter-num">26</span>
+            <div class="chapter-info">
+              <span class="chapter-title">Limitations on Money Damages</span>
+            </div>
+            <span class="chapter-coming-soon">Coming soon</span>
+          </li>
+          <li class="chapter-row" data-chapter="27">
+            <span class="chapter-dot"></span>
+            <span class="chapter-num">27</span>
+            <div class="chapter-info">
+              <span class="chapter-title">Alternative Remedies</span>
+            </div>
+            <span class="chapter-coming-soon">Coming soon</span>
+          </li>
+          <li class="chapter-row" data-chapter="28">
+            <span class="chapter-dot"></span>
+            <span class="chapter-num">28</span>
+            <div class="chapter-info">
+              <span class="chapter-title">Third-Party Beneficiaries</span>
+            </div>
+            <span class="chapter-coming-soon">Coming soon</span>
+          </li>
+        </ul>
       </div>
-    </div>
+
+    </div><!-- .roadmap -->
 
     <h2>Resources</h2>
     <p>Everything you need for the course, in one place.</p>
@@ -329,5 +430,14 @@
   </footer>
 
   <script src="assets/js/theme.js"></script>
+  <script src="assets/js/nav.js"></script>
+  <script src="assets/js/progress.js"></script>
+  <script>
+    function toggleModule(btn) {
+      var mod = btn.closest('.roadmap-module');
+      var isCollapsed = mod.classList.toggle('collapsed');
+      btn.setAttribute('aria-expanded', !isCollapsed);
+    }
+  </script>
 </body>
 </html>

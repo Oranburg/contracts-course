@@ -248,10 +248,187 @@ blockquote {
 
 .site-footer a:hover { color: var(--yellow); }
 
+/* ---------- Roadmap ---------- */
+
+.roadmap { margin: var(--space-xl) 0; }
+
+.roadmap-module {
+  margin-bottom: var(--space-lg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+.module-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: var(--space-md) var(--space-lg);
+  background: var(--bg-secondary);
+  cursor: pointer;
+  user-select: none;
+  border: none;
+  width: 100%;
+  text-align: left;
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: 1rem;
+  transition: background 0.2s;
+}
+
+.module-header:hover { background: var(--bg-soft); }
+
+.module-header-left {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  min-width: 0;
+}
+
+.module-number {
+  font-family: var(--font-headline);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: var(--accent-red);
+  white-space: nowrap;
+}
+
+.module-name {
+  font-family: var(--font-headline);
+  font-size: 1.25rem;
+  color: var(--accent);
+}
+
+.module-header-right {
+  display: flex;
+  align-items: center;
+  gap: var(--space-md);
+  flex-shrink: 0;
+}
+
+.module-progress-count {
+  font-family: var(--font-headline);
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+.module-progress-count.module-done {
+  color: var(--yellow);
+}
+
+.module-chevron {
+  width: 20px;
+  height: 20px;
+  color: var(--muted);
+  transition: transform 0.25s ease;
+  flex-shrink: 0;
+}
+
+.roadmap-module.collapsed .module-chevron {
+  transform: rotate(-90deg);
+}
+
+.module-chapters-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.roadmap-module.collapsed .module-chapters-list {
+  display: none;
+}
+
+.chapter-row {
+  display: flex;
+  align-items: center;
+  padding: var(--space-sm) var(--space-lg);
+  border-top: 1px solid var(--border);
+  gap: var(--space-md);
+  transition: background 0.15s;
+}
+
+.chapter-row:hover {
+  background: var(--bg-soft);
+}
+
+.chapter-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--border);
+  flex-shrink: 0;
+  transition: background 0.3s, box-shadow 0.3s;
+}
+
+.ch-complete .chapter-dot {
+  background: var(--yellow);
+  box-shadow: 0 0 6px rgba(255, 214, 92, 0.4);
+}
+
+.chapter-num {
+  font-family: var(--font-headline);
+  font-size: 0.85rem;
+  color: var(--muted);
+  width: 2rem;
+  text-align: center;
+  flex-shrink: 0;
+}
+
+.chapter-info {
+  flex: 1;
+  min-width: 0;
+}
+
+.chapter-title {
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  color: var(--text);
+  display: block;
+}
+
+.chapter-row a.chapter-title {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.chapter-row a.chapter-title:hover {
+  color: var(--accent-2);
+  text-decoration: underline;
+}
+
+.chapter-exercise-tag {
+  font-family: var(--font-headline);
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--accent-red);
+  background: rgba(178, 31, 44, 0.1);
+  padding: 2px 8px;
+  border-radius: var(--radius-pill);
+  white-space: nowrap;
+}
+
+.chapter-coming-soon {
+  font-size: 0.8rem;
+  color: var(--muted);
+  font-style: italic;
+}
+
+/* Module all-complete gold accent */
+.module-all-complete .module-header {
+  border-left: 3px solid var(--yellow);
+}
+
 /* ---------- Responsive ---------- */
 
 @media (max-width: 600px) {
   .site-header { padding: 2.5rem 1.25rem; }
   .site-title { font-size: 1.75rem; }
   h1 { font-size: 2rem; }
+
+  .module-header { padding: var(--space-sm) var(--space-md); }
+  .module-name { font-size: 1.1rem; }
+  .chapter-row { padding: var(--space-sm) var(--space-md); }
+  .chapter-exercise-tag { display: none; }
 }

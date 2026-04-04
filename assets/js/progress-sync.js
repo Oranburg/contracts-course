@@ -91,6 +91,13 @@
    * Send completion data to Quaere. Call from renderSummary().
    */
   function complete(opts) {
+    // Write to localStorage for roadmap progress dots
+    if (opts.chapterNum) {
+      try {
+        localStorage.setItem("k-ch-" + opts.chapterNum + "-complete", "true");
+      } catch (e) {}
+    }
+
     var email = getEmail();
     if (!email) return;
 
