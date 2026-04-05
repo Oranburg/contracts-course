@@ -247,6 +247,15 @@
     .resource-card a { font-family: var(--font-headline); font-size: 0.85rem; }
     .resource-stat { font-size: 1.8rem; font-weight: 700; color: var(--accent); display: block; margin-bottom: var(--space-xs); font-family: var(--font-headline); }
 
+    /* ── Progress Dashboard ── */
+    .progress-dashboard {
+      background: var(--bg-secondary);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-md);
+      padding: var(--space-md) var(--space-lg);
+      margin-bottom: var(--space-xl);
+    }
+
     /* ── Responsive ── */
     @media (max-width: 768px) {
       .hero { min-height: 360px; }
@@ -288,6 +297,17 @@
         <p>Seven modules. Twenty-eight chapters. One continuous story.</p>
       </div>
     </section>
+
+    <!-- ═══════ Progress Dashboard ═══════ -->
+    <div id="progress-dashboard" class="progress-dashboard" style="display:none;">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:var(--space-sm);">
+        <h3 style="margin:0;font-family:var(--font-headline);color:var(--accent);font-size:1.1rem;">Your Progress</h3>
+        <span id="progress-count" style="font-family:var(--font-mono);font-size:0.9rem;color:var(--muted);"></span>
+      </div>
+      <div style="height:8px;border-radius:999px;background:var(--bg-soft);overflow:hidden;">
+        <div id="progress-bar-fill" style="height:100%;background:var(--accent);transition:width 0.3s;width:0%"></div>
+      </div>
+    </div>
 
     <h2>The Journey</h2>
     <p>Follow the Hero's Journey from the Shire to Mount Doom. Each module is a stage in the adventure — and a pillar of contract law.</p>

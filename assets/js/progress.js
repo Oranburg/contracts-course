@@ -75,8 +75,24 @@
         }
       }
       // Add module-complete class if all done
-      if (done === total) {
+      if (done === total && modules[j].closest(".roadmap-module")) {
         modules[j].closest(".roadmap-module").classList.add("module-all-complete");
+      }
+    }
+
+    // Update progress dashboard
+    var dashboard = document.getElementById("progress-dashboard");
+    if (dashboard) {
+      var allChapters = [];
+      for (var k = 1; k <= 28; k++) allChapters.push(k);
+      var completed = countComplete(allChapters);
+      if (completed > 0) {
+        dashboard.style.display = "block";
+        var pct = Math.round((completed / 28) * 100);
+        var countEl = document.getElementById("progress-count");
+        var barEl = document.getElementById("progress-bar-fill");
+        if (countEl) countEl.textContent = completed + " of 28 chapters (" + pct + "%)";
+        if (barEl) barEl.style.width = pct + "%";
       }
     }
   }
