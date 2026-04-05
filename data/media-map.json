@@ -1,0 +1,192 @@
+{
+  "_comment": "Maps K chapters to best video and podcast resources. IDs reference oranburg.github.io/_data/videos.yml and podcasts.yml. Single source of truth for media metadata lives there.",
+  "_source": "oranburg.github.io/_data/videos.yml + podcasts.yml",
+  "_updated": "2026-04-04",
+  "chapters": {
+    "1": {
+      "title": "What Is Contract Law?",
+      "podcast": { "season": 1, "episode": 1, "title": "Mastering Contracts -- Introduction to the Season" },
+      "video": { "id": "fOAQSmYtdy4", "title": "What Is Contract Law? (Chapter 1 from Contract Law: Rules, Cases, and Problems)" },
+      "topics": ["private vs public law", "four justifications", "objective standard", "R2d vs UCC"]
+    },
+    "2": {
+      "title": "What Is a Contract?",
+      "podcast": { "season": 1, "episode": 2, "title": "Promises, Promises -- Defining a Legal Obligation" },
+      "video": null,
+      "topics": ["R2d §§ 1-3", "promise vs intention", "bilateral vs unilateral"],
+      "gap": "No dedicated video for Ch 2 — consider recording"
+    },
+    "3": {
+      "title": "Bargains",
+      "podcast": { "season": 1, "episode": 4, "title": "Bargains and the Objective Theory of Contract" },
+      "video": null,
+      "topics": ["bargained-for exchange", "objective theory", "R2d § 17"]
+    },
+    "4": {
+      "title": "Offers",
+      "podcast": { "season": 1, "episode": 5, "title": "Offer or Not? What Makes an Offer (Un) Acceptable" },
+      "video": null,
+      "topics": ["R2d § 24", "offer defined", "preliminary negotiations", "certainty"]
+    },
+    "5": {
+      "title": "Termination of the Offer",
+      "podcast": { "season": 1, "episode": 6, "title": "Termination -- Death of an Offer" },
+      "video": null,
+      "topics": ["R2d §§ 35-48", "revocation", "rejection", "lapse", "option contracts"]
+    },
+    "6": {
+      "title": "Acceptance",
+      "podcast": { "season": 1, "episode": 7, "title": "Mirror, Mirror -- When Does Acceptance Create a Contract?" },
+      "video": { "id": "OowVwVQ_-ys", "title": "Meyer v. Uber Technologies, Inc. - A Case About Modern Contract Formation" },
+      "topics": ["R2d §§ 50-69", "mailbox rule", "mirror image", "UCC § 2-207"]
+    },
+    "7": {
+      "title": "Consideration",
+      "podcast": { "season": 1, "episode": 8, "title": "Consideration -- The Price of Commitment" },
+      "video": null,
+      "topics": ["R2d §§ 71, 79", "bargained-for exchange", "peppercorn", "Hamer v. Sidway"]
+    },
+    "8": {
+      "title": "Promissory Estoppel",
+      "podcast": { "season": 1, "episode": 9, "title": "When a Promise is Enough -- Promissory Estoppel" },
+      "video": null,
+      "topics": ["R2d § 90", "detrimental reliance", "Ricketts v. Scothorn"]
+    },
+    "9": {
+      "title": "Promissory Restitution",
+      "podcast": { "season": 1, "episode": 10, "title": "Payback Time -- Promissory Restitution" },
+      "video": null,
+      "topics": ["R2d § 86", "material benefit", "Webb v. McGowin", "Mills v. Wyman"]
+    },
+    "10": {
+      "title": "Statute of Frauds",
+      "podcast": { "season": 1, "episode": 11, "title": "Sign Here -- The Power of the Statute of Frauds" },
+      "video": null,
+      "topics": ["R2d §§ 110-139", "MYLEGS", "writing requirement", "UCC § 2-201"]
+    },
+    "11": {
+      "title": "Mistake",
+      "podcast": { "season": 1, "episode": 12, "title": "Oops! When Mistakes Break Contracts" },
+      "video": null,
+      "topics": ["R2d §§ 152-154", "mutual mistake", "unilateral mistake", "Sherwood v. Walker"]
+    },
+    "12": {
+      "title": "Improper Bargaining",
+      "podcast": { "season": 1, "episode": 13, "title": "Secrets and Lies -- When Fraud Invalidates Contracts" },
+      "video": null,
+      "topics": ["R2d §§ 159-178", "misrepresentation", "duress", "undue influence"]
+    },
+    "13": {
+      "title": "Incapacity",
+      "podcast": { "season": 1, "episode": 3, "title": "Capacity to Contract -- Who Can Make a Deal?" },
+      "video": null,
+      "topics": ["R2d §§ 12-16", "infancy", "mental incapacity", "intoxication"],
+      "note": "Podcast ep 3 covers capacity but casebook places it at Ch 13"
+    },
+    "14": {
+      "title": "Ambiguity",
+      "podcast": { "season": 1, "episode": 14, "title": "Words in Context -- How Courts Interpret Contracts" },
+      "video": null,
+      "topics": ["R2d §§ 200-204", "patent vs latent ambiguity", "Frigaliment", "Raffles v. Wichelhaus"]
+    },
+    "15": {
+      "title": "Intrinsic Evidence",
+      "podcast": { "season": 1, "episode": 15, "title": "Reading Between the Lines -- How Courts Decode Contract Terms" },
+      "video": null,
+      "topics": ["four corners rule", "canons of construction", "contra proferentem"]
+    },
+    "16": {
+      "title": "Extrinsic Evidence",
+      "podcast": { "season": 1, "episode": 16, "title": "Words and Deeds -- How Parties' Actions Impacts Contract Interpretation" },
+      "video": null,
+      "topics": ["UCC § 1-303", "course of dealing", "trade usage", "course of performance"]
+    },
+    "17": {
+      "title": "The Parol Evidence Rule",
+      "podcast": { "season": 1, "episode": 17, "title": "What's the Deal? The Parol Evidence Rule" },
+      "video": null,
+      "topics": ["R2d §§ 209-216", "integration", "merger clause", "UCC § 2-202"]
+    },
+    "18": {
+      "title": "Warranties",
+      "podcast": { "season": 1, "episode": 27, "title": "Imperfect Tender -- UCC Warranties" },
+      "video": { "id": "qZyHo8lIk00", "title": "Unwrapping Warranties: Promises and Protections in Contract Law" },
+      "topics": ["UCC §§ 2-313 to 2-316", "express warranty", "merchantability", "fitness"]
+    },
+    "19": {
+      "title": "Conditions",
+      "podcast": { "season": 1, "episode": 18, "title": "Conditions in Contracts -- When Obligations Depend on Events" },
+      "video": null,
+      "topics": ["R2d §§ 224-234", "condition precedent", "concurrent conditions", "Kingston v. Preston"]
+    },
+    "20": {
+      "title": "Substantial Performance and Material Breach",
+      "podcast": { "season": 1, "episode": 19, "title": "Performance in Contracts -- When Is 'Good Enough' Really Enough?" },
+      "video": null,
+      "topics": ["R2d § 241", "materiality factors", "Jacob & Youngs v. Kent"]
+    },
+    "21": {
+      "title": "Repudiation",
+      "podcast": { "season": 1, "episode": 20, "title": "Here comes Trouble -- Anticipatory Repudiation" },
+      "video": null,
+      "topics": ["R2d §§ 250-251", "UCC §§ 2-609 to 2-611", "Hochster v. De La Tour"]
+    },
+    "22": {
+      "title": "Excuse",
+      "podcast": { "season": 1, "episode": 21, "title": "Excuse Me -- When Non-Performance Is Judicially Justified" },
+      "video": null,
+      "topics": ["R2d §§ 261-265", "impossibility", "impracticability", "frustration of purpose"]
+    },
+    "23": {
+      "title": "Modification and Discharge",
+      "podcast": { "season": 1, "episode": 22, "title": "The More Things Change -- Modifying Contracts by Mutual Assent" },
+      "video": null,
+      "topics": ["R2d § 89", "UCC § 2-209", "pre-existing duty rule", "Alaska Packers"]
+    },
+    "24": {
+      "title": "Money Damages for Nonperformance",
+      "podcast": { "season": 1, "episode": 23, "title": "Show Me the Money -- Expectation Damages" },
+      "video": null,
+      "topics": ["R2d §§ 347-352", "expectation interest", "Hadley v. Baxendale", "foreseeability"]
+    },
+    "25": {
+      "title": "Money Damages for Defective Performance",
+      "podcast": { "season": 1, "episode": 24, "title": "Greater Expectations -- Alternative Money Damages" },
+      "video": null,
+      "topics": ["R2d §§ 348-356", "cost of repair vs diminished value", "Peevyhouse"]
+    },
+    "26": {
+      "title": "Limitations on Money Damages",
+      "podcast": { "season": 1, "episode": 26, "title": "When Goods Go Bad -- UCC Damages" },
+      "video": { "id": "TfpZ_4QUdP0", "title": "Episode 26: Limitations on Money Damages" },
+      "topics": ["foreseeability", "certainty", "mitigation", "UCC damages"]
+    },
+    "27": {
+      "title": "Alternative Remedies",
+      "podcast": { "season": 1, "episode": 25, "title": "Equity's Enforcers -- When Money Can't Buy Justice" },
+      "video": null,
+      "topics": ["R2d § 357", "specific performance", "injunctions", "rescission"]
+    },
+    "28": {
+      "title": "Third-Party Beneficiaries",
+      "podcast": { "season": 1, "episode": 28, "title": "Three's Company -- When Contracts Benefit Third Parties" },
+      "video": { "id": "sZ6Zxd0EB0Y", "title": "Episode 28: Three's Company -- When Contracts Benefit Third Parties" },
+      "topics": ["R2d § 302", "intended vs incidental", "Lawrence v. Fox"]
+    }
+  },
+  "gaps": [
+    "Ch 2 (What Is a Contract?) — no dedicated video",
+    "Ch 3-5 (Bargains, Offers, Termination) — no dedicated videos, only podcast",
+    "Ch 7-12 (Consideration through Improper Bargaining) — no dedicated videos",
+    "Ch 14-17 (Interpretation) — no dedicated videos",
+    "Ch 19-22 (Performance/Breach) — no dedicated videos",
+    "Ch 24-25 (Damages) — no dedicated videos",
+    "Most chapters have excellent podcast coverage but only 5 of 28 have dedicated videos"
+  ],
+  "recording_priorities": [
+    "Ch 7: Consideration (core doctrine, high student difficulty)",
+    "Ch 17: Parol Evidence Rule (9-video playlist exists but no single overview)",
+    "Ch 19: Conditions (complex topic, students struggle with condition vs promise)",
+    "Ch 24: Expectation Damages (Hadley v. Baxendale — foundational)"
+  ]
+}

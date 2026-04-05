@@ -367,6 +367,39 @@
     if (typeof KExport !== 'undefined') {
       KExport.addButton(document.getElementById('summary-actions'));
     }
+
+    // Load media resources for this chapter
+    loadMediaForChapter(EXERCISE.chapterNum);
+  }
+
+  // ── Media Resources ───────────────────────────────────────────
+
+  function loadMediaForChapter(chapterNum) {
+    fetch('../../data/media-map.json')
+      .then(function (r) { return r.json(); })
+      .then(function (data) {
+        var ch = data.chapters && data.chapters[String(chapterNum)];
+        if (!ch) return;
+        var container = document.getElementById('summary-actions');
+        if (!container) return;
+
+        var mediaHtml = '<div style="margin-top:var(--space-lg);text-align:center">';
+        mediaHtml += '<p style="color:var(--muted);font-size:0.9rem;margin-bottom:var(--space-sm)">Review this chapter:</p>';
+        mediaHtml += '<div class="btn-row" style="justify-content:center">';
+
+        if (ch.podcast) {
+          mediaHtml += '<a href="https://bizlawbreakdown.podbean.com" target="_blank" rel="noopener" class="btn-secondary" style="text-decoration:none">' +
+            '&#127911; ' + esc(ch.podcast.title) + '</a>';
+        }
+        if (ch.video) {
+          mediaHtml += '<a href="https://www.youtube.com/watch?v=' + esc(ch.video.id) + '" target="_blank" rel="noopener" class="btn-secondary" style="text-decoration:none">' +
+            '&#9654; ' + esc(ch.video.title) + '</a>';
+        }
+
+        mediaHtml += '</div></div>';
+        container.insertAdjacentHTML('afterend', mediaHtml);
+      })
+      .catch(function () { /* silent */ });
   }
 
   // ── Public API ─────────────────────────────────────────────────────
