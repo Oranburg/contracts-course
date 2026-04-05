@@ -212,9 +212,11 @@
       border-radius: 0 0 var(--radius-md) var(--radius-md);
       margin-top: -1px;
       display: none;
+      position: relative;
+      z-index: 10;
     }
     .module-card-visual.expanded .module-card-chapters-list { display: block; }
-    .module-card-visual.expanded { border-radius: var(--radius-md) var(--radius-md) 0 0; }
+    .module-card-visual.expanded { border-radius: var(--radius-md) var(--radius-md) 0 0; overflow: visible; }
 
     /* ── Journey Divider ── */
     .journey-divider {

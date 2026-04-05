@@ -1,0 +1,1094 @@
+[
+  {
+    "number": "§ 2-102",
+    "source": "UCC",
+    "title": "U.C.C. Scope (pre-2022 amendments)",
+    "chapter": "Introduction",
+    "text": "Unless the context otherwise requires, this Article \\[2\\] applies to transactions in goods;\n\nit does not apply to any transaction which although in the form of an unconditional contract to sell or present sale is intended to operate only as a security transaction nor does this article impair or repeal any statute regulating sales to consumers, farmers or other specified classes of buyers.\n\n*Editor's note. \"Goods\" are defined by UCC § 2-105(1). While the U.C.C. definition is paramount when determ..."
+  },
+  {
+    "number": "§ 2-102",
+    "source": "UCC",
+    "title": "U.C.C. Scope (post-2022 amendments)",
+    "chapter": "Introduction",
+    "text": "\\(1\\) Unless the context otherwise requires, and except as provided in subsection (3), this Article \\[2\\] applies to transactions in goods and, in the case of a hybrid transaction, it applies to the extent provided in subsection (2).\n\n\\(2\\) In a hybrid transaction:\n\n\\(a\\) If the sale-of-goods aspects do not predominate, only the provisions of this Article which relate primarily to the sale-of-goods aspects of the transaction apply, and the provisions that relate primarily to the transaction as a..."
+  },
+  {
+    "number": "§ 2-104",
+    "source": "UCC",
+    "title": "Definitions: \"Merchant\"; \"Between Merchants\"",
+    "chapter": "Introduction",
+    "text": "\\(1\\) \"Merchant\" means a person who deals in goods of the kind or otherwise by his occupation holds himself out as having knowledge or skill peculiar to the practices or goods involved in the transaction or to whom such knowledge or skill may be attributed by his employment of an agent or broker or other intermediary who by his occupation holds himself out as having such knowledge or skill.\n\n...\n\n\\(3\\) \"Between merchants\" means in any transaction with respect to which both parties are chargeable..."
+  },
+  {
+    "number": "§ 2-105(1)",
+    "source": "UCC",
+    "title": "Definitions: \"Goods\"",
+    "chapter": "Introduction",
+    "text": "\"Goods\" means all things (including specially manufactured goods) which are movable at the time of identification to the contract for sale other than:\n\n• the money in which the price is to be paid,\n\n• investment securities (Article 8) and\n\n• things in action.\n\n\"Goods\" also includes the unborn young of animals and growing crops and other identified things attached to realty as described in the section on goods to be severed from realty.\n\n*Editor's note: Older versions of the UCC used to refer to ..."
+  },
+  {
+    "number": "§ 1-201(b)",
+    "source": "UCC",
+    "title": "General Definitions: Agreement; Contract",
+    "chapter": "Introduction",
+    "text": "\\(3\\) \"**Agreement**\", as distinguished from \"contract\", means the bargain of the parties in fact, as found in their language or inferred from other circumstances, including course of performance, course of dealing, or usage of trade as provided in [Section 1-303](https://plus.lexis.com/api/document?collection=statutes-legislation&id=urn:contentItem:5D72-1DG0-00S0-40FH-00000-00&context=1530671).\n\n...\n\n\\(12\\) \"**Contract**\", as distinguished from \"agreement\", means the total legal obligation that..."
+  },
+  {
+    "number": "§ 1",
+    "source": "R2d",
+    "title": "Contract Defined",
+    "chapter": "1",
+    "text": "A contract is a promise or a set of promises for the breach of which the law gives a remedy, or the performance of which the law in some way recognizes as a duty.\n\n### a. Other meanings. \n\nThe word \"contract\" is often used with meanings different from that given here. It is sometimes used as a synonym for \"agreement\" or \"bargain.\" It may refer to legally ineffective agreements, or to wholly executed transactions such as conveyances; it may refer indifferently to the acts of the parties, to a doc..."
+  },
+  {
+    "number": "§ 2",
+    "source": "R2d",
+    "title": "Promise; Promisor; Promisee; Beneficiary",
+    "chapter": "1",
+    "text": "\\(1\\) A promise is a manifestation of intention to act or refrain from acting in a specified way, so made as to justify a promisee in understanding that a commitment has been made.\n\n\\(2\\) The person manifesting the intention is the promisor.\n\n\\(3\\) The person to whom the manifestation is addressed is the promisee.\n\n\\(4\\) Where performance will benefit a person other than the promisee, that person is a beneficiary.\n\n### a. Acts and resulting relations. \n\n*\"*Promise\" as used in the Restatement of ..."
+  },
+  {
+    "number": "§ 3",
+    "source": "R2d",
+    "title": "Agreement Defined; Bargain Defined",
+    "chapter": "1",
+    "text": "An agreement is a manifestation of mutual assent on the part of two or more persons. A bargain is an agreement to exchange promises or to exchange a promise for a performance or to exchange performances.\n\n### a. Agreement distinguished from bargain.\n\nAgreement has in some respects a wider meaning than contract, bargain or promise. On the other hand, there are \\[quasi\\] contracts which do not require agreement \\[such as promises supported by promissory estoppel or promissory restitution\\]. The wo..."
+  },
+  {
+    "number": "§ 12",
+    "source": "R2d",
+    "title": "Capacity to Contract",
+    "chapter": "2",
+    "text": "\\(1\\) No one can be bound by contract who has not legal capacity to incur at least voidable contractual duties. Capacity to contract may be partial and its existence in respect of a particular transaction may depend upon the nature of the transaction or upon other circumstances.\n\n\\(2\\) A natural person who manifests assent to a transaction has full legal capacity to incur contractual duties thereby unless he is\n\n\\(a\\) under guardianship, or\n\n\\(b\\) an infant, or\n\n\\(c\\) mentally ill or defective, ..."
+  },
+  {
+    "number": "§ 13",
+    "source": "R2d",
+    "title": "Persons Affected by Guardianship",
+    "chapter": "2",
+    "text": "A person has no capacity to incur contractual duties if his property is under guardianship by reason of an adjudication of mental illness or defect.\n\n### a. Rationale.\n\nThe reason for appointing a guardian of property is to preserve the property from being squandered or improvidently used. The guardianship proceedings are treated as giving public notice of the ward's incapacity and establish his status with respect to transactions during guardianship even though the other party to a particular t..."
+  },
+  {
+    "number": "§ 14",
+    "source": "R2d",
+    "title": "Infants",
+    "chapter": "2",
+    "text": "Unless a statute provides otherwise, a natural person has the capacity to incur only voidable contractual duties until the beginning of the day before the person's eighteenth birthday.\n\n### a. Who are infants.\n\nThe common law fixed the age of twenty-one as the age at which both men and women achieve full capacity to contract, and the rule that the critical moment is the beginning of the preceding day was established on the ground that the law disregards fractions of a day. In almost every State ..."
+  },
+  {
+    "number": "§ 15",
+    "source": "R2d",
+    "title": "Mental Illness or Defect",
+    "chapter": "2",
+    "text": "\\(1\\) A person incurs only voidable contractual duties by entering into a transaction if by reason of mental illness or defect\n\n\\(a\\) he is unable to understand in a reasonable manner the nature and consequences of the transaction, or\n\n\\(b\\) he is unable to act in a reasonable manner in relation to the transaction and the other party has reason to know of his condition.\n\n\\(2\\) Where the contract is made on fair terms and the other party is without knowledge of the mental illness or defect, the p..."
+  },
+  {
+    "number": "§ 16",
+    "source": "R2d",
+    "title": "Intoxicated Persons",
+    "chapter": "2",
+    "text": "A person incurs only voidable contractual duties by entering into a transaction if the other party has reason to know that by reason of intoxication\n\n\\(a\\) he is unable to understand in a reasonable manner the nature and consequences of the transaction, or\n\n\\(b\\) he is unable to act in a reasonable manner in relation to the transaction.\n\n### a. Rationale.\n\nCompulsive alcoholism may be a form of mental illness; and when a guardian is appointed for the property of a habitual drunkard, his transact..."
+  },
+  {
+    "number": "§ 17",
+    "source": "R2d",
+    "title": "Requirement of a Bargain",
+    "chapter": "3",
+    "text": "\\(1\\) Except as stated in Subsection (2), the formation of a contract requires a bargain in which there is a manifestation of mutual assent to the exchange and a consideration.\n\n\\(2\\) Whether or not there is a bargain a contract may be formed under special rules applicable to formal contracts or under the rules stated in §§ 82-94.\n\n### a. Formal contracts.\n\nThe types of contracts listed in § 6 are not necessarily subject to the requirements of manifestation of assent and consideration. Where con..."
+  },
+  {
+    "number": "§ 18",
+    "source": "R2d",
+    "title": "Manifestation of Mutual Assent",
+    "chapter": "3",
+    "text": "Manifestation of mutual assent to an exchange requires that each party either make a promise or begin or render a performance.\n\n### a. Manifestation of assent.\n\nAssent to the formation of an informal contract is operative only to the extent that it is manifested. Rules for cases where one party could reasonably draw more than one inference as to the intention of another are stated in the following sections, in connection with the scope of contractual obligations (see §§ 201, 219), and in connect..."
+  },
+  {
+    "number": "§ 19",
+    "source": "R2d",
+    "title": "Conduct as Manifestation of Assent",
+    "chapter": "3",
+    "text": "\\(1\\) The manifestation of assent may be made wholly or partly by written or spoken words or by other acts or by failure to act.\n\n\\(2\\) The conduct of a party is not effective as a manifestation of his assent unless he intends to engage in the conduct and knows or has reason to know that the other party may infer from his conduct that he assents.\n\n\\(3\\) The conduct of a party may manifest assent even though he does not in fact assent. In such cases a resulting contract may be voidable because of..."
+  },
+  {
+    "number": "§ 20",
+    "source": "R2d",
+    "title": "Effect of Misunderstanding",
+    "chapter": "3",
+    "text": "\\(1\\) There is no manifestation of mutual assent to an exchange if the parties attach materially different meanings to their manifestations and\n\n\\(a\\) neither party knows or has reason to know the meaning attached by the other; or\n\n\\(b\\) each party knows or each party has reason to know the meaning attached by the other.\n\n\\(2\\) The manifestations of the parties are operative in accordance with the meaning attached to them by one of the parties if\n\n\\(a\\) that party does not know of any different ..."
+  },
+  {
+    "number": "§ 22(1)",
+    "source": "R2d",
+    "title": "Mode of Assent: Offer and Acceptance",
+    "chapter": "3",
+    "text": "The manifestation of mutual assent to an exchange ordinarily takes the form of an offer or proposal by one party followed by an acceptance by the other party or parties.\n\n### a. The usual practice.\n\nSubsection (1) states the usual practice in the making of bargains. One party ordinarily first announces what he will do and what he requires in exchange, and the other then agrees. Where there are more than two parties, the second party to agree may be regarded as accepting the offer made by the fir..."
+  },
+  {
+    "number": "§ 24",
+    "source": "R2d",
+    "title": "Offer Defined",
+    "chapter": "4",
+    "text": "An offer is the manifestation of willingness to enter into a bargain, so made as to justify another person in understanding that his assent to that bargain is invited and will conclude it.\n\n### a. Offer as promise.\n\nAn offer may propose an executed sale or barter rather than a contract, or it may propose the exchange of a promise for a performance or an exchange of promises, or it may propose two or more such transactions in combination or in the alternative. In the normal case of an offer of an..."
+  },
+  {
+    "number": "§ 25",
+    "source": "R2d",
+    "title": "Option Contracts",
+    "chapter": "4",
+    "text": "An option contract is a promise which meets the requirements for the formation of a contract and limits the promisor's power to revoke an offer.\n\n### a. \"Option.\"\n\nA promise which constitutes an option contract may be contained in the offer itself, or it may be made separately in a collateral offer to keep the main offer open. Such promises are commonly called \"options.\" But the word \"option\" is also often used for any continuing offer, even though revocable, and indeed is sometimes used to refe..."
+  },
+  {
+    "number": "§ 2-205",
+    "source": "UCC",
+    "title": "Firm Offers",
+    "chapter": "4",
+    "text": "An offer by a merchant to buy or sell goods in a signed writing which by its terms gives assurance that it will be held open is not revocable, for lack of consideration, during the time stated or if no time is stated for a reasonable time, but in no event may such period of irrevocability exceed three months; but any such term of assurance on a form supplied by the offeree must be separately signed by the offeror.\n\n*Editor's note: Firms offers are a type of option contract that does not require ..."
+  },
+  {
+    "number": "§ 26",
+    "source": "R2d",
+    "title": "Preliminary Negotiations",
+    "chapter": "4",
+    "text": "A manifestation of willingness to enter into a bargain is not an offer if the person to whom it is addressed knows or has reason to know that the person making it does not intend to conclude a bargain until he has made a further manifestation of assent.\n\n### a. Interpretation of proposals for exchange.\n\nThe rule stated in this Section is a special application of the definition in § 24 and of the principles governing the interpretation of manifestations of assent. Conduct which resembles an offer..."
+  },
+  {
+    "number": "§ 33",
+    "source": "R2d",
+    "title": "Certainty",
+    "chapter": "4",
+    "text": "\\(1\\) Even though a manifestation of intention is intended to be understood as an offer, it cannot be accepted so as to form a contract unless the terms of the contract are reasonably certain.\n\n\\(2\\) The terms of a contract are reasonably certain if they provide a basis for determining the existence of a breach and for giving an appropriate remedy.\n\n\\(3\\) The fact that one or more terms of a proposed bargain are left open or uncertain may show that a manifestation of intention is not intended to..."
+  },
+  {
+    "number": "§ 35",
+    "source": "R2d",
+    "title": "The Offeree's Power of Acceptance",
+    "chapter": "5",
+    "text": "\\(1\\) An offer gives to the offeree a continuing power to complete the manifestation of mutual assent by acceptance of the offer.\n\n\\(2\\) A contract cannot be created by acceptance of an offer after the power of acceptance has been terminated in one of the ways listed in § 36.\n\n### a. \"Duration of an offer.\"\n\nIt is common to speak of the duration \"of an offer.\" But \"offer\" is defined in § 24 as a manifestation of assent, and the reference here is not to the time occupied by the offeror's conduct ..."
+  },
+  {
+    "number": "§ 36",
+    "source": "R2d",
+    "title": "Methods of Termination of the Power of Acceptance",
+    "chapter": "5",
+    "text": "\\(1\\) An offeree's power of acceptance may be terminated by\n\n\\(a\\) rejection or counter-offer by the offeree, or\n\n\\(b\\) lapse of time, or\n\n\\(c\\) revocation by the offeror, or\n\n\\(d\\) death or incapacity of the offeror or offeree.\n\n\\(2\\) In addition, an offeree's power of acceptance is terminated by the non-occurrence of any condition of acceptance under the terms of the offer.\n\n### a. Scope.\n\nThis Section merely lists the methods of termination which are possible. The circumstances under which ea..."
+  },
+  {
+    "number": "§ 38",
+    "source": "R2d",
+    "title": "Rejection",
+    "chapter": "5",
+    "text": "\\(1\\) An offeree's power of acceptance is terminated by his rejection of the offer, unless the offeror has manifested a contrary intention.\n\n\\(2\\) A manifestation of intention not to accept an offer is a rejection unless the offeree manifests an intention to take it under further advisement.\n\n### a. The probability of reliance.\n\nThe legal consequences of a rejection rest on its probable effect on the offeror. An offeror commonly takes steps to prepare for performance in the event that the offer ..."
+  },
+  {
+    "number": "§ 39",
+    "source": "R2d",
+    "title": "Counter-Offers",
+    "chapter": "5",
+    "text": "\\(1\\) A counter-offer is an offer made by an offeree to his offeror relating to the same matter as the original offer and proposing a substituted bargain differing from that proposed by the original offer.\n\n\\(2\\) An offeree's power of acceptance is terminated by his making of a counter-offer, unless the offeror has manifested a contrary intention or unless the counter-offer manifests a contrary intention of the offeree.\n\n### a. Counter-offer as rejection.\n\nIt is often said that a counter-offer i..."
+  },
+  {
+    "number": "§ 41",
+    "source": "R2d",
+    "title": "Lapse of Time",
+    "chapter": "5",
+    "text": "\\(1\\) An offeree's power of acceptance is terminated at the time specified in the offer, or, if no time is specified, at the end of a reasonable time.\n\n\\(2\\) What is a reasonable time is a question of fact, depending on all the circumstances existing when the offer and attempted acceptance are made.\n\n\\(3\\) Unless otherwise indicated by the language or the circumstances, and subject to the rule stated in § 49, an offer sent by mail is seasonably accepted if an acceptance is mailed at any time bef..."
+  },
+  {
+    "number": "§ 42",
+    "source": "R2d",
+    "title": "Revocation by Communication From Offeror Received by Offeree",
+    "chapter": "5",
+    "text": "An offeree's power of acceptance is terminated when the offeree receives from the offeror a manifestation of an intention not to enter into the proposed contract.\n\n### a. Revocability of offers.\n\nMost offers are revocable. Revocability may rest on the express or implied terms of the offer, as in the case of bids at an auction. But the ordinary offer is revocable even though it expressly states the contrary, because of the doctrine that an informal agreement is binding as a bargain only if suppor..."
+  },
+  {
+    "number": "§ 43",
+    "source": "R2d",
+    "title": "Indirect Communication of Revocation",
+    "chapter": "5",
+    "text": "An offeree's power of acceptance is terminated when the offeror takes definite action inconsistent with an intention to enter into the proposed contract and the offeree acquires reliable information to that effect.\n\n### a. Direct and indirect communication.\n\nThis Section extends the principle giving effect to a revocation communicated directly by the offeror to the offeree, and is subject to the same qualifications. Thus a revocation is ineffective, whether communication is direct or indirect, i..."
+  },
+  {
+    "number": "§ 45",
+    "source": "R2d",
+    "title": "Option Contract Created by Part Performance or Tender",
+    "chapter": "5",
+    "text": "\\(1\\) Where an offer invites an offeree to accept by rendering a performance and does not invite a promissory acceptance, an option contract is created when the offeree tenders or begins the invited performance or tenders a beginning of it.\n\n\\(2\\) The offeror's duty of performance under any option contract so created is conditional on completion or tender of the invited performance in accordance with the terms of the offer.\n\n### a. Offer limited to acceptance by performance only.\n\nThis Section i..."
+  },
+  {
+    "number": "§ 46",
+    "source": "R2d",
+    "title": "Revocation of General Offer",
+    "chapter": "5",
+    "text": "Where an offer is made by advertisement in a newspaper or other general notification to the public or to a number of persons whose identity is unknown to the offeror, the offeree's power of acceptance is terminated when a notice of termination is given publicity by advertisement or other general notification equal to that given to the offer and no better means of notification is reasonably available.\n\n### a. Revocability.\n\nThis Section is an extension of the principle giving effect to a communic..."
+  },
+  {
+    "number": "§ 48",
+    "source": "R2d",
+    "title": "Death or Incapacity of Offeror or Offeree",
+    "chapter": "5",
+    "text": "An offeree's power of acceptance is terminated when the offeree or offeror dies or is deprived of legal capacity to enter into the proposed contract.\n\n### a. Death of offeror.\n\nThe offeror's death terminates the power of the offeree without notice to him. This rule seems to be a relic of the obsolete view that a contract requires a \"meeting of minds,\" and it is out of harmony with the modern doctrine that a manifestation of assent is effective without regard to actual mental assent. Some inroads..."
+  },
+  {
+    "number": "§ 50",
+    "source": "R2d",
+    "title": "Acceptance of Offer Defined; Acceptance by Performance; Acceptance by Promise",
+    "chapter": "6",
+    "text": "\\(1\\) Acceptance of an offer is a manifestation of assent to the terms thereof made by the offeree in a manner invited or required by the offer.\n\n\\(2\\) Acceptance by performance requires that at least part of what the offer requests be performed or tendered and includes acceptance by a performance which operates as a return promise.\n\n\\(3\\) Acceptance by a promise requires that the offeree complete every act essential to the making of the promise.\n\n### a. Mode of acceptance.\n\nThe acceptance must ..."
+  },
+  {
+    "number": "§ 51",
+    "source": "R2d",
+    "title": "Effect of Part Performance Without Knowledge of Offer",
+    "chapter": "6",
+    "text": "Unless the offeror manifests a contrary intention, an offeree who learns of an offer after he has rendered part of the performance requested by the offer may accept by completing the requested performance.\n\n### a. Performance without knowledge. \n\nWhere an offer invites a return promise, the offeree may manifest assent and thereby make a return promise even though he does not have actual knowledge of the offer. But when an offer contemplates no commitment, as in cases of offers of reward, it is o..."
+  },
+  {
+    "number": "§ 58",
+    "source": "R2d",
+    "title": "Necessity of Acceptance Complying with Terms of Offer",
+    "chapter": "6",
+    "text": "An acceptance must comply with the requirements of the offer as to the promise to be made or the performance to be rendered.\n\n### a. Scope.\n\nThis rule applies to the substance of the bargain the basic principle that the offeror is the master of his offer. That principle rests on the concept of private autonomy underlying contract law. It is mitigated by the interpretation of offers, in accordance with common understanding, as inviting acceptance in any reasonable manner unless there is contrary ..."
+  },
+  {
+    "number": "§ 59",
+    "source": "R2d",
+    "title": "Purported Acceptance Which Adds Qualifications",
+    "chapter": "6",
+    "text": "A reply to an offer which purports to accept it but is conditional on the offeror's assent to terms additional to or different from those offered is not an acceptance but is a counter-offer.\n\n### a. Qualified acceptance.\n\nA qualified or conditional acceptance proposes an exchange different from that proposed by the original offeror. Such a proposal is a counter-offer and ordinarily terminates the power of acceptance of the original offeree. The effect of the qualification or condition is to depr..."
+  },
+  {
+    "number": "§ 61",
+    "source": "R2d",
+    "title": "Acceptance Which Requests Change of Terms",
+    "chapter": "6",
+    "text": "An acceptance which requests a change or addition to the terms of the offer is not thereby invalidated unless the acceptance is made to depend on an assent to the changed or added terms.\n\n### a. Interpretation of acceptance.\n\nAn acceptance must be unequivocal. But the mere inclusion of words requesting a modification of the proposed terms does not prevent a purported acceptance from closing the contract unless, if fairly interpreted, the offeree's assent depends on the offeror's further acquiesc..."
+  },
+  {
+    "number": "§ 63",
+    "source": "R2d",
+    "title": "Time When Acceptance Takes Effect",
+    "chapter": "6",
+    "text": "Unless the offer provides otherwise,\n\n\\(a\\) an acceptance made in a manner and by a medium invited by an offer is operative and completes the manifestation of mutual assent as soon as put out of the offeree's possession, without regard to whether it ever reaches the offeror; but\n\n\\(b\\) an acceptance under an option contract is not operative until received by the offeror.\n\n### a. Rationale.\n\nIt is often said that an offeror who makes an offer by mail makes the post office his agent to receive the..."
+  },
+  {
+    "number": "§ 2-207",
+    "source": "UCC",
+    "title": "Additional Terms in Acceptance or Confirmation",
+    "chapter": "6",
+    "text": "\\(1\\) A definite and seasonable expression of acceptance or a written confirmation which is sent within a reasonable time operates as an acceptance even though it states terms additional to or different from those offered or agreed upon, unless acceptance is expressly made conditional on assent to the additional or different terms.\n\n\\(2\\) The additional terms are to be construed as proposals for addition to the contract. Between merchants such terms become part of the contract unless:\n\n\\(a\\) the..."
+  },
+  {
+    "number": "§ 71",
+    "source": "R2d",
+    "title": "Requirement of Exchange; Types of Exchange",
+    "chapter": "7",
+    "text": "\\(1\\) To constitute consideration, a performance or a return promise must be bargained for.\n\n\\(2\\) A performance or return promise is bargained for if it is sought by the promisor in exchange for his promise and is given by the promisee in exchange for that promise.\n\n\\(3\\) The performance may consist of\n\n\\(a\\) an act other than a promise, or\n\n\\(b\\) a forbearance, or\n\n\\(c\\) the creation, modification, or destruction of a legal relation.\n\n\\(4\\) The performance or return promise may be given to the..."
+  },
+  {
+    "number": "§ 73",
+    "source": "R2d",
+    "title": "Performance of Legal Duty",
+    "chapter": "7",
+    "text": "Performance of a legal duty owed to a promisor which is neither doubtful nor the subject of honest dispute is not consideration; but a similar performance is consideration if it differs from what was required by the duty in a way which reflects more than a pretense of bargain.\n\n### a. Rationale.\n\nA claim that the performance of a legal duty furnished consideration for a promise often raises a suspicion that the transaction was gratuitous or mistaken or unconscionable. If the performance was not ..."
+  },
+  {
+    "number": "§ 74",
+    "source": "R2d",
+    "title": "Settlement of Claims",
+    "chapter": "7",
+    "text": "\\(1\\) Forbearance to assert or the surrender of a claim or defense which proves to be invalid is not consideration unless\n\n\\(a\\) the claim or defense is in fact doubtful because of uncertainty as to the facts or the law, or\n\n\\(b\\) the forbearing or surrendering party believes that the claim or defense may be fairly determined to be valid.\n\n\\(2\\) The execution of a written instrument surrendering a claim or defense by one who is under no duty to execute it is consideration if the execution of the..."
+  },
+  {
+    "number": "§ 77",
+    "source": "R2d",
+    "title": "Illusory and Alternative Promises",
+    "chapter": "7",
+    "text": "A promise or apparent promise is not consideration if by its terms the promisor or purported promisor reserves a choice of alternative performances unless\n\n\\(a\\) each of the alternative performances would have been consideration if it alone had been bargained for; or\n\n\\(b\\) one of the alternative performances would have been consideration and there is or appears to the parties to be a substantial possibility that before the promisor exercises his choice events may eliminate the alternatives whic..."
+  },
+  {
+    "number": "§ 79",
+    "source": "R2d",
+    "title": "Adequacy of Consideration; Mutuality of Obligation",
+    "chapter": "7",
+    "text": "If the requirement of consideration is met, there is no additional requirement of\n\n\\(a\\) a gain, advantage, or benefit to the promisor or a loss, disadvantage, or detriment to the promisee; or\n\n\\(b\\) equivalence in the values exchanged; or\n\n\\(c\\) \"mutuality of obligation.\"\n\n### a. Rationale.\n\nIn such typical bargains as the ordinary sale of goods each party gives up something of economic value, and the values exchanged are often roughly or exactly equivalent by standards independent of the parti..."
+  },
+  {
+    "number": "§ 90",
+    "source": "R2d",
+    "title": "Promise Reasonably Inducing Action or Forbearance",
+    "chapter": "8",
+    "text": "\\(1\\) A promise which the promisor should reasonably expect to induce action or forbearance on the part of the promisee or a third person and which does induce such action or forbearance is binding if injustice can be avoided only by enforcement of the promise. The remedy granted for breach may be limited as justice requires.\n\n\\(2\\) A charitable subscription or a marriage settlement is binding under Subsection (1) without proof that the promise induced action or forbearance.\n\n### a. Relation to ..."
+  },
+  {
+    "number": "§ 86",
+    "source": "R2d",
+    "title": "Promise for Benefit Received",
+    "chapter": "9",
+    "text": "\\(1\\) A promise made in recognition of a benefit previously received by the promisor from the promisee is binding to the extent necessary to prevent injustice.\n\n\\(2\\) A promise is not binding under Subsection (1)\n\n\\(a\\) if the promisee conferred the benefit as a gift or for other reasons the promisor has not been unjustly enriched; or\n\n\\(b\\) to the extent that its value is disproportionate to the benefit.\n\n### a. \"Past consideration\"; \"moral obligation.\"\n\nEnforcement of promises to pay for benef..."
+  },
+  {
+    "number": "§ 110",
+    "source": "R2d",
+    "title": "Classes of Contracts Covered",
+    "chapter": "10",
+    "text": "\\(1\\) The following classes of contracts are subject to a statute, commonly called the Statute of Frauds, forbidding enforcement unless there is a written memorandum or an applicable exception:\n\n\\(a\\) a contract of an executor or administrator to answer for a duty of his decedent (the executor-administrator provision);\n\n\\(b\\) a contract to answer for the duty of another (the suretyship provision);\n\n\\(c\\) a contract made upon consideration of marriage (the marriage provision);\n\n\\(d\\) a contract f..."
+  },
+  {
+    "number": "§ 111",
+    "source": "R2d",
+    "title": "Contract of Executor or Administrator",
+    "chapter": "10",
+    "text": "A contract of an executor or administrator to answer personally for a duty of his decedent is within the Statute of Frauds if a similar contract to answer for the duty of a living person would be within the Statute as a contract to answer for the duty of another.\n\n*a. Analogy to suretyship*. The first clause of § 4 of the English Statute of Frauds is treated as a special application of the suretyship provision of the second clause. Where the principal obligor dies before the promise in question ..."
+  },
+  {
+    "number": "§ 112",
+    "source": "R2d",
+    "title": "Requirement of Suretyship",
+    "chapter": "10",
+    "text": "A contract is not within the Statute of Frauds as a contract to answer for the duty of another unless the promisee is an obligee of the other's duty, the promisor is a surety for the other, and the promisee knows or has reason to know of the suretyship relation.\n\n### a. The statutory purpose.\n\nIn general the primary purpose of the Statute of Frauds is assumed to be evidentiary. In the case of suretyship contracts, however, the Statute also serves the cautionary function of guarding the promisor ..."
+  },
+  {
+    "number": "§ 124",
+    "source": "R2d",
+    "title": "Contract Made Upon Consideration of Marriage",
+    "chapter": "10",
+    "text": "A promise for which all or part of the consideration is either marriage or a promise to marry is within the Statute of Frauds, except in the case of an agreement which consists only of mutual promises of two persons to marry each other.\n\n### a. Engagement to marry.\n\nMutual promises to marry were within the words of the English statute, but were not within the statutory purpose and were soon excluded by judicial interpretation. A number of American statutes explicitly except such promises from th..."
+  },
+  {
+    "number": "§ 125",
+    "source": "R2d",
+    "title": "Contract to Transfer, Buy, or Pay for an Interest in Land",
+    "chapter": "10",
+    "text": "\\(1\\) A promise to transfer to any person any interest in land is within the Statute of Frauds.\n\n\\(2\\) A promise to buy any interest in land is within the Statute of Frauds, irrespective of the person to whom the transfer is to be made.\n\n\\(3\\) When a transfer of an interest in land has been made, a promise to pay the price, if originally within the Statute of Frauds, ceases to be within it unless the promised price is itself in whole or in part an interest in land.\n\n\\(4\\) Statutes in most states..."
+  },
+  {
+    "number": "§ 129",
+    "source": "R2d",
+    "title": "Action in Reliance; Specific Performance",
+    "chapter": "10",
+    "text": "A contract for the transfer of an interest in land may be specifically enforced notwithstanding failure to comply with the Statute of Frauds if it is established that the party seeking enforcement, in reasonable reliance on the contract and on the continuing assent of the party against whom enforcement is sought, has so changed his position that injustice can be avoided only by specific enforcement.\n\n### a. Historical note and modern justifications.\n\nThis Section restates what is widely known as..."
+  },
+  {
+    "number": "§ 130",
+    "source": "R2d",
+    "title": "Contract Not to Be Performed Within a Year",
+    "chapter": "10",
+    "text": "\\(1\\) Where any promise in a contract cannot be fully performed within a year from the time the contract is made, all promises in the contract are within the Statute of Frauds until one party to the contract completes his performance.\n\n\\(2\\) When one party to a contract has completed his performance, the one-year provision of the Statute does not prevent enforcement of the promises of other parties.\n\n### a. Possibility of performance within one year.\n\nThe English Statute of Frauds applied to an ..."
+  },
+  {
+    "number": "§ 131",
+    "source": "R2d",
+    "title": "General Requisites of a Memorandum",
+    "chapter": "10",
+    "text": "Unless additional requirements are prescribed by the particular statute, a contract within the Statute of Frauds is enforceable if it is evidenced by any writing, signed by or on behalf of the party to be charged, which\n\n\\(a\\) reasonably identifies the subject matter of the contract,\n\n\\(b\\) is sufficient to indicate that a contract with respect thereto has been made between the parties or offered by the signer to the other party, and\n\n\\(c\\) states with reasonable certainty the essential terms of..."
+  },
+  {
+    "number": "§ 132",
+    "source": "R2d",
+    "title": "Several Writings",
+    "chapter": "10",
+    "text": "The memorandum may consist of several writings if one of the writings is signed and the writings in the circumstances clearly indicate that they relate to the same transaction.\n\n### a. Rationale.\n\nThe requirements of the Statute of Frauds, designed primarily to serve an evidentiary purpose, are less rigorous than those of the Statute of Wills, which is designed to serve cautionary and channeling purposes as well. A will may refer to facts which have independent significance, and in some States a..."
+  },
+  {
+    "number": "§ 133",
+    "source": "R2d",
+    "title": "Memorandum Not Made as Such",
+    "chapter": "10",
+    "text": "Except in the case of a writing evidencing a contract upon consideration of marriage, the Statute may be satisfied by a signed writing not made as a memorandum of a contract.\n\n### a. Rationale.\n\nThe rule of this Section reflects the general assumption that the primary purpose of the Statute is evidentiary, that it was not intended to facilitate repudiation of oral contracts. The marriage provision, however, performs a cautionary function as well, and a subsequent writing does not satisfy the Sta..."
+  },
+  {
+    "number": "§ 134",
+    "source": "R2d",
+    "title": "Signature",
+    "chapter": "10",
+    "text": "The signature to a memorandum may be any symbol made or adopted with an intention, actual or apparent, to authenticate the writing as that of the signer.\n\n### a. Types of symbol.\n\nThe traditional form of signature is of course the name of the signer, handwritten in ink. But initials, thumbprint or an arbitrary code sign may also be used; and the signature may be written in pencil, typed, printed, made with a rubber stamp, or impressed into the paper. Signed copies may be made with carbon paper o..."
+  },
+  {
+    "number": "§ 137",
+    "source": "R2d",
+    "title": "Loss or Destruction of a Memorandum",
+    "chapter": "10",
+    "text": "The loss or destruction of a memorandum does not deprive it of effect under the Statute.\n\n### a. Not a rule of evidence.\n\nAlthough the Statute of Frauds was designed to serve an evidentiary purpose, it is not a rule of evidence. In cases of loss or destruction, the contents of a memorandum may be shown by an unsigned copy or by oral evidence."
+  },
+  {
+    "number": "§ 139",
+    "source": "R2d",
+    "title": "Enforcement by Virtue of Action in Reliance",
+    "chapter": "10",
+    "text": "\\(1\\) A promise which the promisor should reasonably expect to induce action or forbearance on the part of the promisee or a third person and which does induce the action or forbearance is enforceable notwithstanding the Statute of Frauds if injustice can be avoided only by enforcement of the promise. The remedy granted for breach is to be limited as justice requires.\n\n\\(2\\) In determining whether injustice can be avoided only by enforcement of the promise, the following circumstances are signif..."
+  },
+  {
+    "number": "§ 138",
+    "source": "R2d",
+    "title": "Unenforceability",
+    "chapter": "10",
+    "text": "Where a contract within the Statute of Frauds is not enforceable against the party to be charged by an action against him, it is not enforceable by a set-off or counterclaim in an action brought by him, or as a defense to a claim by him.\n\n### a. Contracts within the Statute.\n\nSection 110 lists the classes of contracts which are subject to the Statute of Frauds, and Topics 1-5, §§ 111-30 elaborate the descriptions of some of those classes and the circumstances in which certain contracts originall..."
+  },
+  {
+    "number": "§ 2-201",
+    "source": "UCC",
+    "title": "Formal Requirements; Statute of Frauds (pre-2022 Amendments)",
+    "chapter": "10",
+    "text": "\\(1\\) Except as otherwise provided in this section a contract for the sale of goods for the price of \\$500 or more is not enforceable by way of action or defense unless there is some writing sufficient to indicate that a contract for sale has been made between the parties and signed by the party against whom enforcement is sought or by his authorized agent or broker. A writing is not insufficient because it omits or incorrectly states a term agreed upon but the contract is not enforceable under ..."
+  },
+  {
+    "number": "§ 2-201",
+    "source": "UCC",
+    "title": "Formal Requirements; Statute of Frauds (post-2022 Amendments)",
+    "chapter": "10",
+    "text": "\\(1\\) Except as otherwise provided in this section a contract for the sale of goods for the price of \\$500 or more is not enforceable by way of action or defense unless there is some record sufficient to indicate that a contract for sale has been made between the parties and signed by the party against whom enforcement is sought or by the party\\'s authorized agent or broker. A record is not insufficient because it omits or incorrectly states a term agreed upon but the contract is not enforceable..."
+  },
+  {
+    "number": "15 U.S.C. § 7001",
+    "source": "Federal",
+    "title": "Electronic Signatures in Global and National Commerce Act, General Rule of Validity",
+    "chapter": "10",
+    "text": "\\(a\\) In General.\\--Notwithstanding any statute, regulation, or other rule of law (other than this title and title II), with respect to any transaction in or affecting interstate or foreign commerce\\--\n\n\\(1\\) a signature, contract, or other record relating to such transaction may not be denied legal effect, validity, or enforceability solely because it is in electronic form; and\n\n\\(2\\) a contract relating to such transaction may not be denied legal effect, validity, or enforceability solely beca..."
+  },
+  {
+    "number": "§ 151",
+    "source": "R2d",
+    "title": "Mistake Defined",
+    "chapter": "11",
+    "text": "A mistake is a belief that is not in accord with the facts.\n\n### a. Belief as to facts.\n\nIn this Restatement the word \"mistake\" is used to refer to an erroneous belief. A party's erroneous belief is therefore said to be a \"mistake\" of that party. The belief need not be an articulated one, and a party may have a belief as to a fact when he merely makes an assumption with respect to it, without being aware of alternatives. The word \"mistake\" is not used here, as it is sometimes used in common spee..."
+  },
+  {
+    "number": "§ 152",
+    "source": "R2d",
+    "title": "When Mistake of Both Parties Makes a Contract Voidable",
+    "chapter": "11",
+    "text": "\\(1\\) Where a mistake of both parties at the time a contract was made as to a basic assumption on which the contract was made has a material effect on the agreed exchange of performances, the contract is voidable by the adversely affected party unless he bears the risk of the mistake under the rule stated in § 154.\n\n\\(2\\) In determining whether the mistake has a material effect on the agreed exchange of performances, account is taken of any relief by way of reformation, restitution, or otherwise..."
+  },
+  {
+    "number": "§ 153",
+    "source": "R2d",
+    "title": "When Mistake of One Party Makes a Contract Voidable",
+    "chapter": "11",
+    "text": "Where a mistake of one party at the time a contract was made as to a basic assumption on which he made the contract has a material effect on the agreed exchange of performances that is adverse to him, the contract is voidable by him if he does not bear the risk of the mistake under the rule stated in § 154, and\n\n\\(a\\) the effect of the mistake is such that enforcement of the contract would be unconscionable, or\n\n\\(b\\) the other party had reason to know of the mistake or his fault caused the mist..."
+  },
+  {
+    "number": "§ 154",
+    "source": "R2d",
+    "title": "When a Party Bears the Risk of a Mistake",
+    "chapter": "11",
+    "text": "A party bears the risk of a mistake when\n\n\\(a\\) the risk is allocated to him by agreement of the parties, or\n\n\\(b\\) he is aware, at the time the contract is made, that he has only limited knowledge with respect to the facts to which the mistake relates but treats his limited knowledge as sufficient, or\n\n\\(c\\) the risk is allocated to him by the court on the ground that it is reasonable in the circumstances to do so.\n\n### a. Rationale.\n\nAbsent provision to the contrary, a contracting party takes ..."
+  },
+  {
+    "number": "§ 159",
+    "source": "R2d",
+    "title": "Misrepresentation Defined",
+    "chapter": "12",
+    "text": "A misrepresentation is an assertion that is not in accord with the facts.\n\n### a. Nature of the assertion.\n\nA misrepresentation, being a false assertion of fact, commonly takes the form of spoken or written words. Whether a statement is false depends on the meaning of the words in all the circumstances, including what may fairly be inferred from them. An assertion may also be inferred from conduct other than words. Concealment or even non-disclosure may have the effect of a misrepresentation und..."
+  },
+  {
+    "number": "§ 160",
+    "source": "R2d",
+    "title": "When Action Is Equivalent to an Assertion (Concealment)",
+    "chapter": "12",
+    "text": "Action intended or known to be likely to prevent another from learning a fact is equivalent to an assertion that the fact does not exist.\n\n### a. Scope.\n\nConcealment is an affirmative act intended or known to be likely to keep another from learning of a fact of which he would otherwise have learned. Such affirmative action is always equivalent to a misrepresentation and has any effect that a misrepresentation would have under the rules stated in §§ 163, 164 and 166. The rule stated in the follow..."
+  },
+  {
+    "number": "§ 161",
+    "source": "R2d",
+    "title": "When Non-Disclosure Is Equivalent to an Assertion",
+    "chapter": "12",
+    "text": "A person's non-disclosure of a fact known to him is equivalent to an assertion that the fact does not exist in the following cases only:\n\n\\(a\\) where he knows that disclosure of the fact is necessary to prevent some previous assertion from being a misrepresentation or from being fraudulent or material.\n\n\\(b\\) where he knows that disclosure of the fact would correct a mistake of the other party as to a basic assumption on which that party is making the contract and if non-disclosure of the fact a..."
+  },
+  {
+    "number": "§ 162",
+    "source": "R2d",
+    "title": "When a Misrepresentation Is Fraudulent or Material",
+    "chapter": "12",
+    "text": "\\(1\\) A misrepresentation is fraudulent if the maker intends his assertion to induce a party to manifest his assent and the maker\n\n\\(a\\) knows or believes that the assertion is not in accord with the facts, or\n\n\\(b\\) does not have the confidence that he states or implies in the truth of the assertion, or\n\n\\(c\\) knows that he does not have the basis that he states or implies for the assertion.\n\n\\(2\\) A misrepresentation is material if it would be likely to induce a reasonable person to manifest h..."
+  },
+  {
+    "number": "§ 164",
+    "source": "R2d",
+    "title": "When a Misrepresentation Makes a Contract Voidable",
+    "chapter": "12",
+    "text": "\\(1\\) If a party's manifestation of assent is induced by either a fraudulent or a material misrepresentation by the other party upon which the recipient is justified in relying, the contract is voidable by the recipient.\n\n\\(2\\) If a party's manifestation of assent is induced by either a fraudulent or a material misrepresentation by one who is not a party to the transaction upon which the recipient is justified in relying, the contract is voidable by the recipient, unless the other party to the t..."
+  },
+  {
+    "number": "§ 174",
+    "source": "R2d",
+    "title": "When Duress by Physical Compulsion Prevents Formation of a Contract",
+    "chapter": "12",
+    "text": "If conduct that appears to be a manifestation of assent by a party who does not intend to engage in that conduct is physically compelled by duress, the conduct is not effective as a manifestation of assent.\n\n### a. Rationale.\n\nUnder the general principle stated in § 21(2), a party's conduct is not effective as a manifestation of his assent if he does not intend to engage in it. This Section involves an application of that principle to those relatively rare situations in which actual physical for..."
+  },
+  {
+    "number": "§ 175",
+    "source": "R2d",
+    "title": "When Duress by Threat Makes a Contract Voidable",
+    "chapter": "12",
+    "text": "\\(1\\) If a party's manifestation of assent is induced by an improper threat by the other party that leaves the victim no reasonable alternative, the contract is voidable by the victim.\n\n\\(2\\) If a party's manifestation of assent is induced by one who is not a party to the transaction, the contract is voidable by the victim unless the other party to the transaction in good faith and without reason to know of the duress either gives value or relies materially on the transaction.\n\n### a. Improper t..."
+  },
+  {
+    "number": "§ 176",
+    "source": "R2d",
+    "title": "When a Threat Is Improper",
+    "chapter": "12",
+    "text": "\\(1\\) A threat is improper if\n\n\\(a\\) what is threatened is a crime or a tort, or the threat itself would be a crime or a tort if it resulted in obtaining property,\n\n\\(b\\) what is threatened is a criminal prosecution,\n\n\\(c\\) what is threatened is the use of civil process and the threat is made in bad faith, or\n\n\\(d\\) the threat is a breach of the duty of good faith and fair dealing under a contract with the recipient.\n\n\\(2\\) A threat is improper if the resulting exchange is not on fair terms, and..."
+  },
+  {
+    "number": "§ 177",
+    "source": "R2d",
+    "title": "When Undue Influence Makes a Contract Voidable",
+    "chapter": "12",
+    "text": "\\(1\\) Undue influence is unfair persuasion of a party who is under the domination of the person exercising the persuasion or who by virtue of the relation between them is justified in assuming that that person will not act in a manner inconsistent with his welfare.\n\n\\(2\\) If a party's manifestation of assent is induced by undue influence by the other party, the contract is voidable by the victim.\n\n\\(3\\) If a party's manifestation of assent is induced by one who is not a party to the transaction,..."
+  },
+  {
+    "number": "§ 178",
+    "source": "R2d",
+    "title": "When a Term Is Unenforceable on Grounds of Public Policy",
+    "chapter": "12",
+    "text": "\\(1\\) A promise or other term of an agreement is unenforceable on grounds of public policy if legislation provides that it is unenforceable or the interest in its enforcement is clearly outweighed in the circumstances by a public policy against the enforcement of such terms.\n\n\\(2\\) In weighing the interest in the enforcement of a term, account is taken of\n\n\\(a\\) the parties' justified expectations,\n\n\\(b\\) any forfeiture that would result if enforcement were denied, and\n\n\\(c\\) any special public ..."
+  },
+  {
+    "number": "§ 200",
+    "source": "R2d",
+    "title": "Interpretation of Promise or Agreement",
+    "chapter": "13",
+    "text": "Interpretation of a promise or agreement or a term thereof is the ascertainment of its meaning.\n\n### a. Formation of contract.\n\nQuestions of interpretation arise in determining whether there is a contract as well as in determining rights and duties under a contract. Chapter 3 states rules applicable in determining whether the parties have manifested the mutual assent necessary to a contract enforceable as a bargain. The rules stated in the present Topic overlap with those rules, but also apply w..."
+  },
+  {
+    "number": "§ 201",
+    "source": "R2d",
+    "title": "Whose Meaning Prevails",
+    "chapter": "13",
+    "text": "\\(1\\) Where the parties have attached the same meaning to a promise or agreement or a term thereof, it is interpreted in accordance with that meaning.\n\n\\(2\\) Where the parties have attached different meanings to a promise or agreement or a term thereof, it is interpreted in accordance with the meaning attached by one of them if at the time the agreement was made\n\n\\(a\\) that party did not know of any different meaning attached by the other, and the other knew the meaning attached by the first par..."
+  },
+  {
+    "number": "§ 202",
+    "source": "R2d",
+    "title": "Rules in Aid of Interpretation",
+    "chapter": "13",
+    "text": "\\(1\\) Words and other conduct are interpreted in the light of all the circumstances, and if the principal purpose of the parties is ascertainable it is given great weight.\n\n\\(2\\) A writing is interpreted as a whole, and all writings that are part of the same transaction are interpreted together.\n\n\\(3\\) Unless a different intention is manifested,\n\n\\(a\\) where language has a generally prevailing meaning, it is interpreted in accordance with that meaning;\n\n\\(b\\) technical terms and words of art are..."
+  },
+  {
+    "number": "§ 203",
+    "source": "R2d",
+    "title": "Standards of Preference in Interpretation",
+    "chapter": "13",
+    "text": "In the interpretation of a promise or agreement or a term thereof, the following standards of preference are generally applicable:\n\n\\(a\\) an interpretation which gives a reasonable, lawful, and effective meaning to all the terms is preferred to an interpretation which leaves a part unreasonable, unlawful, or of no effect;\n\n\\(b\\) express terms are given greater weight than course of performance, course of dealing, and usage of trade, course of performance is given greater weight than course of de..."
+  },
+  {
+    "number": "§ 204",
+    "source": "R2d",
+    "title": "Supplying an Omitted Essential Term",
+    "chapter": "14",
+    "text": "When the parties to a bargain sufficiently defined to be a contract have not agreed with respect to a term which is essential to a determination of their rights and duties, a term which is reasonable in the circumstances is supplied by the court.\n\n### a. Scope; relation to other rules.\n\nThis Section states a principle governing the legal effect of a binding agreement. The supplying of an omitted term is not technically interpretation, but the two are closely related; courts often speak of an \"im..."
+  },
+  {
+    "number": "§ 205",
+    "source": "R2d",
+    "title": "Duty of Good Faith and Fair Dealing",
+    "chapter": "14",
+    "text": "Every contract imposes upon each party a duty of good faith and fair dealing in its performance and its enforcement.\n\n### a. Meanings of \"good faith.\"\n\nGood faith is defined in U.C.C. § 1-201(19) as \"honesty in fact in the conduct or transaction concerned.\" \"In the case of a merchant\" U.C.C. § 2-103(1)(b) provides that good faith means \"honesty in fact and the observance of reasonable commercial standards of fair dealing in the trade.\" The phrase \"good faith\" is used in a variety of contexts, an..."
+  },
+  {
+    "number": "§ 206",
+    "source": "R2d",
+    "title": "Interpretation Against the Draftsman",
+    "chapter": "14",
+    "text": "In choosing among the reasonable meanings of a promise or agreement or a term thereof, that meaning is generally preferred which operates against the party who supplies the words or from whom a writing otherwise proceeds.\n\n### a. Rationale.\n\nWhere one party chooses the terms of a contract, he is likely to provide more carefully for the protection of his own interests than for those of the other party. He is also more likely than the other party to have reason to know of uncertainties of meaning...."
+  },
+  {
+    "number": "§ 207",
+    "source": "R2d",
+    "title": "Interpretation Favoring the Public",
+    "chapter": "14",
+    "text": "In choosing among the reasonable meanings of a promise or agreement or a term thereof, a meaning that serves the public interest is generally preferred.\n\n### a. Scope.\n\nThe rule preferring an interpretation which favors an interest of the public applies only to agreements which affect a public interest. It is a rule of legal effect as well as interpretation, and rests more on considerations of public policy than on the probable intention of the parties. It has often been relied on to justify nar..."
+  },
+  {
+    "number": "§ 208",
+    "source": "R2d",
+    "title": "Unconscionable Contract or Term",
+    "chapter": "14",
+    "text": "If a contract or term thereof is unconscionable at the time the contract is made a court may refuse to enforce the contract, or may enforce the remainder of the contract without the unconscionable term, or may so limit the application of any unconscionable term as to avoid any unconscionable result.\n\n### a. Scope.\n\nLike the obligation of good faith and fair dealing (§ 205), the policy against unconscionable contracts or terms applies to a wide variety of types of conduct. The determination that ..."
+  },
+  {
+    "number": "§ 209",
+    "source": "R2d",
+    "title": "Integrated Agreements",
+    "chapter": "15",
+    "text": "\\(1\\) An integrated agreement is a writing or writings constituting a final expression of one or more terms of an agreement.\n\n\\(2\\) Whether there is an integrated agreement is to be determined by the court as a question preliminary to determination of a question of interpretation or to application of the parol evidence rule.\n\n\\(3\\) Where the parties reduce an agreement to a writing which in view of its completeness and specificity reasonably appears to be a complete agreement, it is taken to be ..."
+  },
+  {
+    "number": "§ 210",
+    "source": "R2d",
+    "title": "Completely and Partially Integrated Agreements",
+    "chapter": "15",
+    "text": "\\(1\\) A completely integrated agreement is an integrated agreement adopted by the parties as a complete and exclusive statement of the terms of the agreement.\n\n\\(2\\) A partially integrated agreement is an integrated agreement other than a completely integrated agreement.\n\n\\(3\\) Whether an agreement is completely or partially integrated is to be determined by the court as a question preliminary to determination of a question of interpretation or to application of the parol evidence rule.\n\n### a. ..."
+  },
+  {
+    "number": "§ 213",
+    "source": "R2d",
+    "title": "Effect of Integrated Agreement on Prior Agreements (Parol Evidence Rule)",
+    "chapter": "15",
+    "text": "\\(1\\) A binding integrated agreement discharges prior agreements to the extent that it is inconsistent with them.\n\n\\(2\\) A binding completely integrated agreement discharges prior agreements to the extent that they are within its scope.\n\n\\(3\\) An integrated agreement that is not binding or that is voidable and avoided does not discharge a prior agreement. But an integrated agreement, even though not binding, may be effective to render inoperative a term which would have been part of the agreemen..."
+  },
+  {
+    "number": "§ 216",
+    "source": "R2d",
+    "title": "Consistent Additional Terms",
+    "chapter": "15",
+    "text": "\\(1\\) Evidence of a consistent additional term is admissible to supplement an integrated agreement unless the court finds that the agreement was completely integrated.\n\n\\(2\\) An agreement is not completely integrated if the writing omits a consistent additional agreed term which is\n\n\\(a\\) agreed to for separate consideration, or\n\n\\(b\\) such a term as in the circumstances might naturally be omitted from the writing.\n\n### a. Relation to other rules.\n\nLike § 215, this Section states an evidentiary ..."
+  },
+  {
+    "number": "§ 2-202",
+    "source": "UCC",
+    "title": "Final Written Expression: Parol or Extrinsic Evidence",
+    "chapter": "15",
+    "text": "Terms with respect to which the confirmatory memoranda of the parties agree or which are otherwise set forth in a writing intended by the parties as a final expression of their agreement with respect to such terms as are included therein may not be contradicted by evidence of any prior agreement or of a contemporaneous oral agreement but may be explained or supplemented\n\n\\(a\\) by course of dealing or usage of trade ([Section 1-205](https://plus.lexis.com/api/document?collection=statutes-legislat..."
+  },
+  {
+    "number": "§ 219",
+    "source": "R2d",
+    "title": "Usage",
+    "chapter": "16",
+    "text": "Usage is habitual or customary practice.\n\n### a. Scope of usage.\n\nAlthough rules of law are often founded on usage, usage is not in itself a legal rule but merely habit or practice in fact. A particular usage may be more or less widespread. It may prevail throughout an area, and the area may be small or large \\-- a city, a state or a larger region. A usage may prevail among all people in the area, or only in a special trade or other group. Usages change over time, and persons in close associatio..."
+  },
+  {
+    "number": "§ 220",
+    "source": "R2d",
+    "title": "Usage Relevant to Interpretation",
+    "chapter": "16",
+    "text": "\\(1\\) An agreement is interpreted in accordance with a relevant usage if each party knew or had reason to know of the usage and neither party knew or had reason to know that the meaning attached by the other was inconsistent with the usage.\n\n\\(2\\) When the meaning attached by one party accorded with a relevant usage and the other knew or had reason to know of the usage, the other is treated as having known or had reason to know the meaning attached by the first party.\n\n### a. Relation to other r..."
+  },
+  {
+    "number": "§ 221",
+    "source": "R2d",
+    "title": "Usage Supplementing an Agreement",
+    "chapter": "16",
+    "text": "An agreement is supplemented or qualified by a reasonable usage with respect to agreements of the same type if each party knows or has reason to know of the usage and neither party knows or has reason to know that the other party has an intention inconsistent with the usage.\n\n### a. Agreed terms and omitted terms.\n\nWhere the parties have in fact agreed to incorporate a usage into their agreement, the case is within § 220. This Section extends the same principle to cases where the parties did not..."
+  },
+  {
+    "number": "§ 222",
+    "source": "R2d",
+    "title": "Usage of Trade",
+    "chapter": "16",
+    "text": "\\(1\\) A usage of trade is a usage having such regularity of observance in a place, vocation, or trade as to justify an expectation that it will be observed with respect to a particular agreement. It may include a system of rules regularly observed even though particular rules are changed from time to time.\n\n\\(2\\) The existence and scope of a usage of trade are to be determined as questions of fact. If a usage is embodied in a written trade code or similar writing the interpretation of the writin..."
+  },
+  {
+    "number": "§ 223",
+    "source": "R2d",
+    "title": "Course of Dealing",
+    "chapter": "16",
+    "text": "\\(1\\) A course of dealing is a sequence of previous conduct between the parties to an agreement which is fairly to be regarded as establishing a common basis of understanding for interpreting their expressions and other conduct.\n\n\\(2\\) Unless otherwise agreed, a course of dealing between the parties gives meaning to or supplements or qualifies their agreement.\n\n### a. Relation to other rules.\n\nThis Section follows U.C.C. § 1-205 and states a particular application of the rules stated in §§ 220 a..."
+  },
+  {
+    "number": "§ 1-303",
+    "source": "UCC",
+    "title": "Course of Performance, Course of Dealing, and Usage of Trade",
+    "chapter": "16",
+    "text": "\\(a\\) A \"***course of performance***\" is a sequence of conduct between the parties to a particular transaction that exists if:\n\n\\(1\\) the agreement of the parties with respect to the transaction involves repeated occasions for performance by a party; and\n\n\\(2\\) the other party, with knowledge of the nature of the performance and opportunity for objection to it, accepts the performance or acquiesces in it without objection.\n\n\\(b\\) A \"***course of dealing***\" is a sequence of conduct concerning pr..."
+  },
+  {
+    "number": "§ 224",
+    "source": "R2d",
+    "title": "Condition Defined",
+    "chapter": "17",
+    "text": "A condition is an event, not certain to occur, which must occur, unless its non-occurrence is excused, before performance under a contract becomes due.\n\n### a. \"Condition\" limited to event. \n\n\"Condition\" is used in this Restatement to denote an event which qualifies a duty under a contract. See the Introductory Note to this Topic. It is recognized that \"condition\" is used with a wide variety of other meanings in legal discourse. Sometimes it is used to denote an event that limits or qualifies a ..."
+  },
+  {
+    "number": "§ 225",
+    "source": "R2d",
+    "title": "Effects of the Non-Occurrence Of a Condition",
+    "chapter": "17",
+    "text": "\\(1\\) Performance of a duty subject to a condition cannot become due unless the condition occurs or its non-occurrence is excused.\n\n\\(2\\) Unless it has been excused, the non-occurrence of a condition discharges the duty when the condition can no longer occur.\n\n\\(3\\) Non-occurrence of a condition is not a breach by a party unless he is under a duty that the condition occur.\n\n### a. Two effects.\n\nThe unexcused non-occurrence of a condition has two possible effects on the duty subject to that condi..."
+  },
+  {
+    "number": "§ 226",
+    "source": "R2d",
+    "title": "How an Event May Be Made a Condition",
+    "chapter": "17",
+    "text": "An event may be made a condition either by the agreement of the parties or by a term supplied by the court.\n\n### a. By agreement of the parties.\n\nNo particular form of language is necessary to make an event a condition, although such words as \"on condition that,\" \"provided that\" and \"if\" are often used for this purpose. An intention to make a duty conditional may be manifested by the general nature of an agreement, as well as by specific language. Whether the parties have, by their agreement, ma..."
+  },
+  {
+    "number": "§ 227",
+    "source": "R2d",
+    "title": "Standards of Preference with Regard to Conditions",
+    "chapter": "17",
+    "text": "\\(1\\) In resolving doubts as to whether an event is made a condition of an obligor\\'s duty, and as to the nature of such an event, an interpretation is preferred that will reduce the obligee\\'s risk of forfeiture, unless the event is within the obligee\\'s control or the circumstances indicate that he has assumed the risk.\n\n\\(2\\) Unless the contract is of a type under which only one party generally undertakes duties, when it is doubtful whether\n\n\\(a\\) a duty is imposed on an obligee that an event..."
+  },
+  {
+    "number": "§ 228",
+    "source": "R2d",
+    "title": "Satisfaction of the Obligor as a Condition",
+    "chapter": "17",
+    "text": "When it is a condition of an obligor's duty that he be satisfied with respect to the obligee's performance or with respect to something else, and it is practicable to determine whether a reasonable person in the position of the obligor would be satisfied, an interpretation is preferred under which the condition occurs if such a reasonable person in the position of the obligor would be satisfied.\n\n### a. Conditions of satisfaction.\n\nThis Section sets out a special standard of preference for a typ..."
+  },
+  {
+    "number": "§ 229",
+    "source": "R2d",
+    "title": "Excuse of a Condition to Avoid Forfeiture",
+    "chapter": "17",
+    "text": "To the extent that the non-occurrence of a condition would cause disproportionate forfeiture, a court may excuse the non-occurrence of that condition unless its occurrence was a material part of the agreed exchange.\n\n### a. Relation to other rules.\n\nAs is pointed out in Comment *b* to § 227, the non-occurrence of a condition of the obligor's duty may result in forfeiture by the obligee. Forfeiture may sometimes be avoided by application of the general rules of interpretation stated in the presen..."
+  },
+  {
+    "number": "§ 230",
+    "source": "R2d",
+    "title": "Event That Terminates a Duty",
+    "chapter": "17",
+    "text": "\\(1\\) Except as stated in Subsection (2), if under the terms of the contract the occurrence of an event is to terminate an obligor's duty of immediate performance or one to pay damages for breach, that duty is discharged if the event occurs.\n\n\\(2\\) The obligor's duty is not discharged if occurrence of the event\n\n\\(a\\) is the result of a breach by the obligor of his duty of good faith and fair dealing, or\n\n\\(b\\) could not have been prevented because of impracticability and continuance of the duty..."
+  },
+  {
+    "number": "§ 231",
+    "source": "R2d",
+    "title": "Criterion for Determining When Performances Are to Be Exchanged Under an Exchange of Promises",
+    "chapter": "18",
+    "text": "Performances are to be exchanged under an exchange of promises if each promise is at least part of the consideration for the other and the performance of each promise is to be exchanged at least in part for the performance of the other.\n\n### a. Expectation of an exchange of performances.\n\nAgreements involving an exchange of promises play a vital role in an economically advanced society. Ordinarily when parties make such an agreement, they not only regard the promises themselves as the subject of..."
+  },
+  {
+    "number": "§ 233",
+    "source": "R2d",
+    "title": "Performance at One Time or in Installments",
+    "chapter": "18",
+    "text": "\\(1\\) Where performances are to be exchanged under an exchange of promises, and the whole of one party's performance can be rendered at one time, it is due at one time, unless the language or the circumstances indicate the contrary.\n\n\\(2\\) Where only a part of one party's performance is due at one time under Subsection (1), if the other party's performance can be so apportioned that there is a comparable part that can also be rendered at that time, it is due at that time, unless the language or ..."
+  },
+  {
+    "number": "§ 234",
+    "source": "R2d",
+    "title": "Order of Performances",
+    "chapter": "18",
+    "text": "\\(1\\) Where all or part of the performances to be exchanged under an exchange of promises can be rendered simultaneously, they are to that extent due simultaneously, unless the language or the circumstances indicate the contrary.\n\n\\(2\\) Except to the extent stated in Subsection (1), where the performance of only one party under such an exchange requires a period of time, his performance is due at an earlier time than that of the other party, unless the language or the circumstances indicate the ..."
+  },
+  {
+    "number": "§ 232",
+    "source": "R2d",
+    "title": "When It Is Presumed That Performances Are to Be Exchanged Under an Exchange of Promises",
+    "chapter": "18",
+    "text": "Where the consideration given by each party to a contract consists in whole or in part of promises, all the performances to be rendered by each party taken collectively are treated as performances to be exchanged under an exchange of promises, unless a contrary intention is clearly manifested.\n\n### a. Reason for presumption.\n\nThe rules applicable to performances to be exchanged under an exchange of promises are designed to give the parties maximum protection, consistent with freedom of contract,..."
+  },
+  {
+    "number": "§ 241",
+    "source": "R2d",
+    "title": "Circumstances Significant in Determining Whether a Failure Is Material",
+    "chapter": "18",
+    "text": "In determining whether a failure to render or to offer performance is material, the following circumstances are significant:\n\n\\(a\\) the extent to which the injured party will be deprived of the benefit which he reasonably expected;\n\n\\(b\\) the extent to which the injured party can be adequately compensated for the part of that benefit of which he will be deprived;\n\n\\(c\\) the extent to which the party failing to perform or to offer to perform will suffer forfeiture;\n\n\\(d\\) the likelihood that the ..."
+  },
+  {
+    "number": "§ 242",
+    "source": "R2d",
+    "title": "Circumstances Significant in Determining When Remaining Duties Are Discharged",
+    "chapter": "18",
+    "text": "In determining the time after which a party's uncured material failure to render or to offer performance discharges the other party's remaining duties to render performance under the rules stated in §§ 237 and 238, the following circumstances are significant:\n\n\\(a\\) those stated in § 241;\n\n\\(b\\) the extent to which it reasonably appears to the injured party that delay may prevent or hinder him in making reasonable substitute arrangements;\n\n\\(c\\) the extent to which the agreement provides for per..."
+  },
+  {
+    "number": "§ 251",
+    "source": "R2d",
+    "title": "When a Failure to Give Assurance May Be Treated as a Repudiation",
+    "chapter": "19",
+    "text": "\\(1\\) Where reasonable grounds arise to believe that the obligor will commit a breach by non-performance that would of itself give the obligee a claim for damages for total breach under § 243, the obligee may demand adequate assurance of due performance and may, if reasonable, suspend any performance for which he has not already received the agreed exchange until he receives such assurance.\n\n\\(2\\) The obligee may treat as a repudiation the obligor's failure to provide within a reasonable time su..."
+  },
+  {
+    "number": "§ 250",
+    "source": "R2d",
+    "title": "When a Statement or an Act Is a Repudiation",
+    "chapter": "19",
+    "text": "A repudiation is\n\n\\(a\\) a statement by the obligor to the obligee indicating that the obligor will commit a breach that would of itself give the obligee a claim for damages for total breach under § 243, or\n\n\\(b\\) a voluntary affirmative act which renders the obligor unable or apparently unable to perform without such a breach.\n\n### a. Consequences of repudiation.\n\nA statement by a party to the other that he will not or cannot perform without a breach, or a voluntary affirmative act that renders ..."
+  },
+  {
+    "number": "§ 2-609",
+    "source": "UCC",
+    "title": "Right to Adequate Assurance of Performance",
+    "chapter": "19",
+    "text": "\\(1\\) A contract for sale imposes an obligation on each party that the other's expectation of receiving due performance will not be impaired. When reasonable grounds for insecurity arise with respect to the performance of either party the other may in writing demand adequate assurance of due performance and until he receives such assurance may if commercially reasonable suspend any performance for which he has not already received the agreed return.\n\n\\(2\\) Between merchants the reasonableness of..."
+  },
+  {
+    "number": "§ 2-610",
+    "source": "UCC",
+    "title": "Anticipatory Repudiation",
+    "chapter": "19",
+    "text": "When either party repudiates the contract with respect to a performance not yet due the loss of which will substantially impair the value of the contract to the other, the aggrieved party may\n\n\\(a\\) for a commercially reasonable time await performance by the repudiating party; or\n\n\\(b\\) resort to any remedy for breach ([[Section 2-703]{.underline}](https://plus.lexis.com/api/document?collection=statutes-legislation&id=urn:contentItem:5D72-1DG0-00S0-40K8-00000-00&context=1530671) or [[Section 2-7..."
+  },
+  {
+    "number": "§ 2-611",
+    "source": "UCC",
+    "title": "Retraction of Anticipatory Repudiation",
+    "chapter": "19",
+    "text": "\\(1\\) Until the repudiating party's next performance is due he can retract his repudiation unless the aggrieved party has since the repudiation cancelled or materially changed his position or otherwise indicated that he considers the repudiation final.\n\n\\(2\\) Retraction may be by any method which clearly indicates to the aggrieved party that the repudiating party intends to perform, but must include any assurance justifiably demanded under the provisions of this Article ([[Section 2-609]{.underl..."
+  },
+  {
+    "number": "§ 261",
+    "source": "R2d",
+    "title": "Discharge by Supervening Impracticability",
+    "chapter": "20",
+    "text": "Where, after a contract is made, a party's performance is made impracticable without his fault by the occurrence of an event the non-occurrence of which was a basic assumption on which the contract was made, his duty to render that performance is discharged, unless the language or the circumstances indicate the contrary.\n\n### a. Scope.\n\nEven though a party, in assuming a duty, has not qualified the language of his undertaking, a court may relieve him of that duty if performance has unexpectedly ..."
+  },
+  {
+    "number": "§ 262",
+    "source": "R2d",
+    "title": "Death or Incapacity of Person Necessary for Performance",
+    "chapter": "20",
+    "text": "If the existence of a particular person is necessary for the performance of a duty, his death or such incapacity as makes performance impracticable is an event the non-occurrence of which was a basic assumption on which the contract was made.\n\n### a. Rationale.\n\nThis Section states a common specific instance for the application of the rule stated in § 261. If, as both parties understand, the existence of a particular person is necessary for the performance of a duty, it is a \"basic assumption on..."
+  },
+  {
+    "number": "§ 263",
+    "source": "R2d",
+    "title": "Destruction, Deterioration or Failure to Come Into Existence of Thing Necessary for Performance",
+    "chapter": "20",
+    "text": "If the existence of a specific thing is necessary for the performance of a duty, its failure to come into existence, destruction, or such deterioration as makes performance impracticable is an event the non-occurrence of which was a basic assumption on which the contract was made.\n\n### a. Rationale.\n\nThis Section, like the preceding one, states a common specific instance for the application of the rule stated in § 261. If, as both parties understand, the existence of a specific thing is necessar..."
+  },
+  {
+    "number": "§ 264",
+    "source": "R2d",
+    "title": "Prevention by Governmental Regulation or Order",
+    "chapter": "20",
+    "text": "If the performance of a duty is made impracticable by having to comply with a domestic or foreign governmental regulation or order, that regulation or order is an event the non-occurrence of which was a basic assumption on which the contract was made.\n\n### a. Rationale.\n\nThis Section, like the two that precede it, states a specific instance for the application of the rule stated in § 261. It is \"a basic assumption on which the contract was made\" that the law will not directly intervene to make p..."
+  },
+  {
+    "number": "§ 265",
+    "source": "R2d",
+    "title": "Discharge by Supervening Frustration",
+    "chapter": "20",
+    "text": "Where, after a contract is made, a party's principal purpose is substantially frustrated without his fault by the occurrence of an event the non-occurrence of which was a basic assumption on which the contract was made, his remaining duties to render performance are discharged, unless the language or the circumstances indicate the contrary.\n\n### a. Rationale.\n\nThis Section deals with the problem that arises when a change in circumstances makes one party's performance virtually worthless to the o..."
+  },
+  {
+    "number": "§ 2-615",
+    "source": "UCC",
+    "title": "Excuse by Failure of Presupposed Conditions",
+    "chapter": "20",
+    "text": "Except so far as a seller may have assumed a greater obligation and subject to the preceding section on substituted performance:\n\n\\(a\\) Delay in delivery or non-delivery in whole or in part by a seller who complies with paragraphs (b) and (c) is not a breach of his duty under a contract for sale if performance as agreed has been made impracticable by the occurrence of a contingency the non-occurrence of which was a basic assumption on which the contract was made or by compliance in good faith wi..."
+  },
+  {
+    "number": "§ 278",
+    "source": "R2d",
+    "title": "Substituted Performance",
+    "chapter": "21",
+    "text": "\\(1\\) If an obligee accepts in satisfaction of the obligor's duty a performance offered by the obligor that differs from what is due, the duty is discharged.\n\n\\(2\\) If an obligee accepts in satisfaction of the obligor's duty a performance offered by a third person, the duty is discharged, but an obligor who has not previously assented to the performance for his benefit may in a reasonable time after learning of it render the discharge inoperative from the beginning by disclaimer.\n\n### a. Substit..."
+  },
+  {
+    "number": "§ 279",
+    "source": "R2d",
+    "title": "Substituted Contract",
+    "chapter": "21",
+    "text": "\\(1\\) A substituted contract is a contract that is itself accepted by the obligee in satisfaction of the obligor's existing duty.\n\n\\(2\\) The substituted contract discharges the original duty and breach of the substituted contract by the obligor does not give the obligee a right to enforce the original duty.\n\n### a. Nature and effect of a substituted contract.\n\nA substituted contract is one that is itself accepted by the obligee in satisfaction of the original duty and thereby discharges it. A co..."
+  },
+  {
+    "number": "§ 280",
+    "source": "R2d",
+    "title": "Novation",
+    "chapter": "21",
+    "text": "A novation is a substituted contract that includes as a party one who was neither the obligor nor the obligee of the original duty.\n\n### a. Definition of novation.\n\nThe word \"novation\" is used in this Restatement to refer to a type of substituted contract that has the effect of adding a party, either as obligor or obligee, who was not a party to the original duty. See Comment *a* to § 279. A novation may involve more than three parties. The performance to be rendered under the new duty may be th..."
+  },
+  {
+    "number": "§ 281",
+    "source": "R2d",
+    "title": "Accord and Satisfaction",
+    "chapter": "21",
+    "text": "\\(1\\) An accord is a contract under which an obligee promises to accept a stated performance in satisfaction of the obligor's existing duty. Performance of the accord discharges the original duty.\n\n\\(2\\) Until performance of the accord, the original duty is suspended unless there is such a breach of the accord by the obligor as discharges the new duty of the obligee to accept the performance in satisfaction. If there is such a breach, the obligee may enforce either the original duty or any duty ..."
+  },
+  {
+    "number": "§ 282",
+    "source": "R2d",
+    "title": "Account Stated",
+    "chapter": "21",
+    "text": "\\(1\\) An account stated is a manifestation of assent by debtor and creditor to a stated sum as an accurate computation of an amount due the creditor. A party's retention without objection for an unreasonably long time of a statement of account rendered by the other party is a manifestation of assent.\n\n\\(2\\) The account stated does not itself discharge any duty but is an admission by each party of the facts asserted and a promise by the debtor to pay according to its terms.\n\n### a. Computation no..."
+  },
+  {
+    "number": "§ 283",
+    "source": "R2d",
+    "title": "Agreement of Rescission",
+    "chapter": "21",
+    "text": "\\(1\\) An agreement of rescission is an agreement under which each party agrees to discharge all of the other party's remaining duties of performance under an existing contract.\n\n\\(2\\) An agreement of rescission discharges all remaining duties of performance of both parties. It is a question of interpretation whether the parties also agree to make restitution with respect to performance that has been rendered.\n\n### a. Nature of agreement of rescission.\n\nSometimes the parties to a contract that is..."
+  },
+  {
+    "number": "§ 284",
+    "source": "R2d",
+    "title": "Release",
+    "chapter": "21",
+    "text": "\\(1\\) A release is a writing providing that a duty owed to the maker of the release is discharged immediately or on the occurrence of a condition.\n\n\\(2\\) The release takes effect on delivery as stated in §§ 101-03 and, subject to the occurrence of any condition, discharges the duty.\n\n### a. Nature of release.\n\nAlthough no particular form is required for an agreement to discharge a duty, the term \"release\" has traditionally been reserved for a formal written statement by an obligee that the oblig..."
+  },
+  {
+    "number": "§ 89",
+    "source": "R2d",
+    "title": "Modification of Executory Contract",
+    "chapter": "21",
+    "text": "A promise modifying a duty under a contract not fully performed on either side is binding\n\n\\(a\\) if the modification is fair and equitable in view of circumstances not anticipated by the parties when the contract was made; or\n\n\\(b\\) to the extent provided by statute; or\n\n\\(c\\) to the extent that justice requires enforcement in view of material change of position in reliance on the promise.\n\n### a. Rationale.\n\nThis Section relates primarily to adjustments in on-going transactions. Like offers and..."
+  },
+  {
+    "number": "§ 2-209",
+    "source": "UCC",
+    "title": "Modification, Rescission and Waiver",
+    "chapter": "21",
+    "text": "\\(1\\) An agreement modifying a contract within this Article needs no consideration to be binding.\n\n\\(2\\) A signed agreement which excludes modification or rescission except by a signed writing cannot be otherwise modified or rescinded, but except as between merchants such a requirement on a form supplied by the merchant must be separately signed by the other party.\n\n\\(3\\) The requirements of the statute of frauds section of this Article ([Section 2-201](https://plus.lexis.com/api/document?collec..."
+  },
+  {
+    "number": "§ 344",
+    "source": "R2d",
+    "title": "Purposes of Remedies",
+    "chapter": "22",
+    "text": "Judicial remedies under the rules stated in this Restatement serve to protect one or more of the following interests of a promisee:\n\n\\(a\\) his \"expectation interest,\" which is his interest in having the benefit of his bargain by being put in as good a position as he would have been in had the contract been performed,\n\n\\(b\\) his \"reliance interest,\" which is his interest in being reimbursed for loss caused by reliance on the contract by being put in as good a position as he would have been in had..."
+  },
+  {
+    "number": "§ 345",
+    "source": "R2d",
+    "title": "Judicial Remedies Available",
+    "chapter": "22",
+    "text": "The judicial remedies available for the protection of the interests stated in § 344 include a judgment or order\n\n\\(a\\) awarding a sum of money due under the contract or as damages,\n\n\\(b\\) requiring specific performance of a contract or enjoining its non-performance,\n\n\\(c\\) requiring restoration of a specific thing to prevent unjust enrichment,\n\n\\(d\\) awarding a sum of money to prevent unjust enrichment,\n\n\\(e\\) declaring the rights of the parties, and\n\n\\(f\\) enforcing an arbitration award.\n\n### a..."
+  },
+  {
+    "number": "§ 346",
+    "source": "R2d",
+    "title": "Availability of Damages",
+    "chapter": "22",
+    "text": "\\(1\\) The injured party has a right to damages for any breach by a party against whom the contract is enforceable unless the claim for damages has been suspended or discharged.\n\n\\(2\\) If the breach caused no loss or if the amount of the loss is not proved under the rules stated in this Chapter, a small sum fixed without regard to the amount of loss will be awarded as nominal damages.\n\n### a. Right to damages.\n\nEvery breach of contract gives the injured party a right to damages against the party ..."
+  },
+  {
+    "number": "§ 347",
+    "source": "R2d",
+    "title": "Measure of Damages in General",
+    "chapter": "22",
+    "text": "Subject to the limitations stated in §§ 350-53, the injured party has a right to damages based on his expectation interest as measured by\n\n\\(a\\) the loss in the value to him of the other party's performance caused by its failure or deficiency, plus\n\n\\(b\\) any other loss, including incidental or consequential loss, caused by the breach, less\n\n\\(c\\) any cost or other loss that he has avoided by not having to perform.\n\n### a. Expectation interest.\n\nContract damages are ordinarily based on the injur..."
+  },
+  {
+    "number": "§ 348",
+    "source": "R2d",
+    "title": "Alternatives to Loss in Value of Performance",
+    "chapter": "23",
+    "text": "\\(1\\) If a breach delays the use of property and the loss in value to the injured party is not proved with reasonable certainty, he may recover damages based on the rental value of the property or on interest on the value of the property.\n\n\\(2\\) If a breach results in defective or unfinished construction and the loss in value to the injured party is not proved with sufficient certainty, he may recover damages based on\n\n\\(a\\) the diminution in the market price of the property caused by the breach..."
+  },
+  {
+    "number": "§ 349",
+    "source": "R2d",
+    "title": "Damages Based on Reliance Interest",
+    "chapter": "23",
+    "text": "As an alternative to the measure of damages stated in § 347, the injured party has a right to damages based on his reliance interest, including expenditures made in preparation for performance or in performance, less any loss that the party in breach can prove with reasonable certainty the injured party would have suffered had the contract been performed.\n\n### a. Reliance interest where profit uncertain.\n\nLoss in value and cost or other loss avoided are key components of contract damages. If the..."
+  },
+  {
+    "number": "§ 350",
+    "source": "R2d",
+    "title": "Avoidability as a Limitation on Damages",
+    "chapter": "23",
+    "text": "\\(1\\) Except as stated in Subsection (2), damages are not recoverable for loss that the injured party could have avoided without undue risk, burden or humiliation.\n\n\\(2\\) The injured party is not precluded from recovery by the rule stated in Subsection (1) to the extent that he has made reasonable but unsuccessful efforts to avoid loss.\n\n### a. Rationale.\n\nThe rules stated in this Section reflect the policy of encouraging the injured party to attempt to avoid loss. The rule stated in Subsection ..."
+  },
+  {
+    "number": "§ 351",
+    "source": "R2d",
+    "title": "Unforeseeability and Related Limitations on Damages",
+    "chapter": "23",
+    "text": "\\(1\\) Damages are not recoverable for loss that the party in breach did not have reason to foresee as a probable result of the breach when the contract was made.\n\n\\(2\\) Loss may be foreseeable as a probable result of a breach because it follows from the breach\n\n\\(a\\) in the ordinary course of events, or\n\n\\(b\\) as a result of special circumstances, beyond the ordinary course of events, that the party in breach had reason to know.\n\n\\(3\\) A court may limit damages for foreseeable loss by excluding ..."
+  },
+  {
+    "number": "§ 352",
+    "source": "R2d",
+    "title": "Uncertainty as a Limitation on Damages",
+    "chapter": "23",
+    "text": "Damages are not recoverable for loss beyond an amount that the evidence permits to be established with reasonable certainty.\n\n### a. Requirement of certainty.\n\nA party cannot recover damages for breach of a contract for loss beyond the amount that the evidence permits to be established with reasonable certainty. See Illustration 1. Courts have traditionally required greater certainty in the proof of damages for breach of a contract than in the proof of damages for a tort. The requirement does no..."
+  },
+  {
+    "number": "§ 355",
+    "source": "R2d",
+    "title": "Punitive Damages",
+    "chapter": "23",
+    "text": "Punitive damages are not recoverable for a breach of contract unless the conduct constituting the breach is also a tort for which punitive damages are recoverable.\n\n### a. Compensation not punishment.\n\nThe purposes of awarding contract damages is to compensate the injured party. For this reason, courts in contract cases do not award damages to punish the party in breach or to serve as an example to others unless the conduct constituting the breach is also a tort for which punitive damages are re..."
+  },
+  {
+    "number": "§ 356",
+    "source": "R2d",
+    "title": "Liquidated Damages and Penalties",
+    "chapter": "23",
+    "text": "\\(1\\) Damages for breach by either party may be liquidated in the agreement but only at an amount that is reasonable in the light of the anticipated or actual loss caused by the breach and the difficulties of proof of loss. A term fixing unreasonably large liquidated damages is unenforceable on grounds of public policy as a penalty.\n\n\\(2\\) A term in a bond providing for an amount of money as a penalty for non-occurrence of the condition of the bond is unenforceable on grounds of public policy to..."
+  },
+  {
+    "number": "§ 357",
+    "source": "R2d",
+    "title": "Availability of Specific Performance and Injunction",
+    "chapter": "24",
+    "text": "\\(1\\) Subject to the rules stated in §§ 359-69, specific performance of a contract duty will be granted in the discretion of the court against a party who has committed or is threatening to commit a breach of the duty.\n\n\\(2\\) Subject to the rules stated in §§ 359-69, an injunction against breach of a contract duty will be granted in the discretion of the court against a party who has committed or is threatening to commit a breach of the duty if\n\n\\(a\\) the duty is one of forbearance, or\n\n\\(b\\) th..."
+  },
+  {
+    "number": "§ 370",
+    "source": "R2d",
+    "title": "Requirement That Benefit Be Conferred",
+    "chapter": "24",
+    "text": "A party is entitled to restitution under the rules stated in this Restatement only to the extent that he has conferred a benefit on the other party by way of part performance or reliance.\n\n### a. Meaning of requirement.\n\nA party's restitution interest is his interest in having restored to him any benefit that he has conferred on the other party. See § 344(2). Restitution is, therefore, available to a party only to the extent that he has conferred a benefit on the other party. The benefit may res..."
+  },
+  {
+    "number": "§ 371",
+    "source": "R2d",
+    "title": "Measure of Restitution Interest",
+    "chapter": "24",
+    "text": "If a sum of money is awarded to protect a party's restitution interest, it may as justice requires be measured by either\n\n\\(a\\) the reasonable value to the other party of what he received in terms of what it would have cost him to obtain it from a person in the claimant's position, or\n\n\\(b\\) the extent to which the other party's property has been increased in value or his other interests advanced.\n\n### a. Measurement of benefit.\n\nUnder the rules stated in §§ 344 and 370, a party who is liable in..."
+  },
+  {
+    "number": "§ 372",
+    "source": "R2d",
+    "title": "Specific Restitution",
+    "chapter": "24",
+    "text": "\\(1\\) Specific restitution will be granted to a party who is entitled to restitution, except that:\n\n\\(a\\) specific restitution based on a breach by the other party under the rule stated in § 373 may be refused in the discretion of the court if it would unduly interfere with the certainty of title to land or otherwise cause injustice, and\n\n\\(b\\) specific restitution in favor of the party in breach under the rule stated in § 374 will not be granted.\n\n\\(2\\) A decree of specific restitution may be m..."
+  },
+  {
+    "number": "§ 2-601",
+    "source": "UCC",
+    "title": "Buyer's Rights on Improper Delivery",
+    "chapter": "25",
+    "text": "Subject to the provisions of this Article on breach in installment contracts ([Section 2-612](https://plus.lexis.com/api/document?collection=statutes-legislation&id=urn:contentItem:5D72-1DG0-00S0-40K1-00000-00&context=1530671)) and unless otherwise agreed under the sections on contractual limitations of remedy ([Sections 2-718](https://plus.lexis.com/api/document?collection=statutes-legislation&id=urn:contentItem:5D72-1DG0-00S0-40KT-00000-00&context=1530671) and [2-719](https://plus.lexis.com/ap..."
+  },
+  {
+    "number": "§ 2-608",
+    "source": "UCC",
+    "title": "Revocation of Acceptance in Whole or in Part",
+    "chapter": "25",
+    "text": "\\(1\\) The buyer may revoke his acceptance of a lot or commercial unit whose non-conformity substantially impairs its value to him if he has accepted it\n\n\\(a\\) on the reasonable assumption that its non-conformity would be cured and it has not been seasonably cured; or\n\n\\(b\\) without discovery of such non-conformity if his acceptance was reasonably induced either by the difficulty of discovery before acceptance or by the seller's assurances.\n\n\\(2\\) Revocation of acceptance must occur within a reas..."
+  },
+  {
+    "number": "§ 2-612",
+    "source": "UCC",
+    "title": "\"Installment Contract\"; Breach",
+    "chapter": "25",
+    "text": "\\(1\\) An \"installment contract\" is one which requires or authorizes the delivery of goods in separate lots to be separately accepted, even though the contract contains a clause \"each delivery is a separate contract\" or its equivalent.\n\n\\(2\\) The buyer may reject any installment which is non-conforming if the non-conformity substantially impairs the value of that installment and cannot be cured or if the non-conformity is a defect in the required documents; but if the non-conformity does not fall..."
+  },
+  {
+    "number": "§ 2-613",
+    "source": "UCC",
+    "title": "Casualty to Identified Goods",
+    "chapter": "25",
+    "text": "Where the contract requires for its performance goods identified when the contract is made, and the goods suffer casualty without fault of either party before the risk of loss passes to the buyer, or in a proper case under a \"no arrival, no sale\" term ([Section 2-324](https://plus.lexis.com/api/document?collection=statutes-legislation&id=urn:contentItem:5D72-1DG0-00S0-40HT-00000-00&context=1530671)) then\n\n\\(a\\) if the loss is total the contract is avoided; and\n\n\\(b\\) if the loss is partial or th..."
+  },
+  {
+    "number": "§ 2-702",
+    "source": "UCC",
+    "title": "Seller's Remedies on Discovery of Buyer's Insolvency",
+    "chapter": "25",
+    "text": "\\(1\\) Where the seller discovers the buyer to be insolvent he may refuse delivery except for cash including payment for all goods theretofore delivered under the contract, and stop delivery under this Article ([Section 2-705](https://plus.lexis.com/api/document?collection=statutes-legislation&id=urn:contentItem:5D72-1DG0-00S0-40KB-00000-00&context=1530671)).\n\n\\(2\\) Where the seller discovers that the buyer has received goods on credit while insolvent he may reclaim the goods upon demand made wit..."
+  },
+  {
+    "number": "§ 2-703",
+    "source": "UCC",
+    "title": "Seller's Remedies in General",
+    "chapter": "25",
+    "text": "Where the buyer wrongfully rejects or revokes acceptance of goods or fails to make a payment due on or before delivery or repudiates with respect to a part or the whole, then with respect to any goods directly affected and, if the breach is of the whole contract ([[Section 2-612]{.underline}](https://plus.lexis.com/api/document?collection=statutes-legislation&id=urn:contentItem:5D72-1DG0-00S0-40K1-00000-00&context=1530671)), then also with respect to the whole undelivered balance, the aggrieved ..."
+  },
+  {
+    "number": "§ 2-710",
+    "source": "UCC",
+    "title": "Seller's Incidental Damages",
+    "chapter": "25",
+    "text": "Incidental damages to an aggrieved seller include any commercially reasonable charges, expenses or commissions incurred in stopping delivery, in the transportation, care and custody of goods after the buyer's breach, in connection with return or resale of the goods or otherwise resulting from the breach."
+  },
+  {
+    "number": "§ 2-711",
+    "source": "UCC",
+    "title": "Buyer's Remedies in General; Buyer's Security Interest in Rejected Goods",
+    "chapter": "25",
+    "text": "\\(1\\) Where the seller fails to make delivery or repudiates or the buyer rightfully rejects or justifiably revokes acceptance then with respect to any goods involved, and with respect to the whole if the breach goes to the whole contract ([Section 2-612](https://plus.lexis.com/api/document?collection=statutes-legislation&id=urn:contentItem:5D72-1DG0-00S0-40K1-00000-00&context=1530671)), the buyer may cancel and whether or not he has done so may in addition to recovering so much of the price as h..."
+  },
+  {
+    "number": "§ 2-715",
+    "source": "UCC",
+    "title": "Buyer's Incidental and Consequential Damages",
+    "chapter": "25",
+    "text": "\\(1\\) Incidental damages resulting from the seller's breach include expenses reasonably incurred in inspection, receipt, transportation and care and custody of goods rightfully rejected, any commercially reasonable charges, expenses or commissions in connection with effecting cover and any other reasonable expense incident to the delay or other breach.\n\n\\(2\\) Consequential damages resulting from the seller's breach include\n\n\\(a\\) any loss resulting from general or particular requirements and nee..."
+  },
+  {
+    "number": "§ 12-102",
+    "source": "UCC",
+    "title": "Definitions",
+    "chapter": "Appendix A",
+    "text": "\\(a\\) Article 12 definitions. In this article:\n\n\\(1\\) \"Controllable electronic record\" means a record stored in an electronic medium that can be subjected to control under Section 12-105. The term does not include a controllable account, a controllable payment intangible, a deposit account, an electronic copy of a record evidencing chattel paper, an electronic document of title, investment property, a transferable record, or an electronic record that is currently authorized or adopted by a domes..."
+  }
+]
